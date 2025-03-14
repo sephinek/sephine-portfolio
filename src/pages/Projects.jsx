@@ -1,3 +1,5 @@
+import HomeProjectsList from '../components/ProjectsList';
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return <HomeProjectsList />;
 }

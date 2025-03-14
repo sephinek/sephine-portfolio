@@ -1,32 +1,29 @@
 import { Link } from 'react-router-dom';
+import Button from '../Button';
 
 export default function NavBar() {
   return (
-    <nav className="flex gap-5">
+    <nav className="flex items-center gap-5">
       <Link
         to="projects"
-        className="transition-all duration-100 ease-in hover:text-primary"
+        className="transition-all duration-100 ease-in hover:text-hover-btn"
       >
         Projects
       </Link>
       <Link
         to="about"
-        className="transition-all duration-100 ease-in hover:text-primary"
+        className="transition-all duration-100 ease-in hover:text-hover-btn"
       >
         Playground
       </Link>
       <Link
         to="resume"
-        className="transition-all duration-100 ease-in hover:text-primary"
+        className="transition-all duration-100 ease-in hover:text-hover-btn"
       >
-        Resume
+        Résumé
       </Link>
-      <Link
-        to="contact"
-        className="rounded-full px-3 py-[1px] bg-secondary border-2 border-transparent text-white font-mono font-bold text-xs flex items-center justify-center transition-all duration-150 ease-in-out hover:bg-secondary-opacity"
-      >
-        Hello
-      </Link>
+
+      <Button to="contact" label="Contact" />
     </nav>
   );
 }

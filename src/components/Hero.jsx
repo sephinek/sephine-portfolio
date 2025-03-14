@@ -1,31 +1,38 @@
-import { VscLocation } from 'react-icons/vsc';
 import { SlLocationPin } from 'react-icons/sl';
+import { TiArrowDownThick } from 'react-icons/ti';
 
 export default function Hero() {
   return (
-    <section className="p-16">
-      <div className="flex flex-col gap-4">
-        <p className="text-3xl ml-10 transition-all duration-350 ease-in-out hover:translate-y-3 hover:rotate-4">
-          Hi, friend!🙋🏻‍♀️
-        </p>
-        <p className="text-5xl flex ml-10">
-          <span>I'm&nbsp;</span>
-          <span className="text-primary transition-all duration-700 ease-in-out hover:translate-y-3">
-            Sephine
+    <section className="py-20 px-16 flex flex-col gap-20  cursor-default">
+      <h2 className="flex flex-col text-3xl font-display leading-loose tracking-tighter">
+        <div className="flex gap-3">
+          <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
+            Hi, friend!🙋🏻‍♀️
           </span>
-          <span>,&nbsp;</span>
+          <span>
+            I'm <span className="text-primary font-bold">Sephine</span>,
+          </span>
+        </div>
+
+        <div className="flex items-baseline gap-1">
           <span>a&nbsp;</span>
-          <span className="text-primary transition-all duration-700 ease-in-out hover:translate-y-3">
-            Product Designer
-          </span>
-        </p>
-        <p className="text-3xl flex items-baseline ml-10">
-          <span>based in&nbsp;</span>
-          <span className="flex items-baseline transition-all duration-700 ease-in-out hover:translate-y-3 hover:text-secondary">
+          <span className="text-primary font-bold">Product Designer&nbsp;</span>
+          <span className="flex items-baseline">
+            <span>based in&nbsp;</span>
             <SlLocationPin />
-            Los Angeles, CA.
+            <span className="font-medium">Los Angeles, CA</span>
+            <span>,</span>
           </span>
-        </p>
+        </div>
+        <span>
+          with an aim to <span>create user-friendly products</span> that&nbsp;
+          <span className="italic underline">make life better</span>.
+        </span>
+      </h2>
+
+      <div className="text-grey text-xl flex items-end gap-2">
+        <span className="font-medium">Want to learn about me?</span>
+        <TiArrowDownThick className="animate-bounce" />
       </div>
     </section>
   );
