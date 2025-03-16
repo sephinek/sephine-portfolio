@@ -3,8 +3,8 @@ import { TiArrowDownThick } from 'react-icons/ti';
 
 export default function Hero() {
   return (
-    <section className="py-20 px-16 flex flex-col gap-20  cursor-default">
-      <h2 className="flex flex-col text-3xl font-display leading-loose tracking-tighter">
+    <section className="py-16 px-16 flex flex-col gap-20 cursor-default">
+      <h2 className="flex flex-col text-5xl leading-relaxed tracking-tight">
         <div className="flex gap-3">
           <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
             Hi, friend!🙋🏻‍♀️

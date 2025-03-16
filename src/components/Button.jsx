@@ -4,7 +4,7 @@ export default function Button({ to, label, w, py }) {
   return (
     <Link
       to={to}
-      className={`rounded-full ${w ? w : 'px-3'} ${
+      className={`rounded-full ${w ? w : 'px-4'} ${
         py ? py : 'py-[6px]'
       } cursor-pointer ${
         label === 'Contact' ? 'bg-primary' : 'bg-black'

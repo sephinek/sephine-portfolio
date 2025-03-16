@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="max-w-7xl mx-auto pt-20">
+      <main className="max-w-7xl mx-auto pt-24">
         <Outlet />
       </main>
       <Footer />

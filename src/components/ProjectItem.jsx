@@ -17,7 +17,7 @@ export default function ProjectItem({
         } flex items-center justify-center`}
       >
         <div
-          className={`-z-10 absolute w-[360px] h-[360px] rounded-full ${circleColor} shadow-xl`}
+          className={`-z-10 absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
         ></div>
         <img className="w-[90%] h-auto rounded-[33px]" src={img} alt={alt} />
       </div>
