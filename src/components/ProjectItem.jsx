@@ -1,6 +1,7 @@
 import Button from './Button';
 
 export default function ProjectItem({
+  to,
   type = 'left',
   numOfScreens = '1',
   img,
@@ -10,7 +11,7 @@ export default function ProjectItem({
   description,
 }) {
   return (
-    <li className="flex gap-16 items-center">
+    <li className="flex gap-10 items-center">
       <div
         className={`${type === 'left' ? 'order-1' : 'order-2'} relative ${
           numOfScreens === '1' ? 'w-[30%]' : 'w-[55%]'
@@ -19,7 +20,7 @@ export default function ProjectItem({
         <div
           className={`-z-10 absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
         ></div>
-        <img className="w-[90%] h-auto rounded-[33px]" src={img} alt={alt} />
+        <img className="w-[80%] h-auto rounded-[33px]" src={img} alt={alt} />
       </div>
 
       <div
@@ -28,15 +29,10 @@ export default function ProjectItem({
         } flex flex-col items-center gap-12 mx-auto`}
       >
         <div className="flex flex-col gap-6 w-[90%]">
-          <h4 className="font-noraml text-3xl text-darkestgrey">{title}</h4>
-          <p className=" leading-normal text-darkgrey">{description}</p>
+          <h4 className="font-noraml text-3xl text-darkgrey">{title}</h4>
+          <p className=" leading-normal text-grey">{description}</p>
         </div>
-        <Button
-          to="projects/local-fresh"
-          label="Read more"
-          w="w-[90%]"
-          py="py-2"
-        />
+        <Button to={to} label="Read more" w="w-[90%]" py="py-2" />
       </div>
     </li>
   );

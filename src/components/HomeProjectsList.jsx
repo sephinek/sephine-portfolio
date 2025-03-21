@@ -3,7 +3,7 @@ import LocalFreshImg from '../assets/local-fresh.png';
 import ProjectItem from './ProjectItem';
 import SectionTitle from './SectionTitle';
 
-export default function ProjectsList() {
+export default function HomeProjectsList() {
   return (
     <section className="flex flex-col gap-12 p-14">
       <SectionTitle title="Projects" />

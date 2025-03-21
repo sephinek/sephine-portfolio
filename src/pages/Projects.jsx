@@ -1,5 +1,5 @@
-import HomeProjectsList from '../components/ProjectsList';
+import ProjectsList from '../components/ProjectsList';
 
 export default function Projects() {
-  return <HomeProjectsList />;
+  return <ProjectsList />;
 }

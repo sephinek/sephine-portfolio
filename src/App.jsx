@@ -5,7 +5,7 @@ import Footer from './components/shared/Footer';
 import { useEffect, useRef } from 'react';
 
 function App() {
-  const lenis = useRef(
+  const lenisRef = useRef(
     new Lenis({
       autoRaf: true,
       smooth: true,
@@ -13,15 +13,10 @@ function App() {
   );
 
   useEffect(() => {
-    function raf(time) {
-      lenis.current.raf(time);
-    }
-
-    const animate = requestAnimationFrame(raf);
+    window.lenis = lenisRef.current;
 
     return () => {
-      cancelAnimationFrame(animate);
-      lenis.current.destroy();
+      delete window.lenis;
     };
   }, []);
 
