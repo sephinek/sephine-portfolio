@@ -1,3 +1,7 @@
-export default function SectionTitle({ title }) {
-  return <h3 className="font-medium text-3xl p-8 text-center">{title}</h3>;
+export default function SectionTitle({ title, align = 'center' }) {
+  return (
+    <h3 className={`font-medium text-4xl py-4 text-${align} text-darkgrey`}>
+      {title}
+    </h3>
+  );
 }

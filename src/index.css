@@ -76,6 +76,7 @@
   --color-mediumgrey: #58665b;
   --color-grey: #928b82;
   --color-lightgrey: #e7e9e8;
+  --color-lightestgrey: #fcfdfc;
 
   --color-lucid: #ff1b1a;
   --color-lucid-opacity: #ff1b1aaa;
@@ -103,7 +104,8 @@ body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
-  color: #112415;
+  color: #293a2c;
+  letter-spacing: 1px;
 }
 
 h1 {

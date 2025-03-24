@@ -1,8 +1,8 @@
 import Hero from '../components/Hero';
 import Divider from '../components/shared/Divider';
-import ProjectsList from '../components/HomeProjectsList';
 import Testimonials from '../components/Testimonials';
 import { useRef } from 'react';
+import ProjectsList from '../components/ProjectsList';
 
 export default function Home() {
   const projectsRef = useRef(null);
@@ -14,7 +14,7 @@ export default function Home() {
   };
 
   return (
-    <section>
+    <section className="max-w-7xl mx-auto ">
       <Hero onClickDesignAndCode={scrollToProjects} />
       <Divider icon="⛳️" />
       <section ref={projectsRef}>

@@ -7,7 +7,7 @@ export default function Hero({ onClickDesignAndCode }) {
 
   return (
     <section className="py-16 px-16 flex flex-col gap-16 cursor-default">
-      <h2 className="text-darkgrey flex flex-col text-4xl leading-relaxed tracking-tight">
+      <h2 className="text-darkgrey flex flex-col text-[44px] leading-relaxed tracking-tight">
         <div className="flex gap-3">
           <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
             Hi, friend!🙋🏻‍♀️
@@ -30,7 +30,7 @@ export default function Hero({ onClickDesignAndCode }) {
           </span>
         </div>
         <span>
-          with an aim to <span>create user-friendly products</span> that&nbsp;
+          with an aim to <span>create user-friendly products that&nbsp;</span>
           <span className="italic underline">make life better</span>.
         </span>
       </h2>

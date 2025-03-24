@@ -18,7 +18,7 @@ export default function ProjectsList() {
           alt="Lucid Vision Management App Design"
           circleColor="bg-circle-lucid"
           title="Lucid: Vision Management App"
-          description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
+          description="In a market driven by short-term goals and instant rewards, Lucid helps users uncover the deeper purpose behind their plans. Rather than just completing tasks, it empowers them to pursue meaningful goals with clarity and motivation."
         />
 
         {/* Project 02 */}
