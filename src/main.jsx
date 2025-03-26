@@ -26,14 +26,14 @@ createRoot(document.getElementById('root')).render(
           <Route path="playground" element={<Playground />} />
           <Route path="projects">
             <Route index element={<Projects />} />
-            <Route path="lucid" element={<Lucid />} />
-            <Route path="hyundai-card" element={<HyundaiCard />} />
-            <Route
-              path="sparta-coding-nb-camp"
-              element={<SpartaCodingNBCamp />}
-            />
-            <Route path="local-fresh" element={<LocalFresh />} />
           </Route>
+          <Route path="projects/lucid" element={<Lucid />} />
+          <Route path="projects/hyundai-card" element={<HyundaiCard />} />
+          <Route
+            path="projects/sparta-coding-nb-camp"
+            element={<SpartaCodingNBCamp />}
+          />
+          <Route path="projects/local-fresh" element={<LocalFresh />} />
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
         </Route>
