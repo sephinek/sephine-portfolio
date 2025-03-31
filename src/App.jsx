@@ -2,13 +2,23 @@ import { Outlet } from 'react-router-dom';
 import Lenis from 'lenis';
 import Header from './components/shared/Header';
 import Footer from './components/shared/Footer';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 function App() {
+  const [isContentVisible, setIsContentVisible] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setTimeout(() => setIsContentVisible(true), 700);
+  }, []);
+
   const lenisRef = useRef(
     new Lenis({
       autoRaf: true,
       smooth: true,
+      smoothWheel: 0.8,
+      smoothTouch: 0.1,
+      lerp: 0.15,
     })
   );
 
@@ -23,7 +33,13 @@ function App() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main
+        className={`pt-24 transition-all duration-1000 ${
+          isContentVisible
+            ? 'translate-y-0 opacity-100'
+            : 'translate-y-[0px] opacity-0'
+        }`}
+      >
         <Outlet />
       </main>
       <Footer />

@@ -10,8 +10,19 @@ import InterviewImg01 from '../../assets/lucid-interview01.png';
 import InterviewImg02 from '../../assets/lucid-interview02.png';
 import PersonaImg01 from '../../assets/lucid-persona01.png';
 import PersonaImg02 from '../../assets/lucid-persona02.png';
+import JourneyMapImg from '../../assets/lucid-journey-map.png';
+import SolutionsImg from '../../assets/lucid-solutions.png';
+import FTPTheoryImg from '../../assets/lucid-ftp-theory.png';
+import FTPSurveyImg01 from '../../assets/lucid-ftp-survey01.png';
+import FTPSurveyImg02 from '../../assets/lucid-ftp-survey02.png';
 import CompetitorImg01 from '../../assets/lucid-competitor01.png';
 import CompetitorImg02 from '../../assets/lucid-competitor02.png';
+import MarketFitImg from '../../assets/lucid-market-fit.png';
+import ServiceFormatImg from '../../assets/lucid-service-format.png';
+import BusinessModelImg from '../../assets/lucid-business-model.png';
+import WireframesImg from '../../assets/lucid-wireframes.png';
+import IAImg from '../../assets/lucid-information-architecture.png';
+import UserFlowImg from '../../assets/lucid-user-flow.png';
 
 export default function Lucid() {
   return (
@@ -35,7 +46,7 @@ export default function Lucid() {
 
         <section className="flex flex-col gap-16">
           {/* Overview starts */}
-          <section className="flex flex-col gap-10 max-w-4xl w-4xl mx-auto mt-10">
+          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto mt-10">
             <div className="flex flex-col gap-4">
               <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
                 Overview
@@ -75,7 +86,7 @@ export default function Lucid() {
                   <span className="font-medium text-sm text-lucid-opacity">
                     MY ROLE
                   </span>
-                  <span className="text-base text-darkgrey">
+                  <span className="text-base text-mediumgrey">
                     Product Designer,
                     <br />
                     Frontend Developer
@@ -86,7 +97,7 @@ export default function Lucid() {
                   <span className="font-medium text-sm text-lucid-opacity">
                     TEAM
                   </span>
-                  <span className="text-base text-darkgrey">
+                  <span className="text-base text-mediumgrey">
                     4 Product Designers,
                     <br />2 Engineers
                   </span>
@@ -96,7 +107,7 @@ export default function Lucid() {
                   <span className="font-medium text-sm text-lucid-opacity">
                     TIMELINE
                   </span>
-                  <span className="text-base text-darkgrey">
+                  <span className="text-base text-mediumgrey">
                     6 weeks (Q1 2025)
                   </span>
                 </div>
@@ -105,7 +116,7 @@ export default function Lucid() {
                   <span className="font-medium text-sm text-lucid-opacity">
                     TOOLS
                   </span>
-                  <span className="text-base text-darkgrey">
+                  <span className="text-base text-mediumgrey">
                     Figma, FigJam, Google Form, Maze, React, CSS
                   </span>
                 </div>
@@ -115,7 +126,7 @@ export default function Lucid() {
                 <h3 className="font-medium text-2xl uppercase tracking-widest">
                   Background
                 </h3>
-                <p>
+                <p className="text-darkgrey">
                   With numerous productive apps designed to help us maintain our
                   routines,{' '}
                   <span className="text-black italic underline">
@@ -194,7 +205,7 @@ export default function Lucid() {
 
           {/* Discovery starts */}
           <div className="bg-[#FFF5F5] py-16">
-            <section className="flex flex-col gap-10 max-w-4xl w-4xl mx-auto">
+            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
               <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
                 Discovery
               </h3>
@@ -525,25 +536,14 @@ export default function Lucid() {
                       <span className="text-xl text-black flex flex-col gap-1">
                         <span className="font-medium">▸ Journey Map</span>
                         <div className="ml-4">
-                          Through in-depth interviews analyzing the behaviors of
-                          those who failed and succeeded in achieving their
-                          goals, it was found that{' '}
-                          <span className="font-medium">
-                            successful individual persisted to reach the
-                            maintenance and completion stages
-                          </span>
-                          , while those who{' '}
-                          <span className="font-medium">
-                            failed struggled during the contemplation and
-                            preparation stages
-                          </span>{' '}
-                          and dropped out during the action and maintenance
-                          stages.
+                          Created a journey map based on the 5 stages of change,
+                          identifying the personas' pain points and needs at
+                          each stage.
                         </div>
                       </span>
                       <div className="py-4 w-[120%] self-center">
                         <img
-                          src={InterviewImg02}
+                          src={JourneyMapImg}
                           alt="Identifies the cord issue point and the churn point"
                         />
                       </div>
@@ -551,6 +551,646 @@ export default function Lucid() {
                   </div>
                 </div>
                 {/* User Experience Analysis End */}
+              </div>
+            </section>
+          </div>
+          {/* Discovery ends */}
+
+          {/* Define starts */}
+          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
+            <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+              DEFINE
+            </h3>
+
+            <div className="flex flex-col gap-24">
+              {/* Problem Definition Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">🧩</span>{' '}
+                  <span>Problem Definition</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ Problems Defined:</span>
+                      <div className="ml-4">
+                        We identified problems from the journey map.
+                      </div>
+                    </span>
+                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          Users{' '}
+                          <span className="font-medium text-darkestgrey italic">
+                            lose their sense of direction
+                          </span>{' '}
+                          if they do not{' '}
+                          <span className="font-medium text-darkestgrey italic">
+                            clearly define the value{' '}
+                          </span>
+                          of their goals.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          Users{' '}
+                          <span className="font-medium text-darkestgrey italic">
+                            struggle to create effective and specific plans
+                          </span>{' '}
+                          for their goals on their own.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Excessive or unrealistic plans lose execution power,{' '}
+                          </span>
+                          making them difficult to follow.{' '}
+                          <span className="font-medium text-darkestgrey">
+                            As unachieved plans accumulate, they ultimately lead
+                            to abandoining the goal
+                          </span>
+                          .
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          It is challenging to{' '}
+                          <span className="font-medium text-darkestgrey">
+                            get an overview of progress
+                          </span>{' '}
+                          and{' '}
+                          <span className="font-medium text-darkestgrey">
+                            conduct regular check-ins
+                          </span>
+                          .
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Problem Definition Ends */}
+
+              {/* Solutions Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">🔑</span> <span>Solutions</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Pain Points & Needs & Solutions Defined:
+                      </span>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={SolutionsImg}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Solutions Ends */}
+
+              {/* Theoretical Validation Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">📚</span>{' '}
+                  <span>Theoretical Validation & Survey</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Future Time Perspective (FTP) Theory:
+                      </span>
+                      <div className="ml-4">
+                        Future Time Perspective (FTP) Theory validates our
+                        solutions. According to FTP Theory,{' '}
+                        <span className="font-medium">
+                          even for goals with the same temporal distance, an
+                          individual's time perspective affects their perceived
+                          psychological distance and attitude toward the goal
+                        </span>
+                        . In other words, to achieve a vision, it is essential
+                        to{' '}
+                        <span className="font-medium">
+                          define the goal's value
+                        </span>
+                        ,{' '}
+                        <span className="font-medium">
+                          create specific plans
+                        </span>
+                        , <span className="font-medium">track progress</span>,
+                        and{' '}
+                        <span className="font-medium">
+                          envision your future self
+                        </span>
+                        .
+                      </div>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={FTPTheoryImg}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Psychological Distance & Goal Orientation:
+                          </span>{' '}
+                          Even if two goals have the same temporal distance,
+                          their perceived psychological distance varies
+                          depending on an individual's time perspective.
+                          Moreover, those with a strong future orientation see
+                          long-term goals as more relevant and are more willing
+                          to invest effort in achieving them.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Depth of Goal Value & Planning:
+                          </span>{' '}
+                          Individuals with a high future time perspective define
+                          their goals more deeply and assign greater intrinsic
+                          value to them. They tend to create more structured and
+                          detailed plans to reach their objectives.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Tracking Progress & Self-Regulation:
+                          </span>{' '}
+                          Future-oriented individuals are more likely to track
+                          their progress and adjust their actions accordingly.
+                          This tracking helps maintain motivation and improves
+                          goal completion rates.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Projection of Thoughts onto Goals:
+                          </span>{' '}
+                          A strong future perspective allows individuals to
+                          mentally simulate and connect with their future goals,
+                          making them feel more tangible and achievable.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Survey on FTP Theory and Psychological Distance:
+                      </span>
+                      <div className="ml-4">
+                        To validate the theory with real individuals, we
+                        conducted a survey. We found that{' '}
+                        <span className="font-medium">
+                          simple setting specific goals and reviewing plans can
+                          reduce the psychological distance to the goal
+                        </span>
+                        .
+                      </div>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={FTPSurveyImg01}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                        <li className="flex gap-2">
+                          <img
+                            src={FTPSurveyImg02}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Theoretical Validation Ends */}
+
+              {/* Competitor Analysis Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest">
+                  <span className="text-2xl">📊</span>{' '}
+                  <span>Competitor Analysis</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Competitor Analysis:
+                      </span>
+                      <div className="ml-4">
+                        <span className="font-medium">
+                          Selected six competitor apps with similar core
+                          features{' '}
+                        </span>
+                        among behavior-changing apps (MyRoutine, Roubit,
+                        Routinery, Habitify, Productive, GoalKit) and analyzed
+                        each to compare their{' '}
+                        <span className="font-medium">
+                          main age group, advantages, weakenesses, and unique
+                          points
+                        </span>
+                        .
+                      </div>
+                    </span>
+                    <div className="py-4 self-center">
+                      <img
+                        src={CompetitorImg01}
+                        alt="Subjective Answers on Favored Long-Term Goals"
+                        className="w-4/5 mx-auto"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ Positioning Map:</span>
+                      <div className="ml-4">
+                        Created a positioning map by defining the service
+                        direction and differentiaion points. Found that if Lucid
+                        focuses on{' '}
+                        <span className="font-medium">
+                          providing users with a higher and further goal (which
+                          Lucid calls 'Vision'), along with high flexibility in
+                          their paths to achieve it and strong internal
+                          motivation
+                        </span>
+                        , this could become its strength and unique
+                        differentiation from other apps.
+                      </div>
+                    </span>
+                    <div className="py-4 self-center">
+                      <img
+                        src={CompetitorImg02}
+                        alt="Subjective Answers on Favored Long-Term Goals"
+                        className="w-6/7 mx-auto"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Competitor Analysis Ends */}
+
+              {/* Market-Fit Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">🎯</span>{' '}
+                  <span>Hypothesis Statement on Market Fit</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Hypothesis Statement:
+                      </span>
+                      <div className="ml-4">
+                        We have defined the market fit between our target users
+                        and core value as below.
+                      </div>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={MarketFitImg}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Market-Fit Ends */}
+
+              {/* Business Model Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">📱</span>{' '}
+                  <span>Service Format & Business Model</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">
+                        ▸ Service Format & Business Model:
+                      </span>
+                      <div className="ml-4">
+                        Lucid is designed as{' '}
+                        <span className="font-medium">
+                          a mobile appproviding access anytime and anywhere
+                        </span>
+                        , though we develped a web app prototype mimicking the
+                        mobile app. We have used the{' '}
+                        <span className="font-medium">
+                          Business Model Canvas
+                        </span>{' '}
+                        to outline the service's key value propositions, revenue
+                        model, and more.
+                      </div>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={ServiceFormatImg}
+                            alt="Lucid Service Format"
+                          />
+                        </li>
+                        <li className="flex gap-2">
+                          <img
+                            src={BusinessModelImg}
+                            alt="Lucid Business Model"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Business Model Ends */}
+            </div>
+          </section>
+          {/* Define ends */}
+
+          {/* Develop starts */}
+          <div className="bg-[#FFF5F5] py-16">
+            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
+              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+                DEVELOP
+              </h3>
+
+              <div className="flex flex-col gap-24">
+                {/* Wireframes Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">✏️</span>{' '}
+                    <span>Initial Wireframes</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Wireframes at the Earlier Stage:
+                        </span>
+                        <div className="ml-4">
+                          We created wireframes for the goal addition flow and
+                          the statistics viewing flow.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={WireframesImg}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Wireframes Ends */}
+
+                {/* Information Architecture Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">ℹ️</span>{' '}
+                    <span>Information Architeture (IA)</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Information Architecture:
+                        </span>
+                        <div className="ml-4">
+                          We have created an information architecture diagram
+                          that includes key features of our service, such as
+                          adding goals and plans, reflection day, and statistic
+                          page.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img src={IAImg} alt="Information Architecture" />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Information Architecture Ends */}
+
+                {/* User Flow Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">➡️</span> <span>User Flow</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ User Flow:</span>
+                        <div className="ml-4">
+                          We have mapped out the entry points of key features
+                          and flow toward achieving user goals.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={UserFlowImg}
+                              alt="Information Architecture"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* User Flow Ends */}
+
+                {/* Branding Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🌟</span> <span>Branding</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ Branding:</span>
+                        <div className="ml-4">
+                          Future Time Perspective (FTP) Theory validates our
+                          solutions. According to FTP Theory,{' '}
+                          <span className="font-medium">
+                            even for goals with the same temporal distance, an
+                            individual's time perspective affects their
+                            perceived psychological distance and attitude toward
+                            the goal
+                          </span>
+                          . In other words, to achieve a vision, it is essential
+                          to{' '}
+                          <span className="font-medium">
+                            define the goal's value
+                          </span>
+                          ,{' '}
+                          <span className="font-medium">
+                            create specific plans
+                          </span>
+                          , <span className="font-medium">track progress</span>,
+                          and{' '}
+                          <span className="font-medium">
+                            envision your future self
+                          </span>
+                          .
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={FTPTheoryImg}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                      <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            <span className="font-medium text-darkestgrey">
+                              Psychological Distance & Goal Orientation:
+                            </span>{' '}
+                            Even if two goals have the same temporal distance,
+                            their perceived psychological distance varies
+                            depending on an individual's time perspective.
+                            Moreover, those with a strong future orientation see
+                            long-term goals as more relevant and are more
+                            willing to invest effort in achieving them.
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            <span className="font-medium text-darkestgrey">
+                              Depth of Goal Value & Planning:
+                            </span>{' '}
+                            Individuals with a high future time perspective
+                            define their goals more deeply and assign greater
+                            intrinsic value to them. They tend to create more
+                            structured and detailed plans to reach their
+                            objectives.
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            <span className="font-medium text-darkestgrey">
+                              Tracking Progress & Self-Regulation:
+                            </span>{' '}
+                            Future-oriented individuals are more likely to track
+                            their progress and adjust their actions accordingly.
+                            This tracking helps maintain motivation and improves
+                            goal completion rates.
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            <span className="font-medium text-darkestgrey">
+                              Projection of Thoughts onto Goals:
+                            </span>{' '}
+                            A strong future perspective allows individuals to
+                            mentally simulate and connect with their future
+                            goals, making them feel more tangible and
+                            achievable.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Survey on FTP Theory and Psychological Distance:
+                        </span>
+                        <div className="ml-4">
+                          To validate the theory with real individuals, we
+                          conducted a survey. We found that{' '}
+                          <span className="font-medium">
+                            simple setting specific goals and reviewing plans
+                            can reduce the psychological distance to the goal
+                          </span>
+                          .
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={FTPSurveyImg01}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                          <li className="flex gap-2">
+                            <img
+                              src={FTPSurveyImg02}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Branding Ends */}
 
                 {/* Competitor Analysis Starts */}
                 <div className="flex flex-col gap-10">
@@ -566,11 +1206,18 @@ export default function Lucid() {
                           ▸ Competitor Analysis:
                         </span>
                         <div className="ml-4">
-                          Selected six competitor apps with similar core
-                          features among behavior-changing apps (MyRoutine,
-                          Roubit, Routinery, Habitify, Productive, GoalKit) and
-                          analyzed each to compare their main age group,
-                          advantages, weakenesses, and unique points.
+                          <span className="font-medium">
+                            Selected six competitor apps with similar core
+                            features{' '}
+                          </span>
+                          among behavior-changing apps (MyRoutine, Roubit,
+                          Routinery, Habitify, Productive, GoalKit) and analyzed
+                          each to compare their{' '}
+                          <span className="font-medium">
+                            main age group, advantages, weakenesses, and unique
+                            points
+                          </span>
+                          .
                         </div>
                       </span>
                       <div className="py-4 self-center">
@@ -610,73 +1257,90 @@ export default function Lucid() {
                   </div>
                 </div>
                 {/* Competitor Analysis Ends */}
+
+                {/* Market-Fit Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🎯</span>{' '}
+                    <span>Hypothesis Statement on Market Fit</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Hypothesis Statement:
+                        </span>
+                        <div className="ml-4">
+                          We have defined the market fit between our target
+                          users and core value as below.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={MarketFitImg}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Market-Fit Ends */}
+
+                {/* Business Model Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">📱</span>{' '}
+                    <span>Service Format & Business Model</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Service Format & Business Model:
+                        </span>
+                        <div className="ml-4">
+                          Lucid is designed as{' '}
+                          <span className="font-medium">
+                            a mobile appproviding access anytime and anywhere
+                          </span>
+                          , though we develped a web app prototype mimicking the
+                          mobile app. We have used the{' '}
+                          <span className="font-medium">
+                            Business Model Canvas
+                          </span>{' '}
+                          to outline the service's key value propositions,
+                          revenue model, and more.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={ServiceFormatImg}
+                              alt="Lucid Service Format"
+                            />
+                          </li>
+                          <li className="flex gap-2">
+                            <img
+                              src={BusinessModelImg}
+                              alt="Lucid Business Model"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Business Model Ends */}
               </div>
             </section>
           </div>
-          {/* Discovery ends */}
-
-          {/* Define starts */}
-          <section className="flex flex-col gap-10 max-w-[80%] w-[80%] mx-auto">
-            <h3 className="font-medium text-3xl text-lucid">Define</h3>
-
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">User Personas</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">User Journey Maps</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Problem Statements</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-            </div>
-          </section>
-          {/* Define ends */}
-
-          {/* Develop starts */}
-          <section className="flex flex-col gap-10 max-w-[80%] w-[80%] mx-auto">
-            <h3 className="font-medium text-3xl text-lucid">Develop</h3>
-
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Initial Wireframes</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Screen Designs</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Prototyping</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
-            </div>
-          </section>
           {/* Develop ends */}
 
           {/* Deliver starts */}
