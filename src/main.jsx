@@ -8,7 +8,9 @@ import About from './pages/About';
 import Playground from './pages/Playground';
 import Projects from './pages/Projects';
 import Lucid from './pages/projects/Lucid';
-
+import HyundaiCard from './pages/projects/HyundaiCard';
+import SpartaCodingNBCamp from './pages/projects/SpartaCodingNBCamp';
+import LocalFresh from './pages/projects/LocalFresh';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
@@ -24,7 +26,12 @@ createRoot(document.getElementById('root')).render(
           <Route path="playground" element={<Playground />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/lucid" element={<Lucid />} />
-
+          <Route path="projects/hyundai-card" element={<HyundaiCard />} />
+          <Route
+            path="projects/sparta-coding-nb-camp"
+            element={<SpartaCodingNBCamp />}
+          />
+          <Route path="projects/local-fresh" element={<LocalFresh />} />
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
         </Route>
