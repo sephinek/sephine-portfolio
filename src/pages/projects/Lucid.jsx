@@ -23,6 +23,16 @@ import BusinessModelImg from '../../assets/lucid-business-model.png';
 import WireframesImg from '../../assets/lucid-wireframes.png';
 import IAImg from '../../assets/lucid-information-architecture.png';
 import UserFlowImg from '../../assets/lucid-user-flow.png';
+import NamingImg from '../../assets/lucid-naming.png';
+import CharacterImg from '../../assets/lucid-character.png';
+import AppLogosImg from '../../assets/lucid-app-logos.png';
+import DesignSystemImg01 from '../../assets/lucid-design-system01.png';
+import DesignSystemImg02 from '../../assets/lucid-design-system02.png';
+import DesignSystemImg03 from '../../assets/lucid-design-system03.png';
+import UXWritingImg from '../../assets/lucid-ux-writing.png';
+import ScreenDesignsImg from '../../assets/lucid-screen-designs.png';
+import FigmaIcon from '../../assets/figma.png';
+import NetlifyIcon from '../../assets/netlify.png';
 
 export default function Lucid() {
   return (
@@ -51,35 +61,47 @@ export default function Lucid() {
               <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
                 Overview
               </h3>
-              <a
-                href="https://lucid-mvp.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-base text-primary"
-              >
-                <span className="font-bold">→ View Prototype</span>{' '}
-                (Recommended: Use Responsive Design Mode in Chrome DevTools)
-              </a>
             </div>
 
             <div className="flex flex-col gap-12">
-              <p className="text-darkgrey">
-                Lucid is a service designed to{' '}
-                <span className="font-medium text-black">
-                  help users discover their true motivation and achieve their
-                  goals
-                </span>{' '}
-                in a market focused on instant rewards. By leveraging
-                visualization, it{' '}
-                <span className="font-medium text-black">
-                  provides image training to reduce the psychological distance
-                  to goals
-                </span>
-                , enhancing motivation. To validate this approach, extensive
-                desk research, market research, and user research were
-                conducted, along with references to various psychological
-                studies.
-              </p>
+              <div className="flex flex-col gap-4">
+                <p className="text-darkgrey">
+                  Lucid is a service designed to{' '}
+                  <span className="font-medium text-black">
+                    help users discover their true motivation and achieve their
+                    goals
+                  </span>{' '}
+                  in a market focused on instant rewards. By leveraging
+                  visualization, it{' '}
+                  <span className="font-medium text-black">
+                    provides image training to reduce the psychological distance
+                    to goals
+                  </span>
+                  , enhancing motivation. To validate this approach, extensive
+                  desk research, market research, and user research were
+                  conducted, along with references to various psychological
+                  studies.
+                </p>
+                <a
+                  href="https://lucid-mvp.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-base text-primary"
+                >
+                  <span className="font-bold">→ View Final Prototype</span>{' '}
+                  (Korean version / Recommended: Use Responsive Design Mode in
+                  Chrome DevTools)
+                </a>
+                <a
+                  href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=87%3A84482&node-id=87-86179&viewport=-208%2C-147%2C0.13&t=ZLxBvMD6bDTUGliH-1&scaling=min-zoom&content-scaling=fixed"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-base text-primary"
+                >
+                  <span className="font-bold">→ View Figma Prototype</span>{' '}
+                  (English version)
+                </a>
+              </div>
 
               <div className="grid grid-cols-4 gap-12 my-4 border-1 border-lightgrey p-6 rounded-xl">
                 <div className="flex flex-col gap-2">
@@ -640,7 +662,7 @@ export default function Lucid() {
               {/* Solutions Starts */}
               <div className="flex flex-col gap-10">
                 <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">🔑</span> <span>Solutions</span>
+                  <span className="text-2xl">💡</span> <span>Solutions</span>
                 </h3>
 
                 <div className="flex flex-col gap-12 text-base">
@@ -872,7 +894,7 @@ export default function Lucid() {
               <div className="flex flex-col gap-10">
                 <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
                   <span className="text-2xl">🎯</span>{' '}
-                  <span>Hypothesis Statement on Market Fit</span>
+                  <span>Hypothesis on Market Fit</span>
                 </h3>
 
                 <div className="flex flex-col gap-12 text-base">
@@ -904,7 +926,7 @@ export default function Lucid() {
               {/* Business Model Starts */}
               <div className="flex flex-col gap-10">
                 <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">📱</span>{' '}
+                  <span className="text-2xl">💰</span>{' '}
                   <span>Service Format & Business Model</span>
                 </h3>
 
@@ -1064,223 +1086,166 @@ export default function Lucid() {
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Branding:</span>
+                        <span className="font-medium">▸ App Naming:</span>
                         <div className="ml-4">
-                          Future Time Perspective (FTP) Theory validates our
-                          solutions. According to FTP Theory,{' '}
+                          Inspired by{' '}
+                          <span className="italic">lucid dreams</span>, "
+                          <span className="font-medium">Lucid</span>" is built
+                          on six brand keywords—
                           <span className="font-medium">
-                            even for goals with the same temporal distance, an
-                            individual's time perspective affects their
-                            perceived psychological distance and attitude toward
-                            the goal
+                            Vision, Imagination, Planning, Tracking,
+                            Achievement, and Reflection
                           </span>
-                          . In other words, to achieve a vision, it is essential
-                          to{' '}
-                          <span className="font-medium">
-                            define the goal's value
-                          </span>
-                          ,{' '}
-                          <span className="font-medium">
-                            create specific plans
-                          </span>
-                          , <span className="font-medium">track progress</span>,
-                          and{' '}
-                          <span className="font-medium">
-                            envision your future self
-                          </span>
-                          .
+                          —helping users turn their envisioned future into a
+                          clear reality.{' '}
                         </div>
                       </span>
                       <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-auto">
                           <li className="flex gap-2">
-                            <img
-                              src={FTPTheoryImg}
-                              alt="Goal-Setting Timeframe"
-                            />
+                            <img src={NamingImg} alt="Goal-Setting Timeframe" />
                           </li>
                         </ul>
                       </div>
-                      <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            <span className="font-medium text-darkestgrey">
-                              Psychological Distance & Goal Orientation:
-                            </span>{' '}
-                            Even if two goals have the same temporal distance,
-                            their perceived psychological distance varies
-                            depending on an individual's time perspective.
-                            Moreover, those with a strong future orientation see
-                            long-term goals as more relevant and are more
-                            willing to invest effort in achieving them.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            <span className="font-medium text-darkestgrey">
-                              Depth of Goal Value & Planning:
-                            </span>{' '}
-                            Individuals with a high future time perspective
-                            define their goals more deeply and assign greater
-                            intrinsic value to them. They tend to create more
-                            structured and detailed plans to reach their
-                            objectives.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            <span className="font-medium text-darkestgrey">
-                              Tracking Progress & Self-Regulation:
-                            </span>{' '}
-                            Future-oriented individuals are more likely to track
-                            their progress and adjust their actions accordingly.
-                            This tracking helps maintain motivation and improves
-                            goal completion rates.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            <span className="font-medium text-darkestgrey">
-                              Projection of Thoughts onto Goals:
-                            </span>{' '}
-                            A strong future perspective allows individuals to
-                            mentally simulate and connect with their future
-                            goals, making them feel more tangible and
-                            achievable.
-                          </span>
-                        </li>
-                      </ul>
                     </div>
 
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Survey on FTP Theory and Psychological Distance:
-                        </span>
+                        <span className="font-medium">▸ Character:</span>
                         <div className="ml-4">
-                          To validate the theory with real individuals, we
-                          conducted a survey. We found that{' '}
+                          Designed using{' '}
                           <span className="font-medium">
-                            simple setting specific goals and reviewing plans
-                            can reduce the psychological distance to the goal
-                          </span>
-                          .
+                            the doodling technique
+                          </span>{' '}
+                          to symbolize{' '}
+                          <span className="font-medium">the North Star</span>,
+                          Lucid feels{' '}
+                          <span className="font-medium">approachable</span> and{' '}
+                          <span className="font-medium">unintimidating</span> to
+                          users.
                         </div>
                       </span>
                       <div className="flex flex-col gap-4 items-center py-4">
                         <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[120%]">
                           <li className="flex gap-2">
                             <img
-                              src={FTPSurveyImg01}
-                              alt="Goal-Setting Timeframe"
-                            />
-                          </li>
-                          <li className="flex gap-2">
-                            <img
-                              src={FTPSurveyImg02}
-                              alt="Goal-Setting Timeframe"
+                              src={CharacterImg}
+                              alt="Lucid character with bright red color and six edges"
                             />
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
+                  <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                    <li className="flex gap-2">
+                      <span>•</span>
+                      <span>
+                        <span className="font-medium text-darkestgrey">
+                          Six Points:
+                        </span>{' '}
+                        The six points symbolize Lucid's six brand
+                        keywords—Vision, Imagination, Planning, Tracking,
+                        Achievement, and Reflection.
+                      </span>
+                    </li>
+                    <li className="flex gap-2">
+                      <span>•</span>
+                      <span>
+                        <span className="font-medium text-darkestgrey">
+                          Red Color:
+                        </span>{' '}
+                        Lucid's bold red color, which serves as a guiding light,
+                        encourages immediate action.
+                      </span>
+                    </li>
+                    <li className="flex gap-2">
+                      <span>•</span>
+                      <span>
+                        <span className="font-medium text-darkestgrey">
+                          Rounded Design:
+                        </span>{' '}
+                        Its rounded deisgn creates a friendly and approachable
+                        impression while supporting flexible adjustments.
+                      </span>
+                    </li>
+                  </ul>
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ App Logo:</span>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-10 leading-relaxed text-darkgrey">
+                        <li className="flex gap-2">
+                          <img
+                            src={AppLogosImg}
+                            alt="Lucid character with bright red color and six edges"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 {/* Branding Ends */}
 
-                {/* Competitor Analysis Starts */}
+                {/* Design System Starts */}
                 <div className="flex flex-col gap-10">
                   <h3 className="font-medium text-xl uppercase tracking-widest">
-                    <span className="text-2xl">📊</span>{' '}
-                    <span>Competitor Analysis</span>
+                    <span className="text-2xl">🎨</span>{' '}
+                    <span>Design System</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
                         <span className="font-medium">
-                          ▸ Competitor Analysis:
+                          ▸ Typography & Color Palette:
                         </span>
-                        <div className="ml-4">
-                          <span className="font-medium">
-                            Selected six competitor apps with similar core
-                            features{' '}
-                          </span>
-                          among behavior-changing apps (MyRoutine, Roubit,
-                          Routinery, Habitify, Productive, GoalKit) and analyzed
-                          each to compare their{' '}
-                          <span className="font-medium">
-                            main age group, advantages, weakenesses, and unique
-                            points
-                          </span>
-                          .
-                        </div>
                       </span>
-                      <div className="py-4 self-center">
-                        <img
-                          src={CompetitorImg01}
-                          alt="Subjective Answers on Favored Long-Term Goals"
-                          className="w-4/5 mx-auto"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Positioning Map:</span>
-                        <div className="ml-4">
-                          Created a positioning map by defining the service
-                          direction and differentiaion points. Found that if
-                          Lucid focuses on{' '}
-                          <span className="font-medium">
-                            providing users with a higher and further goal
-                            (which Lucid calls 'Vision'), along with high
-                            flexibility in their paths to achieve it and strong
-                            internal motivation
-                          </span>
-                          , this could become its strength and unique
-                          differentiation from other apps.
-                        </div>
-                      </span>
-                      <div className="py-4 self-center">
-                        <img
-                          src={CompetitorImg02}
-                          alt="Subjective Answers on Favored Long-Term Goals"
-                          className="w-6/7 mx-auto"
-                        />
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img src={DesignSystemImg01} alt="Typography" />
+                          </li>
+                          <li className="flex gap-2">
+                            <img src={DesignSystemImg02} alt="Color Palette" />
+                          </li>
+                        </ul>
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img src={DesignSystemImg03} alt="Typography" />
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                {/* Competitor Analysis Ends */}
+                {/* Design System Ends */}
 
-                {/* Market-Fit Starts */}
+                {/* UX Writing Guidelines Starts */}
                 <div className="flex flex-col gap-10">
                   <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🎯</span>{' '}
-                    <span>Hypothesis Statement on Market Fit</span>
+                    <span className="text-2xl">✍️</span>{' '}
+                    <span>UX Writing Guidelines</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
                         <span className="font-medium">
-                          ▸ Hypothesis Statement:
+                          ▸ UX Writing Guidelines:
                         </span>
                         <div className="ml-4">
-                          We have defined the market fit between our target
-                          users and core value as below.
+                          We created a UX writing guide that reflects the brand
+                          story of Lucid and maintained a consistent voice and
+                          tone throughout the app.
                         </div>
                       </span>
                       <div className="flex flex-col gap-4 items-center py-4">
                         <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
                           <li className="flex gap-2">
                             <img
-                              src={MarketFitImg}
+                              src={UXWritingImg}
                               alt="Goal-Setting Timeframe"
                             />
                           </li>
@@ -1289,21 +1254,19 @@ export default function Lucid() {
                     </div>
                   </div>
                 </div>
-                {/* Market-Fit Ends */}
+                {/* UX Writing Guidelines Ends */}
 
-                {/* Business Model Starts */}
+                {/* Screen Designs Starts */}
                 <div className="flex flex-col gap-10">
                   <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
                     <span className="text-2xl">📱</span>{' '}
-                    <span>Service Format & Business Model</span>
+                    <span>Screen Designs</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Service Format & Business Model:
-                        </span>
+                        <span className="font-medium">▸ Screen Designs:</span>
                         <div className="ml-4">
                           Lucid is designed as{' '}
                           <span className="font-medium">
@@ -1318,18 +1281,13 @@ export default function Lucid() {
                           revenue model, and more.
                         </div>
                       </span>
+
                       <div className="flex flex-col gap-4 items-center py-4">
                         <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
                           <li className="flex gap-2">
                             <img
-                              src={ServiceFormatImg}
+                              src={ScreenDesignsImg}
                               alt="Lucid Service Format"
-                            />
-                          </li>
-                          <li className="flex gap-2">
-                            <img
-                              src={BusinessModelImg}
-                              alt="Lucid Business Model"
                             />
                           </li>
                         </ul>
@@ -1337,7 +1295,66 @@ export default function Lucid() {
                     </div>
                   </div>
                 </div>
-                {/* Business Model Ends */}
+                {/* Screen Designs Ends */}
+
+                {/* Prototypes Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🤳</span> <span>Prototypes</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ Prototypes:</span>
+                        <div className="ml-4">
+                          Lucid has two prototype versions: a Figma prototype
+                          and deployed final app.
+                        </div>
+                      </span>
+                      <div className="ml-4 flex flex-col gap-3">
+                        <div className="flex gap-1">
+                          <span className="mr-1 font-medium">
+                            ◦ Figma Prototype:
+                          </span>
+                          <a
+                            href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=87%3A84482&node-id=87-86179&viewport=-208%2C-147%2C0.13&t=ZLxBvMD6bDTUGliH-1&scaling=min-zoom&content-scaling=fixed"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              className="w-10 h-10"
+                              src={FigmaIcon}
+                              alt="Figma icon"
+                            />
+                            <span className="text-sm">English Version</span>
+                          </a>
+                        </div>
+                        <div className="flex gap-1">
+                          <span className="mr-1 font-medium shrink-0">
+                            ◦ Deployed Prototype:
+                          </span>
+                          <a
+                            href="https://lucid-mvp.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              className="w-10 h-10"
+                              src={NetlifyIcon}
+                              alt="Netlify icon"
+                            />
+                            <span className="text-sm">
+                              Korean Version / (Recommended: Use Responsive
+                              Design Mode in Chrome DevTools)
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Prototypes Ends */}
               </div>
             </section>
           </div>
