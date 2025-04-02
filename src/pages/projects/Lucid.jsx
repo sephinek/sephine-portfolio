@@ -33,6 +33,7 @@ import UXWritingImg from '../../assets/lucid-ux-writing.png';
 import ScreenDesignsImg from '../../assets/lucid-screen-designs.png';
 import FigmaIcon from '../../assets/figma.png';
 import NetlifyIcon from '../../assets/netlify.png';
+import QAImg from '../../assets/lucid-qa.png';
 
 export default function Lucid() {
   return (
@@ -89,8 +90,8 @@ export default function Lucid() {
                   className="underline text-base text-primary"
                 >
                   <span className="font-bold">→ View Final Prototype</span>{' '}
-                  (Korean version / Recommended: Use Responsive Design Mode in
-                  Chrome DevTools)
+                  (Korean version / Recommended: Use your mobile device or
+                  Responsive Design Mode in Chrome DevTools)
                 </a>
                 <a
                   href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=87%3A84482&node-id=87-86179&viewport=-208%2C-147%2C0.13&t=ZLxBvMD6bDTUGliH-1&scaling=min-zoom&content-scaling=fixed"
@@ -1345,8 +1346,9 @@ export default function Lucid() {
                               alt="Netlify icon"
                             />
                             <span className="text-sm">
-                              Korean Version / (Recommended: Use Responsive
-                              Design Mode in Chrome DevTools)
+                              Korean Version / (Recommended: Use your mobile
+                              device or Responsive Design Mode in Chrome
+                              DevTools)
                             </span>
                           </a>
                         </div>
@@ -1355,73 +1357,536 @@ export default function Lucid() {
                   </div>
                 </div>
                 {/* Prototypes Ends */}
+
+                {/* Marketing Video Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">📹</span>{' '}
+                    <span>Marketing Video</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ YouTube Video:</span>
+                        <div className="ml-4">
+                          One of our team members created a marketing video to
+                          introduce Lucid. I contributed by helping decide the
+                          statements to include and the content to be featured
+                          in the video.
+                        </div>
+                      </span>
+                      <div className="ml-4 flex flex-col gap-3 self-center">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/7AAwWSRU8aM?si=e2MSeWjN2VkjsHtW"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Marketing Video Ends */}
               </div>
             </section>
           </div>
           {/* Develop ends */}
 
           {/* Deliver starts */}
-          <section className="flex flex-col gap-10 max-w-[80%] w-[80%] mx-auto">
-            <h3 className="font-medium text-3xl text-lucid">Deliver</h3>
+          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
+            <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+              DELIVER
+            </h3>
 
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Code</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
+            <div className="flex flex-col gap-24">
+              {/* Code Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">👩‍💻</span> <span>Code</span>
+                </h3>
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Launch</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ Tools & Tasks:</span>
+                      <div className="ml-4">
+                        We developed the web app prototype using{' '}
+                        <span className="font-medium">
+                          React (JavaScript) and CSS, with Recoil for state
+                          management
+                        </span>
+                        .
+                        <br />
+                        <span className="font-medium">
+                          As the lead during the web app prototype development
+                          phase
+                        </span>
+                        , I managed the GitHub repository, created development
+                        schedules, assigned roles to team members, conducted
+                        reviews, and facilitated communication with engineers.
+                      </div>
+                    </span>
+                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Discussed which inputs to collect from users{' '}
+                          </span>
+                          and how to store them as data.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Took the lead in designing the data transition logic
+                          </span>{' '}
+                          and shared it with the engineers. .
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          Created components to{' '}
+                          <span className="font-medium text-darkestgrey">
+                            enable code reusability
+                          </span>
+                          .
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          Wrote the{' '}
+                          <span className="font-medium text-darkestgrey">
+                            code implement the interface.
+                          </span>
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Utilized AI
+                          </span>{' '}
+                          to effeciently receive and utilize data, and fix bugs.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+              {/* Code Ends */}
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">QA</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
+              {/* Launch Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">🎉</span> <span>Launch</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ Tool:</span>
+                      <div className="ml-4">
+                        We deployed our web app using{' '}
+                        <span className="font-medium">Netlify</span>
+                        , which enabled seamless hosting and continuous
+                        integration.
+                        <br />
+                        <span className="font-medium">
+                          To properly view the prototype in mobile size, use
+                          your mobile device or Chrome's DevTools responsive
+                          design mode feature.
+                        </span>
+                      </div>
+                    </span>
+                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                      <li className="flex gap-2">
+                        <span>1.</span>
+                        <span>
+                          Right-click on the page and select{' '}
+                          <span className="font-medium">'Inspect'</span>
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>2.</span>
+                        <span>
+                          Click the{' '}
+                          <span className="font-medium">
+                            'Toggle Device Toolbar' icon
+                          </span>{' '}
+                          or press{' '}
+                          <span className="font-medium">
+                            Ctrl + Shift + M (Cmd + Shift + M on Mac)
+                          </span>
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>3.</span>
+                        <span>
+                          Enter <span className="font-medium">375 * 812</span>{' '}
+                          as the custom device size.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+              {/* Launch Ends */}
+
+              {/* QA Starts */}
+              <div className="flex flex-col gap-10">
+                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                  <span className="text-2xl">✅</span> <span>QA</span>
+                </h3>
+
+                <div className="flex flex-col gap-12 text-base">
+                  <div className="flex flex-col gap-4">
+                    <span className="text-xl text-black flex flex-col gap-1">
+                      <span className="font-medium">▸ Notion QA Sheet:</span>
+                      <div className="ml-4">
+                        After deploying our app, we conducted QA to ensure it
+                        worked as expected. We listed the issues we missed,
+                        assigned responsible team members to fix the code, and
+                        documented the updates in Notion.
+                      </div>
+                    </span>
+                    <div className="flex flex-col gap-4 items-center py-4">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <li className="flex gap-2">
+                          <img src={QAImg} alt="Notion QA Sheet" />
+                        </li>
+                      </ul>
+                    </div>
+                    <span className="text-xl font-medium">
+                      Some of the Resolved Issues
+                    </span>
+                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Onboarding Redirection:
+                          </span>{' '}
+                          Rederict to the main page if the user already has an
+                          account.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Pause Toggle Issue:
+                          </span>{' '}
+                          Fix the toggle functionality during pause state.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Refresh Error:
+                          </span>{' '}
+                          Fix the error that shows a blank page when refreshing
+                          the page.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Not Found Page:
+                          </span>{' '}
+                          Create a "Not Found" page for 404 errors.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Hide Top Bar on Detail Page:
+                          </span>{' '}
+                          Hide the top bar on the detail page.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Add Plan Not Working on Goal Edit Page:
+                          </span>{' '}
+                          Fix the issue where the add plan functionality isn't
+                          working on the goal edit page.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Plan's Bottom Sheet:
+                          </span>{' '}
+                          When editing a plan, ensure the plan's title is
+                          properly displayed.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Auto-Set Goal Duration to 1 Month:
+                          </span>{' '}
+                          Automatically set the goal duration to 1 month by
+                          default.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Set Mobile View for 375*812:
+                          </span>{' '}
+                          Ensure the web version displays correctly in the
+                          375*812 (iPhone 13 mini) size when opened in a
+                          browser.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Hero Image and Thumbnail:
+                          </span>{' '}
+                          Update the hero image and thumbnail.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Limit Plan Completion Date to Goal Completion Date
+                            Range:
+                          </span>{' '}
+                          Ensure the plan completion date cannot exceed the set
+                          goal completion date.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Add Bottom Navigation in Statistics:
+                          </span>{' '}
+                          Add a bottom navigation area at the bottom of the
+                          statistics page.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Goal Color on Goal Detail Page:
+                          </span>{' '}
+                          Ensure the color value of the goal is properly
+                          displayed when editing the goal.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Plan Bottom Sheet - Pause Modal Issue:
+                          </span>{' '}
+                          When creating a 'Pause' modal, ensure the bottom bar
+                          works correctly.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Plan Bottom Sheet - Reflection Path Issue:
+                          </span>{' '}
+                          Fix the issue where the reflection tab path is not
+                          following the correct route during "Journal" in the
+                          bottom sheet.
+                        </span>
+                      </li>
+                      <span>
+                        <span>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              <span className="font-medium text-darkestgrey">
+                                Onboarding Page - Change Color:
+                              </span>{' '}
+                              Change the color of the "Generate recommentations"
+                              button on the onboarding page.
+                            </span>
+                          </li>
+                        </span>
+                      </span>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Change Color on Weekday Selection in Plans:
+                          </span>{' '}
+                          When selecting a weekday in the plans section, change
+                          its color to gray.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Goal Edit Page - Plan Edit Issue:
+                          </span>{' '}
+                          Fix the issue where plans cannot be edited from the
+                          goal edit page.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            Pause Toggle Activation Issue:
+                          </span>{' '}
+                          Fix the issue where the pause toggle is not
+                          activating.
+                        </span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span>•</span>
+                        <span>
+                          <span className="font-medium text-darkestgrey">
+                            "Goal Added" Modal Design
+                          </span>{' '}
+                          Update the design of the modal that shows when a goal
+                          is added.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* QA Ends */}
             </div>
           </section>
           {/* Deliver ends */}
 
           {/* Retrospect starts */}
-          <section className="flex flex-col gap-10 max-w-[80%] w-[80%] mx-auto">
-            <h3 className="font-medium text-3xl text-lucid">Retrospect</h3>
+          <div className="bg-[#fafafa] py-16">
+            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
+              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+                Retrospect
+              </h3>
 
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">What I Learned</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
+              <div className="flex flex-col gap-24">
+                {/* What I Learned Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🤗</span>{' '}
+                    <span>What I Learned</span>
+                  </h3>
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Areas to Improve</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
-              </div>
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Wireframes at the Earlier Stage:
+                        </span>
+                        <div className="ml-4">
+                          We created wireframes for the goal addition flow and
+                          the statistics viewing flow.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={WireframesImg}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* What I Learned Ends */}
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl">Scalable Parts</h3>
-                <p>
-                  Lucid began with the question of how to create and maintain
-                  effective plans consistently.
-                </p>
+                {/* Areas to Improve Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🚀</span>{' '}
+                    <span>Areas to Improve</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Information Architecture:
+                        </span>
+                        <div className="ml-4">
+                          We have created an information architecture diagram
+                          that includes key features of our service, such as
+                          adding goals and plans, reflection day, and statistic
+                          page.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img src={IAImg} alt="Information Architecture" />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Areas to Improve Ends */}
+
+                {/* Scalable Parts Starts */}
+                <div className="flex flex-col gap-10">
+                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
+                    <span className="text-2xl">🏗️</span>{' '}
+                    <span>Scalable Parts</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-4">
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ User Flow:</span>
+                        <div className="ml-4">
+                          We have mapped out the entry points of key features
+                          and flow toward achieving user goals.
+                        </div>
+                      </span>
+                      <div className="flex flex-col gap-4 items-center py-4">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          <li className="flex gap-2">
+                            <img
+                              src={UserFlowImg}
+                              alt="Information Architecture"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Scalable Parts Ends */}
               </div>
-            </div>
-          </section>
+            </section>
+          </div>
           {/* Retrospect ends */}
         </section>
       </div>
