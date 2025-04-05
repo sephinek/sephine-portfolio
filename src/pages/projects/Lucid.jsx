@@ -110,7 +110,8 @@ export default function Lucid() {
                     MY ROLE
                   </span>
                   <span className="text-base text-mediumgrey">
-                    Product Designer,
+                    Product Designer (Market Research, User Research, Branding,
+                    Character Design, Screen Designs, Prototyping, Coding),
                     <br />
                     Frontend Developer
                   </span>
