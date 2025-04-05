@@ -1382,10 +1382,9 @@ export default function Lucid() {
                           height="315"
                           src="https://www.youtube.com/embed/7AAwWSRU8aM?si=e2MSeWjN2VkjsHtW"
                           title="YouTube video player"
-                          frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          referrerpolicy="strict-origin-when-cross-origin"
-                          allowfullscreen
+                          referrerPolicy="strict-origin-when-cross-origin"
+                          allowFullScreen
                         ></iframe>
                       </div>
                     </div>
@@ -1566,7 +1565,7 @@ export default function Lucid() {
                       </ul>
                     </div>
                     <span className="text-xl font-medium">
-                      Some of the Resolved Issues
+                      Key Resolved Issues
                     </span>
                     <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
                       <li className="flex gap-2">
@@ -1792,7 +1791,7 @@ export default function Lucid() {
                 {/* What I Learned Starts */}
                 <div className="flex flex-col gap-10">
                   <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🤗</span>{' '}
+                    <span className="text-2xl">🙌</span>{' '}
                     <span>What I Learned</span>
                   </h3>
 
@@ -1800,23 +1799,55 @@ export default function Lucid() {
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
                         <span className="font-medium">
-                          ▸ Wireframes at the Earlier Stage:
+                          ▸ Clear Communication with Team:
                         </span>
                         <div className="ml-4">
-                          We created wireframes for the goal addition flow and
-                          the statistics viewing flow.
+                          During repetitive steps in the project, it's easy for
+                          team members to start envisioning different
+                          directions. I learned the importance of regularly
+                          checking in to ensure everyone is aligned on the same
+                          goals and vision. A thoughtful attitude and proactive
+                          communication helped keep the collaboration smooth and
+                          the project on track.
                         </div>
                       </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={WireframesImg}
-                              alt="Goal-Setting Timeframe"
-                            />
-                          </li>
-                        </ul>
-                      </div>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Effective Time Management & Sharing schedules in
+                          Advance:
+                        </span>
+                        <div className="ml-4">
+                          To complete and review the project within a fixed
+                          timeframe, I learned the importance of planning ahead
+                          and sharing both team and individual schedules in
+                          advance and setting clear timelines for each phase.
+                          Even when I discovered logical inconsistencies in
+                          earlier steps, staying calm and adjusting within the
+                          given time allowed us to move forward effectively.
+                          Most importantly, I realized that having a strong
+                          Define phase lays the foundation for the entire
+                          project—it makes it much easier to handle challenges
+                          that arise later on.
+                        </div>
+                      </span>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Key Considerations to Keep in Mind During the
+                          Project:
+                        </span>
+                        <div className="ml-4">
+                          Throughout the project, it's essential to continually
+                          check and keep in mind the core values and key
+                          features our service aims to provide to users. These
+                          elements serve as guiding principles when things
+                          become unclear or confusing, helping us find solutions
+                          to challenges. Additionally, I learend the importance
+                          of ensuring that the solutions we com up with clearly
+                          address the pain points of users. At each stage of the
+                          process, it's crucial to derive insights and check if
+                          there are any gaps in the logical flow of the project.
+                        </div>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -1833,57 +1864,71 @@ export default function Lucid() {
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
                         <span className="font-medium">
-                          ▸ Information Architecture:
+                          ▸ Immediate Rewards for engaging:
                         </span>
                         <div className="ml-4">
-                          We have created an information architecture diagram
-                          that includes key features of our service, such as
-                          adding goals and plans, reflection day, and statistic
-                          page.
+                          To maintiain user engagement and increase DAU, Lucid
+                          plans to introduce features such as badge systems and
+                          community participation tools. These elements provide
+                          instant gratification, encouraging users to return
+                          regularly while supporting the app's long-term
+                          goal-oriented mission.
                         </div>
                       </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img src={IAImg} alt="Information Architecture" />
-                          </li>
-                        </ul>
-                      </div>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">▸ Log In Feature:</span>
+                        <div className="ml-4">
+                          Currently the app is implemented as a guest mode, but
+                          log in flow and its screens are to be developed.
+                        </div>
+                      </span>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Notification Feature:
+                        </span>
+                        <div className="ml-4">
+                          Notification feature was origianlly planned in the
+                          early stages but was postponed due to the
+                          prioritization of other features. The "Reflect" menu
+                          was initially intended to be an event-based feature.
+                          However, its sub-features, such as the Vision Baord
+                          and Review Plans, were found to be both unique
+                          compared to competitiors and core to our brand
+                          identity, so it was finalized as a fixed menu. When
+                          the Notification feature is developed, we plan to
+                          emphasize its event-based nature by introducing a
+                          Check-in system with playful graphics and motivating
+                          elements. This will encourage users to return
+                          regularly and stay committed to their long-term goals.
+                        </div>
+                      </span>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Introducing Service Features on Onboarding:
+                        </span>
+                        <div className="ml-4">
+                          Displaying visuals of core features at the beginning
+                          of the onboarding process helps attract users and
+                          clearly communicate the core values and purpose of our
+                          service.
+                        </div>
+                      </span>
+                      <span className="text-xl text-black flex flex-col gap-1">
+                        <span className="font-medium">
+                          ▸ Revenue Model Development:
+                        </span>
+                        <div className="ml-4">
+                          Lucid has the potential to expand its revenue model by
+                          offering the service to companies. The app can be used
+                          to support employees' personal growth goals or to
+                          communicate the company's vision and development
+                          direction with team members.
+                        </div>
+                      </span>
                     </div>
                   </div>
                 </div>
                 {/* Areas to Improve Ends */}
-
-                {/* Scalable Parts Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🏗️</span>{' '}
-                    <span>Scalable Parts</span>
-                  </h3>
-
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ User Flow:</span>
-                        <div className="ml-4">
-                          We have mapped out the entry points of key features
-                          and flow toward achieving user goals.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={UserFlowImg}
-                              alt="Information Architecture"
-                            />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Scalable Parts Ends */}
               </div>
             </section>
           </div>
