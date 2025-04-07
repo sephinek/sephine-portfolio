@@ -1,5 +1,7 @@
 import LucidImg from '../assets/lucid.png';
 import LocalFreshImg from '../assets/local-fresh.png';
+import HyundaiCardImg from '../assets/hyundai-card.png';
+import NBCampImg from '../assets/nb-camp.png';
 import ProjectItem from './ProjectItem';
 import SectionTitle from './SectionTitle';
 
@@ -26,10 +28,10 @@ export default function ProjectsList() {
           to="/projects/hyundai-card"
           type="right"
           numOfScreens="2"
-          img={LucidImg}
-          alt="Lucid Vision Management App Design"
-          circleColor="bg-circle-lucid"
-          title="Hyundai Card Mobile App"
+          img={HyundaiCardImg}
+          alt="Hyundai Card App UX/UI Improvement"
+          circleColor="bg-circle-hyundai-card"
+          title="Hyundai Card App UX/UI Improvement"
           description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
         />
 
@@ -38,11 +40,12 @@ export default function ProjectsList() {
           to="/projects/sparta-coding-nb-camp"
           type="left"
           numOfScreens="2"
-          img={LucidImg}
-          alt="Sparta Coding NB Camp Website"
-          circleColor="bg-circle-lucid"
+          img={NBCampImg}
+          alt="Sparta Coding NB Camp Website UX Improvement"
+          circleColor="bg-circle-np-camp"
           title="Sparta Coding NB Camp Website UX Improvement"
           description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
+          imgWidth="w-[65%]"
         />
 
         {/* Project 04 */}

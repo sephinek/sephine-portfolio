@@ -9,6 +9,7 @@ export default function ProjectItem({
   alt,
   title,
   description,
+  imgWidth,
 }) {
   return (
     <li className="flex gap-10 items-center">
@@ -20,7 +21,11 @@ export default function ProjectItem({
         <div
           className={`-z-10 absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
         ></div>
-        <img className="w-[80%] h-auto rounded-[33px]" src={img} alt={alt} />
+        <img
+          className={`${imgWidth ? imgWidth : 'w-[80%]'} h-auto rounded-[33px]`}
+          src={img}
+          alt={alt}
+        />
       </div>
 
       <div
