@@ -37,7 +37,7 @@ import QAImg from '../../assets/lucid-qa.png';
 
 export default function Lucid() {
   return (
-    <section className="py-6 text-base leading-loose tracking-wider">
+    <section className="pt-6 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
         <section className="max-w-7xl mx-auto flex flex-col gap-10 w-full">
           <div className="flex flex-col gap-8 max-w-[85%] mx-auto">
@@ -1931,8 +1931,13 @@ export default function Lucid() {
                 </div>
                 {/* Areas to Improve Ends */}
               </div>
+
+              <span className="self-center py-10 text-2xl">
+                Thank you for reading my case study!
+              </span>
             </section>
           </div>
+
           {/* Retrospect ends */}
         </section>
       </div>

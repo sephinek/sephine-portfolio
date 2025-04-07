@@ -1,3 +1,3 @@
 export default function Playground() {
-  return <div>Playground Page</div>;
+  return <div>Playground Page / Currently buidling! ⚒️</div>;
 }

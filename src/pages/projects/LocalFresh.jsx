@@ -1,3 +1,3 @@
 export default function LocalFresh() {
-  return <div>Local Fresh Page</div>;
+  return <div>Local Fresh Page / Currently Updating! ⚒️</div>;
 }

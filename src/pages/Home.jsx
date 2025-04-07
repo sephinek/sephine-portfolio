@@ -14,16 +14,18 @@ export default function Home() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto ">
-      <Hero onClickDesignAndCode={scrollToProjects} />
-      <Divider icon="⛳️" />
-      <section ref={projectsRef}>
-        <ProjectsList />
-      </section>
-      <Divider icon="⛳️" />
+    <section>
+      <div className="max-w-7xl mx-auto">
+        <Hero onClickDesignAndCode={scrollToProjects} />
+        <span ref={projectsRef}>
+          <Divider icon="⛳️" />
+        </span>
+        <section>
+          <ProjectsList />
+        </section>
+        <Divider icon="⛳️" />
+      </div>
       <Testimonials />
-
-      <div></div>
     </section>
   );
 }
