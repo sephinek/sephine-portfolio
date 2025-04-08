@@ -111,7 +111,7 @@ export default function Lucid() {
                   </span>
                   <span className="text-base text-mediumgrey">
                     Product Designer (Market Research, User Research, Branding,
-                    Character Design, Screen Designs, Prototyping, Coding),
+                    Character Design, Screen Designs, Prototyping),
                     <br />
                     Frontend Developer
                   </span>

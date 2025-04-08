@@ -22,12 +22,16 @@ export default function NavBar() {
       >
         Playground
       </Link>
-      <Link
-        to="/resume"
+      <a
+        download
+        href="/resume_soohyun_kang.pdf"
+        target="_blank"
+        alt="Download resume"
+        title="Resume"
         className="transition-all duration-100 ease-in hover:text-hover-btn"
       >
-        Résumé
-      </Link>
+        Resume
+      </a>
 
       <Button to="/contact" label="Contact" />
     </nav>

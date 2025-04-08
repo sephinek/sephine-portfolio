@@ -32,7 +32,6 @@ createRoot(document.getElementById('root')).render(
             element={<SpartaCodingNBCamp />}
           />
           <Route path="projects/local-fresh" element={<LocalFresh />} />
-          <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

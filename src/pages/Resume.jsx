@@ -1,3 +1,13 @@
 export default function Resume() {
-  return <div>Resume / Currently buidling! ⚒️</div>;
+  return (
+    <a
+      download
+      href="/resume_soohyun_kang.pdf"
+      target="_blank"
+      alt="Download resume"
+      title="Resume"
+    >
+      <SiReaddotcv />
+    </a>
+  );
 }
