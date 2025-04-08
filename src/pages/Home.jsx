@@ -1,7 +1,7 @@
+import { useRef } from 'react';
 import Hero from '../components/Hero';
 import Divider from '../components/shared/Divider';
 import Recommendations from '../components/Recommendations';
-import { useRef } from 'react';
 import ProjectsList from '../components/ProjectsList';
 
 export default function Home() {

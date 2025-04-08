@@ -36,6 +36,8 @@ import NetlifyIcon from '../../assets/netlify.png';
 import QAImg from '../../assets/lucid-qa.png';
 
 export default function Lucid() {
+  window.lenis?.scrollTo(0);
+
   return (
     <section className="pt-6 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
