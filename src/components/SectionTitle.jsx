@@ -4,7 +4,7 @@ export default function SectionTitle({
   color = 'darkgrey',
 }) {
   return (
-    <h3 className={`font-medium text-4xl py-4 text-${align} text-${color}`}>
+    <h3 className={`tracking-normal text-4xl py-4 text-${align} text-${color}`}>
       {title}
     </h3>
   );

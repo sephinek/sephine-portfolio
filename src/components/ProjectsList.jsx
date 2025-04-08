@@ -7,7 +7,7 @@ import SectionTitle from './SectionTitle';
 
 export default function ProjectsList() {
   return (
-    <section className="flex flex-col gap-12 p-14">
+    <section className="flex flex-col gap-12 p-14 pb-32">
       <SectionTitle title="Projects" />
 
       <ul className="text-lg flex flex-col gap-26">

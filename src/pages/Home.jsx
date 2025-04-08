@@ -1,6 +1,6 @@
 import Hero from '../components/Hero';
 import Divider from '../components/shared/Divider';
-import Testimonials from '../components/Testimonials';
+import Recommendations from '../components/Recommendations';
 import { useRef } from 'react';
 import ProjectsList from '../components/ProjectsList';
 
@@ -23,9 +23,9 @@ export default function Home() {
         <section>
           <ProjectsList />
         </section>
-        <Divider icon="⛳️" />
+        {/* <Divider icon="⛳️" /> */}
       </div>
-      <Testimonials />
+      <Recommendations />
     </section>
   );
 }
