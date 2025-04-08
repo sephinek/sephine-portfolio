@@ -13,7 +13,7 @@ export default function ProjectsList() {
     <section className="flex flex-col gap-12 p-14 pb-32 max-w-7xl mx-auto">
       <SectionTitle title="Projects" />
 
-      <ul className="text-lg flex flex-col gap-26">
+      <ul className="text-lg flex flex-col gap-20">
         {/* Project 01 */}
         <SlideInFromBottom>
           <ProjectItem
