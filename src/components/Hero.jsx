@@ -62,7 +62,7 @@ export default function Hero({ onClickDesignAndCode }) {
             onClick={() => navigate('playground')}
             className="text-[15px] tracking-wide inline px-3 py-[3px] bg-secondary rounded-full text-white border-[1px] border-lightgrey font-medium cursor-pointer transition-all duration-300 ease-in-out hover:-translate-y-1"
           >
-            Play(Drawing)
+            Playground(Drawing)
           </li>
         </ul>
 

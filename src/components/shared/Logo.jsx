@@ -6,7 +6,7 @@ export default function Logo() {
       to="/"
       className="transition-all duration-100 ease-in hover:text-primary"
     >
-      <h1>Sephine Kang</h1>
+      <h1 className="tracking-tighter">Sephine Kang</h1>
     </Link>
   );
 }
