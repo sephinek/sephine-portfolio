@@ -34,9 +34,7 @@ export default function ProjectItem({
         } flex flex-col items-center gap-12 mx-auto`}
       >
         <div className="flex flex-col gap-6 w-[90%]">
-          <h4 className="font-noraml text-3xl text-darkgrey font-medium">
-            {title}
-          </h4>
+          <h4 className="text-3xl text-darkgrey font-medium">{title}</h4>
           <p className=" leading-normal text-grey">{description}</p>
         </div>
         <Button to={to} label="Read more" w="w-[90%]" py="py-2" />
