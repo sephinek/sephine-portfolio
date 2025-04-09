@@ -6,8 +6,8 @@ export default function Hero({ onClickDesignAndCode }) {
   const navigate = useNavigate();
 
   return (
-    <section className="py-16 px-16 flex flex-col gap-16 cursor-default">
-      <h2 className="text-darkgrey flex flex-col text-[44px] leading-relaxed tracking-tight">
+    <section className="py-24 px-16 flex flex-col gap-10 cursor-default">
+      <h2 className="text-darkgrey flex flex-col text-[40px] leading-relaxed tracking-tight">
         <div className="flex gap-3">
           <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
             Hi, friend!🙋🏻‍♀️
@@ -68,7 +68,7 @@ export default function Hero({ onClickDesignAndCode }) {
 
         <div
           onClick={onClickDesignAndCode}
-          className="text-grey text-lg inline-flex items-center gap-1 cursor-pointer w-fit"
+          className="text-grey text-lg inline-flex items-end gap-1 cursor-pointer w-fit"
         >
           <span className="font-medium">Want to learn about me?</span>
           <HiMiniArrowLongDown className="animate-bounce" />

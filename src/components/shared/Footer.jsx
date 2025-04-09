@@ -35,7 +35,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <span className="text-sm">ⓒ 2025 Soo Hyun (Sephine) Kang</span>
+      <span className="text-sm tracking-normal">
+        ⓒ 2025 Soo Hyun (Sephine) Kang
+      </span>
     </footer>
   );
 }

@@ -30,11 +30,13 @@ export default function ProjectItem({
 
       <div
         className={`${type === 'left' ? 'order-2' : 'order-1'} ${
-          numOfScreens === '1' ? 'w-[45%]' : 'w-[40%]'
+          numOfScreens === '1' ? 'max-w-[45%]' : 'max-w-[40%]'
         } flex flex-col items-center gap-12 mx-auto`}
       >
         <div className="flex flex-col gap-6 w-[90%]">
-          <h4 className="text-3xl text-darkgrey font-medium">{title}</h4>
+          <h4 className="text-3xl text-darkgrey font-medium tracking-normal">
+            {title}
+          </h4>
           <p className=" leading-normal text-grey">{description}</p>
         </div>
         <Button to={to} label="Read more" w="w-[90%]" py="py-2" />

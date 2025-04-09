@@ -25,6 +25,7 @@ export default function ProjectsList() {
             circleColor="bg-circle-lucid"
             title="Lucid: Vision Management App"
             description="In a market driven by short-term goals and instant rewards, Lucid helps users uncover the deeper purpose behind their plans. Rather than just completing tasks, it empowers them to pursue meaningful goals with clarity and motivation."
+            imgWidth="w-[90%]"
           />
         </SlideInFromBottom>
 
@@ -39,6 +40,7 @@ export default function ProjectsList() {
             circleColor="bg-circle-hyundai-card"
             title="Hyundai Card App UX/UI Improvement"
             description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
+            imgWidth="w-[75%]"
           />
         </SlideInFromBottom>
 
@@ -53,7 +55,7 @@ export default function ProjectsList() {
             circleColor="bg-circle-np-camp"
             title="Sparta Coding NB Camp Website UX Improvement"
             description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
-            imgWidth="w-[65%]"
+            imgWidth="w-[70%]"
           />
         </SlideInFromBottom>
 
@@ -69,6 +71,7 @@ export default function ProjectsList() {
             description="Customers want to conveniently order fresh local produce at
           competitive prices, with a reliable and efficient delivery
           system ensuring minimal wait times."
+            imgWidth="w-[70%]"
           />
         </SlideInFromBottom>
       </ul>
