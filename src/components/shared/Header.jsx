@@ -1,18 +1,18 @@
-import { Link, useLocation } from 'react-router-dom';
+// import { Link, useLocation } from 'react-router-dom';
 import Logo from './Logo';
 import NavBar from './NavBar';
 import { useEffect, useState } from 'react';
 
 export default function Header() {
   const [isLoaded, setIsLoaded] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
-  const handleClick = (e) => {
-    if (location.pathname === '/') {
-      e.preventDefault();
-      window.lenis?.scrollTo(0);
-    }
-  };
+  // const handleClick = (e) => {
+  //   if (location.pathname === '/') {
+  //     e.preventDefault();
+  //     window.lenis?.scrollTo(0);
+  //   }
+  // };
 
   useEffect(() => {
     setTimeout(() => setIsLoaded(true), 300);
@@ -26,13 +26,13 @@ export default function Header() {
     >
       <div className="flex justify-between items-center h-full max-w-7xl w-[97%] mx-auto relative">
         <Logo />
-        <Link
+        {/* <Link
           to="/"
           onClick={handleClick}
           className="text-2xl absolute left-[50%] -translate-x-[50%] transition-all duration-200 ease-in-out hover:scale-110"
         >
           🌳
-        </Link>
+        </Link> */}
         <NavBar />
       </div>
     </header>

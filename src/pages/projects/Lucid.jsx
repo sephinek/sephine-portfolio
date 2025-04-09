@@ -1935,7 +1935,7 @@ export default function Lucid() {
               </div>
 
               <span className="self-center py-10 text-2xl">
-                Thank you for reading my case study!
+                Thank you for reading my case study! 🐈‍⬛
               </span>
             </section>
           </div>

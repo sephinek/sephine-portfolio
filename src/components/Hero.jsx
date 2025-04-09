@@ -6,7 +6,7 @@ export default function Hero({ onClickDesignAndCode }) {
   const navigate = useNavigate();
 
   return (
-    <section className="py-24 px-16 flex flex-col gap-10 cursor-default">
+    <section className="py-16 px-16 flex flex-col gap-10 cursor-default">
       <h2 className="text-darkgrey flex flex-col text-[40px] leading-relaxed tracking-tight">
         <div className="flex gap-3">
           <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
