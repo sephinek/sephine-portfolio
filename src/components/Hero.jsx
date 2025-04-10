@@ -1,5 +1,6 @@
 import { SlLocationPin } from 'react-icons/sl';
-import { HiMiniArrowLongDown } from 'react-icons/hi2';
+import { IoCaretDownOutline } from 'react-icons/io5';
+
 import { useNavigate } from 'react-router-dom';
 
 export default function Hero({ onClickDesignAndCode }) {
@@ -68,10 +69,10 @@ export default function Hero({ onClickDesignAndCode }) {
 
         <div
           onClick={onClickDesignAndCode}
-          className="text-grey text-lg inline-flex items-end gap-1 cursor-pointer w-fit"
+          className="text-grey text-lg inline-flex items-end gap-2 cursor-pointer w-fit"
         >
           <span className="font-medium">Want to learn about me?</span>
-          <HiMiniArrowLongDown className="animate-bounce" />
+          <IoCaretDownOutline className="animate-bounce text-sm" />
         </div>
       </div>
     </section>
