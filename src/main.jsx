@@ -11,7 +11,6 @@ import Lucid from './pages/projects/Lucid';
 import HyundaiCard from './pages/projects/HyundaiCard';
 import SpartaCodingNBCamp from './pages/projects/SpartaCodingNBCamp';
 import LocalFresh from './pages/projects/LocalFresh';
-import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 import './index.css';

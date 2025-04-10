@@ -1,8 +1,9 @@
+import { useEffect, useRef, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Lenis from 'lenis';
 import Header from './components/shared/Header';
 import Footer from './components/shared/Footer';
-import { useEffect, useRef, useState } from 'react';
+import ScrollToTop from './components/shared/ScrollToTop';
 
 function App() {
   const [isContentVisible, setIsContentVisible] = useState(false);
@@ -31,10 +32,11 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="relative flex flex-col min-h-screen">
       <Header />
+      <ScrollToTop />
       <main
-        className={`pt-24 transition-all duration-1000 ${
+        className={`grow pt-24 transition-all duration-1000 ${
           isContentVisible
             ? 'translate-y-0 opacity-100'
             : 'translate-y-[0px] opacity-0'
@@ -42,8 +44,9 @@ function App() {
       >
         <Outlet />
       </main>
+      <div id="footer-sentinel" className="w-full h-0" />
       <Footer />
-    </>
+    </div>
   );
 }
 

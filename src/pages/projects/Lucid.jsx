@@ -1934,8 +1934,8 @@ export default function Lucid() {
                 {/* Areas to Improve Ends */}
               </div>
 
-              <span className="self-center py-10 text-2xl">
-                Thank you for reading my case study! 🐈‍⬛
+              <span className="self-center py-10 text-lg">
+                Thank you for reading my case study! 🌿
               </span>
             </section>
           </div>
