@@ -70,7 +70,14 @@ export default function About() {
           <div className="flex flex-col gap-2 tracking-normal text-mediumgrey">
             <p>‣ 🐈‍⬛ Spending time with my cat, Berry</p>
             <p>‣ 🎮 Getting cozy with *Stardew Valley*</p>
-            <p>‣ 📖 Finding insights from thoughtful design books</p>
+            <p>
+              ‣ 📖 Finding insights from thoughtful design books—Recently read{' '}
+              <span className="italic">Design Trap</span>,{' '}
+              <span className="italic">
+                Product: Mastering Service Planning That Captivates Users
+              </span>
+              , and <span className="italic">Growth Hacking</span>
+            </p>
             <p>‣ 👩🏻‍💻 Loving tech that makes life easier</p>
             <p>‣ 🖊️ Jotting down ideas with notebooks and pens</p>
             <p>‣ 👩 Curious about MBTI—I currently test as an 'INTJ'</p>
