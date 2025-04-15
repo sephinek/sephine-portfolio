@@ -28,14 +28,14 @@ export default function NavBar() {
       >
         Projects
       </Link>
-      <Link
+      {/* <Link
         to="/playground"
         className={`${
           currentPathname === '/playground' ? 'text-hover-btn' : ''
         } transition-all duration-100 ease-in hover:text-hover-btn`}
       >
         Playground
-      </Link>
+      </Link> */}
       <a
         download
         href="/resume_soohyun_kang.pdf"

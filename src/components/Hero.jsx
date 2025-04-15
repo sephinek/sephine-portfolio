@@ -1,10 +1,10 @@
 import { SlLocationPin } from 'react-icons/sl';
 import { IoCaretDownOutline } from 'react-icons/io5';
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 export default function Hero({ onClickDesignAndCode }) {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <section className="py-16 px-16 flex flex-col gap-10 cursor-default">
@@ -37,7 +37,7 @@ export default function Hero({ onClickDesignAndCode }) {
       </h2>
 
       <div className="flex flex-col gap-4">
-        <ul className="flex gap-2">
+        {/* <ul className="flex gap-2">
           <li
             onClick={onClickDesignAndCode}
             className="text-[15px] tracking-wide inline px-3 py-1 bg-secondary rounded-full text-white border-[1px] border-lightgrey font-medium cursor-pointer transition-all duration-300 ease-in-out hover:-translate-y-1"
@@ -65,7 +65,7 @@ export default function Hero({ onClickDesignAndCode }) {
           >
             Playground(Drawing)
           </li>
-        </ul>
+        </ul> */}
 
         <div
           onClick={onClickDesignAndCode}
