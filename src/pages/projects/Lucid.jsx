@@ -1934,7 +1934,7 @@ export default function Lucid() {
                 {/* Areas to Improve Ends */}
               </div>
 
-              <span className="self-center py-10 text-lg">
+              <span className="self-center py-10 text-base tracking-normal">
                 Thank you for reading my case study! 🌿
               </span>
             </section>
