@@ -92,8 +92,8 @@ export default function Lucid() {
                   className="underline text-base text-primary"
                 >
                   <span className="font-bold">→ View Final Prototype</span>{' '}
-                  (Korean version / Recommended: Use your mobile device or
-                  Responsive Design Mode in Chrome DevTools)
+                  (Recommended: Use your mobile device or Responsive Design Mode
+                  in Chrome DevTools)
                 </a>
                 <a
                   href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=87%3A84482&node-id=87-86179&viewport=-208%2C-147%2C0.13&t=ZLxBvMD6bDTUGliH-1&scaling=min-zoom&content-scaling=fixed"
@@ -101,8 +101,7 @@ export default function Lucid() {
                   rel="noopener noreferrer"
                   className="underline text-base text-primary"
                 >
-                  <span className="font-bold">→ View Figma Prototype</span>{' '}
-                  (English version)
+                  <span className="font-bold">→ View Figma Prototype</span>
                 </a>
               </div>
 
@@ -167,7 +166,7 @@ export default function Lucid() {
                 </h3>
                 <ul className="flex items-center gap-2 flex-wrap text-[13px]">
                   <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
-                    Discovery & Research
+                    Discovery
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -185,19 +184,19 @@ export default function Lucid() {
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
-                    Wireframing & Prototyping
+                    Wireframing
+                  </li>
+                  <span>
+                    <CgArrowLongRight className="text-mediumgrey" />
+                  </span>
+                  <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
+                    Prototyping
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
                     User Testing
-                  </li>
-                  <span>
-                    <CgArrowLongRight className="text-mediumgrey" />
-                  </span>
-                  <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
-                    Iteration
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -215,7 +214,7 @@ export default function Lucid() {
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
-                    Implementation & Development
+                    Development
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -1934,7 +1933,7 @@ export default function Lucid() {
                 {/* Areas to Improve Ends */}
               </div>
 
-              <span className="self-center py-10 text-base tracking-normal">
+              <span className="self-center py-10 tracking-normal">
                 Thank you for reading my case study! 🌿
               </span>
             </section>
