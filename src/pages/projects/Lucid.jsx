@@ -1330,7 +1330,6 @@ export default function Lucid() {
                               src={FigmaIcon}
                               alt="Figma icon"
                             />
-                            <span className="text-sm">English Version</span>
                           </a>
                         </div>
                         <div className="flex gap-1">
@@ -1348,9 +1347,8 @@ export default function Lucid() {
                               alt="Netlify icon"
                             />
                             <span className="text-sm">
-                              Korean Version / (Recommended: Use your mobile
-                              device or Responsive Design Mode in Chrome
-                              DevTools)
+                              (Recommended: Use your mobile device or Responsive
+                              Design Mode in Chrome DevTools)
                             </span>
                           </a>
                         </div>
