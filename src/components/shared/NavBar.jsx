@@ -38,7 +38,7 @@ export default function NavBar() {
       </Link> */}
       <a
         download
-        href="/resume_soohyun_kang.pdf"
+        href="/Soohyun_Kang_Resume.pdf"
         target="_blank"
         alt="Download resume"
         title="Resume"
