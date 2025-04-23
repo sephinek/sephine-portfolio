@@ -16,7 +16,7 @@ export default function About() {
                 <h3 className="font-medium text-xl">❥&nbsp;goal</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed">
+              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed tracking-normal">
                 <p>
                   ‣ To design products that not only work well but mean
                   something—guiding users to take action, reflect, and grow.
@@ -38,7 +38,7 @@ export default function About() {
                 <h3 className="font-medium text-xl">❥&nbsp;bio</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed">
+              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed tracking-normal">
                 <p>
                   ‣ Born and raised in Seoul, South Korea, where I cultivated a
                   love for words and systems.
@@ -72,7 +72,7 @@ export default function About() {
                 <h3 className="font-medium text-xl">❥&nbsp;values</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed">
+              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed tracking-normal">
                 <p>‣ Dream with direction.</p>
                 <p>‣ Stay honest, stay kind.</p>
                 <p>‣ Use clarity to build confidence.</p>
@@ -85,7 +85,7 @@ export default function About() {
                 <h3 className="font-medium text-xl">❥&nbsp;favorites</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed">
+              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed tracking-normal">
                 <p>‣ 🐈‍⬛ My co-designer at home: Berry the cat</p>
                 <p>‣ 🎮 Cozy gaming nights with Stardew Valley</p>
                 <p>
