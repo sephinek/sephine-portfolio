@@ -17,12 +17,12 @@ export default function Recommendations() {
                     Sephine has a rare ability to bridge design and development,
                     enabling smooth communication and thoughtful UI decisions.
                     Her{' '}
-                    <span className="font-bold text-primary-variable">
+                    <span className="font-bold text-black">
                       structural understanding and problem-solving mindset
                     </span>{' '}
                     brought clarity and efficiency to our project. Above all,
                     her leadership and calm communication created a{' '}
-                    <span className="font-bold text-primary-variable">
+                    <span className="font-bold text-black">
                       highly collaborative and positive team environment
                     </span>
                     . I believe these strengths will be powerful assets in any
@@ -55,9 +55,7 @@ export default function Recommendations() {
                   <p className="px-8 tracking-normal">
                     Sephine naturally leads and organizes teams with clarity and
                     purpose. Her{' '}
-                    <span className="font-bold text-primary-variable">
-                      leadership
-                    </span>{' '}
+                    <span className="font-bold text-black">leadership</span>{' '}
                     isn't just tied to her technical expertise, but to her
                     ability to foster a collaborative and motivating
                     environment. Even without a formal title, she demonstrates
@@ -95,7 +93,7 @@ export default function Recommendations() {
                     project. She skillfully coordinated diverse opinions while
                     staying focused on the goal. With her broad perspective in
                     both UX and UI, and her{' '}
-                    <span className="font-bold text-primary-variable">
+                    <span className="font-bold text-black">
                       strong dedication
                     </span>
                     , I'm confident she'll thrive in any global setting. I fully
