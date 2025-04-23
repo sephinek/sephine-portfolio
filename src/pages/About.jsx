@@ -108,7 +108,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="h-auto w-[35%] sticky right-0 top-24 opacity-80">
+          <div className="h-auto w-[30%] opacity-80">
             <img
               src={ProfileImg}
               alt="Sephine's profile image"
