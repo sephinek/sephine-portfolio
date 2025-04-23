@@ -72,7 +72,7 @@ export default function About() {
                 <h3 className="font-medium text-xl">❥&nbsp;values</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 uppercase text-mediumgrey leading-relaxed">
+              <div className="flex flex-col gap-2 text-mediumgrey leading-relaxed">
                 <p>‣ Dream with direction.</p>
                 <p>‣ Stay honest, stay kind.</p>
                 <p>‣ Use clarity to build confidence.</p>
