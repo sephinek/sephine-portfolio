@@ -101,7 +101,9 @@ export default function About() {
                   ‣ 🖊️ I keep my best ideas in ink—analog tools for a digital
                   mind
                 </p>
-                <p>‣ 👩 Currently testing as INFJ—makes sense, doesn’t it?</p>
+                <p>
+                  ‣ 👩 Currently testing as INFJ—makes sense, doesn’t it? 😌
+                </p>
               </div>
             </div>
           </div>
