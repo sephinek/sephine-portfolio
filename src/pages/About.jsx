@@ -80,6 +80,7 @@ export default function About() {
 
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
+                1234
                 <h3 className="font-medium text-xl">❥&nbsp;Values</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
