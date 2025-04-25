@@ -11,7 +11,7 @@ export default function SlideInFromSide({ children, directionFrom = 'left' }) {
       animate(
         scope.current,
         { x: 0, opacity: 1 },
-        { ease: 'easeInOut', duration: 0.75 }
+        { type: 'spring', stiffness: 50, damping: 16, mass: 0.5, delay: 0.1 }
       );
     }
   }, [isInView, animate, scope]);
@@ -20,11 +20,7 @@ export default function SlideInFromSide({ children, directionFrom = 'left' }) {
 
   return (
     <motion.div ref={ref} className="w-full">
-      <motion.div
-        ref={scope}
-        initial={{ x: initialX, opacity: 0 }}
-        animate={{ x: initialX, opacity: 0 }}
-      >
+      <motion.div ref={scope} initial={{ x: initialX, opacity: 0 }}>
         {children}
       </motion.div>
     </motion.div>

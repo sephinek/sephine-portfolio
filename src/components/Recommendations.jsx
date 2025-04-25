@@ -1,5 +1,5 @@
-import SectionTitle from './SectionTitle';
 import { VscQuote } from 'react-icons/vsc';
+import SectionTitle from './SectionTitle';
 import SlideInFromSide from './SlideInFromSide';
 
 export default function Recommendations() {
