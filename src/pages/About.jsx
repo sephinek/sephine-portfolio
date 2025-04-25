@@ -1,6 +1,8 @@
 import ProfileImg from '../assets/profile.png';
 
 export default function About() {
+  window.lenis?.scrollTo(0);
+
   return (
     <section className="max-w-7xl mx-auto relative">
       <div className="flex flex-col items-start pl-[20%] p-10 pb-20 gap-24">
