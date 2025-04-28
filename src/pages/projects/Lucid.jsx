@@ -1936,7 +1936,6 @@ export default function Lucid() {
               </span>
             </section>
           </div>
-
           {/* Retrospect ends */}
         </section>
       </div>
