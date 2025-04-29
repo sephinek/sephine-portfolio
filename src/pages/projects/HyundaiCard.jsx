@@ -538,12 +538,7 @@ export default function HyundaiCard() {
                           like ‘coupon’ and ‘benefit,’ Hyundai Card’s
                           proprietary 3-Tier System lacks intuitive clarity,
                           making it difficult for users to understand and
-                          navigate.{' '}
-                          <span className="font-medium">
-                            "3-Tier Benefits System"{' '}
-                          </span>
-                          to deliver more personalized and effective rewards to
-                          its users.
+                          navigate.
                         </div>
                       </span>
                       <div className="flex flex-col gap-4 items-center py-4">
