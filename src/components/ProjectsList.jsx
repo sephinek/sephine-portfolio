@@ -23,8 +23,8 @@ export default function ProjectsList() {
             img={LucidImg}
             alt="Lucid Vision Management App Design"
             circleColor="bg-circle-lucid"
-            title="Lucid: Vision Management App"
-            description="In a market driven by short-term goals and instant rewards, Lucid helps users uncover the deeper purpose behind their plans. Rather than just completing tasks, it empowers them to pursue meaningful goals with clarity and motivation."
+            title="Lucid: Vision Management App | End-to-End Product Design"
+            description="Lucid helps users move beyond short-term achievements, guiding them to uncover deeper motivations and pursue meaningful goals with clarity and sustained drive."
             imgWidth="w-[90%]"
           />
         </SlideInFromBottom>
@@ -36,10 +36,10 @@ export default function ProjectsList() {
             type="right"
             numOfScreens="2"
             img={HyundaiCardImg}
-            alt="Hyundai Card App UX/UI Improvement"
+            alt="Hyundai Card: Mobile App UX/UI Redesign"
             circleColor="bg-circle-hyundai-card"
-            title="Hyundai Card App UX/UI Improvement"
-            description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
+            title="Hyundai Card: Mobile App UX/UI Redesign"
+            description="Redesigned Hyundai Card’s unique benefits system to make it more intuitive and user-friendly, while preserving its original concept."
             imgWidth="w-[75%]"
           />
         </SlideInFromBottom>
@@ -51,10 +51,10 @@ export default function ProjectsList() {
             type="left"
             numOfScreens="2"
             img={NBCampImg}
-            alt="Sparta Coding NB Camp Website UX Improvement"
+            alt="Education App: Mobile Web UX/UI Improvement"
             circleColor="bg-circle-np-camp"
-            title="Sparta Coding NB Camp Website UX Improvement"
-            description="Lucid aligns users with their vision, boosting inner motivation and streamlining the achievement process to bridge the gap between mindset and goals."
+            title="Education App: Mobile Web UX/UI Improvement"
+            description="LFocused on improving the UX/UI of the education mobile website, I enhanced the core user flow to make it easier and more intuitive for students to apply for classes."
             imgWidth="w-[70%]"
           />
         </SlideInFromBottom>
@@ -65,9 +65,9 @@ export default function ProjectsList() {
             to="/projects/local-fresh"
             type="right"
             img={LocalFreshImg}
-            alt="Local Fresh: E-commerce App Design"
+            alt="Local Fresh: E-Commerce App for Local Produce | UI Design"
             circleColor="bg-circle-local-fresh"
-            title="Local Fresh E-Commerce App"
+            title="Local Fresh: E-Commerce App for Local Produce | UI Design"
             description="Customers want to conveniently order fresh local produce at
           competitive prices, with a reliable and efficient delivery
           system ensuring minimal wait times."

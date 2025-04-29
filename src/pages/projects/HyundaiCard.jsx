@@ -135,11 +135,9 @@ export default function HyundaiCard() {
                   What is the problem?
                 </h3>
                 <p className="text-darkgrey">
-                  With numerous productive apps designed to help us maintain our
-                  routines,{' '}
-                  <span className="text-black italic underline">
-                    why do we still struggle to achieve our goals successfully?
-                  </span>
+                  The Hyundai Card app developed its unique 3-Tier Benefit
+                  System, but its concept and usage are not intuitive to users,
+                  leading to inconvenience and reduced usability.
                 </p>
               </div>
 
@@ -167,7 +165,19 @@ export default function HyundaiCard() {
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
+                    Market Research
+                  </li>
+                  <span>
+                    <CgArrowLongRight className="text-mediumgrey" />
+                  </span>
+                  <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
                     Competitor Analysis
+                  </li>
+                  <span>
+                    <CgArrowLongRight className="text-mediumgrey" />
+                  </span>
+                  <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
+                    Focus Group Interview
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -179,7 +189,13 @@ export default function HyundaiCard() {
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
-                    Problem Definition
+                    Problems Definition
+                  </li>
+                  <span>
+                    <CgArrowLongRight className="text-mediumgrey" />
+                  </span>
+                  <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
+                    HMW
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -197,7 +213,7 @@ export default function HyundaiCard() {
                     <CgArrowLongRight className="text-mediumgrey" />
                   </span>
                   <li className="text-hyundai-card-opacity font-medium rounded-lg p-2 border-[1px] border-hyundai-card-opacity flex items-center justify-center shrink-0">
-                    Screen Designs
+                    Screen Design
                   </li>
                 </ul>
               </div>
@@ -565,7 +581,7 @@ export default function HyundaiCard() {
                         <div className="ml-4">
                           Due to limited project time, we conducted a focus
                           group interview with three target users who have
-                          experience using the Hyundai Card app. \
+                          experience using the Hyundai Card app.
                         </div>
                       </span>
                       <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
@@ -704,7 +720,7 @@ export default function HyundaiCard() {
                       <img
                         src={ProblemDefinitionImg}
                         alt="Identifies the cord issue point and the churn point"
-                        className="rounded-2xl"
+                        className="rounded-2xl border-[1px] border-lightergrey"
                       />
                     </li>
                   </ul>

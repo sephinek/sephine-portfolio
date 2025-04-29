@@ -1,5 +1,11 @@
 import { CgArrowLongRight } from 'react-icons/cg';
-import BannerImg01 from '../../assets/lucid-carousel01.png';
+import Slider from 'react-slick';
+
+import CarouselImg01 from '../../assets/lucid-carousel01.png';
+import CarouselImg02 from '../../assets/lucid-carousel02.png';
+import CarouselImg03 from '../../assets/lucid-carousel03.png';
+import CarouselImg04 from '../../assets/lucid-carousel04.png';
+import CarouselImg05 from '../../assets/lucid-carousel05.png';
 import MarketImg01 from '../../assets/lucid-market01.png';
 import MarketImg02 from '../../assets/lucid-market02.png';
 import MarketImg03 from '../../assets/lucid-market03.png';
@@ -24,7 +30,8 @@ import WireframesImg from '../../assets/lucid-wireframes.png';
 import IAImg from '../../assets/lucid-information-architecture.png';
 import UserFlowImg from '../../assets/lucid-user-flow.png';
 import NamingImg from '../../assets/lucid-naming.png';
-import CharacterImg from '../../assets/lucid-character.png';
+import CharacterImg01 from '../../assets/lucid-character01.png';
+import CharacterImg02 from '../../assets/lucid-character02.png';
 import AppLogosImg from '../../assets/lucid-app-logos.png';
 import DesignSystemImg01 from '../../assets/lucid-design-system01.png';
 import DesignSystemImg02 from '../../assets/lucid-design-system02.png';
@@ -38,6 +45,17 @@ import QAImg from '../../assets/lucid-qa.png';
 export default function Lucid() {
   window.lenis?.scrollTo(0);
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+  };
+
   return (
     <section className="pt-6 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
@@ -49,11 +67,43 @@ export default function Lucid() {
                 Lucid: Vision Management App
               </h2>
             </div>
-            <img
-              src={BannerImg01}
-              alt="Lucid app onboarding screens with vision input"
-              className="border-2 border-lightgrey rounded-4xl w-[95%] mx-auto"
-            />
+            <Slider {...settings}>
+              <div>
+                <img
+                  src={CarouselImg01}
+                  alt="image 1"
+                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                />
+              </div>
+              <div>
+                <img
+                  src={CarouselImg02}
+                  alt="image 2"
+                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                />
+              </div>
+              <div>
+                <img
+                  src={CarouselImg03}
+                  alt="image 3"
+                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                />
+              </div>
+              <div>
+                <img
+                  src={CarouselImg04}
+                  alt="image 4"
+                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                />
+              </div>
+              <div>
+                <img
+                  src={CarouselImg05}
+                  alt="image 5"
+                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                />
+              </div>
+            </Slider>
           </div>
         </section>
 
@@ -69,7 +119,7 @@ export default function Lucid() {
             <div className="flex flex-col gap-12">
               <div className="flex flex-col gap-4">
                 <p className="text-darkgrey">
-                  Lucid is a service designed to{' '}
+                  Lucid is a mobile app designed to{' '}
                   <span className="font-medium text-black">
                     help users discover their true motivation and achieve their
                     goals
@@ -112,7 +162,7 @@ export default function Lucid() {
                   </span>
                   <span className="text-base text-mediumgrey">
                     Product Designer (Market Research, User Research, Branding,
-                    Character Design, Screen Designs, Prototyping),
+                    Character Design, Wireframing, Screen Designs, Prototyping),
                     <br />
                     Frontend Developer
                   </span>
@@ -428,7 +478,7 @@ export default function Lucid() {
                     <span className="text-2xl">👥</span>{' '}
                     <span>User Research</span>
                   </h3>
-
+                  className='rounded-2xl'
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
@@ -570,6 +620,7 @@ export default function Lucid() {
                         <img
                           src={JourneyMapImg}
                           alt="Identifies the cord issue point and the churn point"
+                          className="rounded-2xl"
                         />
                       </div>
                     </div>
@@ -1009,6 +1060,7 @@ export default function Lucid() {
                             <img
                               src={WireframesImg}
                               alt="Goal-Setting Timeframe"
+                              className="rounded-2xl"
                             />
                           </li>
                         </ul>
@@ -1129,11 +1181,19 @@ export default function Lucid() {
                         </div>
                       </span>
                       <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[120%]">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
                           <li className="flex gap-2">
                             <img
-                              src={CharacterImg}
+                              src={CharacterImg01}
                               alt="Lucid character with bright red color and six edges"
+                              className="rounded-2xl"
+                            />
+                          </li>
+                          <li className="flex gap-2">
+                            <img
+                              src={CharacterImg02}
+                              alt="Lucid character with bright red color and six edges"
+                              className="w-full object-cover"
                             />
                           </li>
                         </ul>
@@ -1560,7 +1620,11 @@ export default function Lucid() {
                     <div className="flex flex-col gap-4 items-center py-4">
                       <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
                         <li className="flex gap-2">
-                          <img src={QAImg} alt="Notion QA Sheet" />
+                          <img
+                            src={QAImg}
+                            alt="Notion QA Sheet"
+                            className="border-[1px] border-lightergrey"
+                          />
                         </li>
                       </ul>
                     </div>
@@ -1910,7 +1974,7 @@ export default function Lucid() {
                           Displaying visuals of core features at the beginning
                           of the onboarding process helps attract users and
                           clearly communicate the core values and purpose of our
-                          service.
+                          className='rounded-2xl' service.
                         </div>
                       </span>
                       <span className="text-xl text-black flex flex-col gap-1">
