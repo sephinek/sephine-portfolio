@@ -554,9 +554,6 @@ export default function HyundaiCard() {
                               alt="The Most Important Factor to Consider When Choosing a Credit Card"
                               className="rounded-2xl"
                             />
-                            <span className="text-center text-grey font-medium">
-                              In-app Screens of the 3-Tier Benefits System
-                            </span>
                           </li>
                         </ul>
                       </div>
