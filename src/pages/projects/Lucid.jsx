@@ -478,7 +478,6 @@ export default function Lucid() {
                     <span className="text-2xl">👥</span>{' '}
                     <span>User Research</span>
                   </h3>
-                  className='rounded-2xl'
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
                       <span className="text-xl text-black flex flex-col gap-1">
@@ -1974,7 +1973,7 @@ export default function Lucid() {
                           Displaying visuals of core features at the beginning
                           of the onboarding process helps attract users and
                           clearly communicate the core values and purpose of our
-                          className='rounded-2xl' service.
+                          service.
                         </div>
                       </span>
                       <span className="text-xl text-black flex flex-col gap-1">
