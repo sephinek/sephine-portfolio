@@ -44,7 +44,7 @@ export default function ProjectsList() {
           />
         </SlideInFromBottom>
 
-        {/* Project 03 */}
+        {/* 
         <SlideInFromBottom>
           <ProjectItem
             to="/projects/sparta-coding-nb-camp"
@@ -59,7 +59,7 @@ export default function ProjectsList() {
           />
         </SlideInFromBottom>
 
-        {/* Project 04 */}
+
         <SlideInFromBottom>
           <ProjectItem
             to="/projects/local-fresh"
@@ -74,6 +74,7 @@ export default function ProjectsList() {
             imgWidth="w-[70%]"
           />
         </SlideInFromBottom>
+        */}
       </ul>
     </section>
   );
