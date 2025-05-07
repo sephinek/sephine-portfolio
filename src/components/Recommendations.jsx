@@ -6,15 +6,15 @@ export default function Recommendations() {
   return (
     <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightestgrey font-medium">
       <div className="max-w-6xl w-full mx-auto flex flex-col gap-16">
-        <SectionTitle title="What people are saying" />
+        <SectionTitle title="Recommendations" />
 
-        <ul className="max-w-[80%] mx-auto flex flex-col gap-8">
+        <ul className="max-w-[960px] mx-auto flex flex-col gap-10">
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-lightgrey flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
-                  <VscQuote className="text-primary" />
-                  <p className="px-8 tracking-wide">
+                  <VscQuote className="text-primary-opacity" />
+                  <p className="px-8 tracking-wider">
                     Sephine has a rare ability to bridge design and development,
                     enabling smooth communication and thoughtful UI decisions.
                     Her{' '}
@@ -29,9 +29,9 @@ export default function Recommendations() {
                     . I believe these strengths will be powerful assets in any
                     product design role.
                   </p>
-                  <VscQuote className="text-primary rotate-180 self-end" />
+                  <VscQuote className="text-primary-opacity rotate-180 self-end" />
                 </div>
-                <div className="flex flex-col items-center mx-auto">
+                <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
                     <span className="text-xl font-medium tracking-normal text-white">
                       Misoon Jang
@@ -49,11 +49,11 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="right">
-            <li className="p-8 border-[1px] border-lightgrey flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
-                  <VscQuote className="text-primary" />
-                  <p className="px-8 tracking-wide">
+                  <VscQuote className="text-primary-opacity" />
+                  <p className="px-8 tracking-wider">
                     Sephine naturally leads and organizes teams with clarity and
                     purpose. Her{' '}
                     <span className="font-bold text-primary">leadership</span>{' '}
@@ -63,9 +63,9 @@ export default function Recommendations() {
                     the kind of initiative and presence that makes teams thrive.
                     With continued growth, she's sure to shine in any setting.
                   </p>
-                  <VscQuote className="text-primary rotate-180 self-end" />
+                  <VscQuote className="text-primary-opacity rotate-180 self-end" />
                 </div>
-                <div className="flex flex-col items-center mx-auto">
+                <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
                     <span className="text-xl font-medium tracking-normal text-white">
                       Youngyoon Kim
@@ -85,11 +85,11 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-lightgrey flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
-                  <VscQuote className="text-primary" />
-                  <p className="px-8 tracking-wide">
+                  <VscQuote className="text-primary-opacity" />
+                  <p className="px-8 tracking-wider">
                     Sephine's leadership and drive stood out throughout the
                     project. She skillfully coordinated diverse opinions while
                     staying focused on the goal. With her broad perspective in
@@ -101,9 +101,9 @@ export default function Recommendations() {
                     support her journey and look forward to her continued
                     success.
                   </p>
-                  <VscQuote className="text-primary rotate-180 self-end" />
+                  <VscQuote className="text-primary-opacity rotate-180 self-end" />
                 </div>
-                <div className="flex flex-col items-center mx-auto">
+                <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
                     <span className="text-xl font-medium tracking-normal text-white">
                       Junghoon Pyo
