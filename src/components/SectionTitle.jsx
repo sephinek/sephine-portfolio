@@ -1,7 +1,7 @@
 export default function SectionTitle({
   title,
   align = 'center',
-  color = 'darkgrey',
+  color = 'lightestgrey',
 }) {
   return (
     <h3

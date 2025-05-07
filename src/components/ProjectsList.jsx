@@ -10,7 +10,7 @@ export default function ProjectsList() {
   window.lenis?.scrollTo(0);
 
   return (
-    <section className="flex flex-col gap-12 p-14 pb-32 max-w-7xl mx-auto">
+    <section className="flex flex-col gap-12 pt-20 pb-32 max-w-7xl mx-auto">
       <SectionTitle title="Projects" />
 
       <ul className="text-lg flex flex-col gap-20">

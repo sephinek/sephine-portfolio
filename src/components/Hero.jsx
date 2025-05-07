@@ -7,32 +7,27 @@ export default function Hero({ onClickDesignAndCode }) {
   // const navigate = useNavigate();
 
   return (
-    <section className="py-16 px-16 flex flex-col gap-10 cursor-default">
-      <h2 className="text-darkgrey flex flex-col text-[40px] leading-relaxed tracking-tight">
-        <div className="flex gap-3">
-          <span className="transition-all duration-350 ease-in-out hover:-rotate-4">
-            Hi, friend!🙋🏻‍♀️
-          </span>
-          <span>
-            I'm <span className="text-primary font-medium">Sephine</span>,
+    <section className="py-16 flex flex-col gap-10 cursor-default">
+      <h2 className="flex flex-col font-medium font-display text-white text-5xl leading-relaxed tracking-tight">
+        <div className="flex gap-3 whitespace-nowrap">
+          <span className="transition-all duration-350 ease-in-out hover:rotate-4">
+            Hi, I'm&nbsp;
+            <span className="underline">Sephine</span>&nbsp;!
           </span>
         </div>
 
-        <div className="flex items-baseline gap-1">
-          <span>a&nbsp;</span>
-          <span className="text-primary font-medium">
-            Product Designer&nbsp;
-          </span>
+        <div className="flex items-baseline gap-1 whitespace-nowrap">
+          a Product Designer&nbsp;
           <span className="flex items-baseline">
             <span>based in&nbsp;</span>
-            <SlLocationPin />
+            <SlLocationPin className="text-4xl" />
             <span>Los Angeles, CA</span>
             <span>,</span>
           </span>
         </div>
         <span>
-          with an aim to <span>create user-friendly products that&nbsp;</span>
-          <span className="italic underline">make life better</span>.
+          with an aim to create user-centered
+          <br /> digital experiences with a minimal touch.
         </span>
       </h2>
 
@@ -67,13 +62,22 @@ export default function Hero({ onClickDesignAndCode }) {
           </li>
         </ul> */}
 
-        <div
-          onClick={onClickDesignAndCode}
-          className="text-grey text-lg inline-flex items-end gap-2 cursor-pointer w-fit"
-        >
-          <span className="font-medium">Want to learn about me?</span>
-          <IoCaretDownOutline className="animate-bounce text-sm" />
+        <div className="text-grey text-lg inline-flex flex-col items-start gap-0  w-fit">
+          <span className="font-default text-grey">
+            Thanks to my background in frontend development and digital
+            marketing, I have a solid understanding in diverse digital
+            platforms.
+          </span>
         </div>
+      </div>
+      <div
+        onClick={onClickDesignAndCode}
+        className="my-32 self-center flex items-end gap-2 cursor-pointer"
+      >
+        <span className="font-default text-darkergrey">
+          Would you like to learn more about me?
+        </span>
+        <IoCaretDownOutline className="animate-bounce text-sm" />
       </div>
     </section>
   );

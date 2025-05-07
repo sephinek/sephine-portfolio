@@ -45,6 +45,20 @@
 
 @font-face {
   font-family: 'NeueMontreal';
+  src: url('./fonts/NeueMontreal-Medium.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/NeueMontreal-MediumItalic.otf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
   src: url('./fonts/NeueMontreal-Bold.otf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -57,12 +71,223 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/NeueMontreal-Bold.otf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/NeueMontreal-BoldItalic.otf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* @font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-ExtralLight.otf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-ExtralightItalic.otf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-LightItalic.otf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Italic.otf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-MediumItalic.otf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Semibold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-SemiboldItalic.otf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-BoldItalic.otf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Extrabold.otf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-ExtraboldItalic.otf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Black.otf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-BlackItalic.otf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Ultralight.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-UltralightItalic.otf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Ultralight.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-UltralightItalic.otf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-MediumItalic.otf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Medium.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-MediumItalic.otf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-BoldItalic.otf') format('truetype');
+  font-weight: 700;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-Bold.otf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('./fonts/Hatton-BoldItalic.otf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
 @theme {
   --font-default: 'NeueMontreal', sans-serif;
-  --font-display: 'Lora', serif;
+  --font-display: 'Hatton', serif;
 
-  --color-primary: #4a7253;
-  --color-primary-opacity: #4a7253aa;
+  --color-primary: #c3f589;
+  --color-primary-variant: #dbf9b8;
+  --color-primary-accent: #7ad412;
+  --color-primary-opacity: #f3fde7;
   --color-primary-variable: #3f7e54;
 
   --color-secondary: #a8cdba;
@@ -70,16 +295,18 @@
   --color-secondary-lightest: #eff7ee;
   --color-tertiary: #eef0f2;
 
-  --color-black: #112415;
+  --color-black: #121212;
+  --color-white-opacity: rgba(255, 255, 255, 0.05);
   --color-hover-btn: #a8cdba;
 
-  --color-darkestgrey: #293a2c;
-  --color-darkgrey: #415044;
-  --color-mediumgrey: #58665b;
-  --color-grey: #928b82;
-  --color-lightgrey: #e7e9e8;
-  --color-lightergrey: #fafafa;
-  --color-lightestgrey: #fcfdfc;
+  --color-darkestgrey: #454544;
+  --color-darkergrey: #5e5f5e;
+  --color-darkgrey: #787977;
+  --color-mediumgrey: #919291;
+  --color-grey: #ababaa;
+  --color-lightgrey: #c4c5c4;
+  --color-lightergrey: #dedede;
+  --color-lightestgrey: #f7f7f7;
 
   --color-lucid: #ff1b1a;
   --color-lucid-opacity: #ff1b1aaa;
@@ -113,11 +340,4 @@ body {
   min-height: 100vh;
   color: #293a2c;
   letter-spacing: 1px;
-}
-
-h1 {
-  font-family: 'NeueMontreal', serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.1;
 }

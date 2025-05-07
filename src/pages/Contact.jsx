@@ -72,13 +72,14 @@ export default function Contact() {
       )}
 
       <section
-        className={`flex flex-col gap-12 p-14 pb-32 max-w-7xl mx-auto items-center justify-center relative z-10`}
+        className={`flex flex-col gap-14 p-14 pt-16 pb-32 max-w-7xl mx-auto items-center justify-center relative z-10`}
       >
-        <div className="flex flex-col gap-2">
-          <SectionTitle title="Contact Me" />
-          <div className="flex flex-col text-sm leading-snug">
-            <span>Feel free to reach out to me.</span>
-            <span>I'm excited to connect with you.</span>
+        <div className="pt-14 flex flex-col gap-2">
+          <SectionTitle title="Contact Me" color="text-darkestgrey" />
+
+          <div className="flex flex-col items-center text-sm leading-snug text-darkergrey">
+            <span>Let's be friends!😽</span>
+            <span>I would love to hear from you.</span>
           </div>
         </div>
 
@@ -92,25 +93,25 @@ export default function Contact() {
             name="user_name"
             placeholder="Name"
             required
-            className="w-full p-3 border rounded border-lightgrey focus:outline-none focus:border-grey transition-all duration-350 ease-in-out"
+            className="w-full p-3 border-1 rounded text-darkestgrey border-grey focus:outline-none focus:border-darkergrey transition-all duration-350 ease-in-out"
           />
           <input
             type="email"
             name="user_email"
             placeholder="Email"
             required
-            className="w-full p-3 border rounded border-lightgrey focus:outline-none focus:border-grey transition-all duration-350 ease-in-out"
+            className="w-full p-3 border rounded text-darkestgrey border-grey focus:outline-none focus:border-darkergrey transition-all duration-350 ease-in-out"
           />
           <textarea
             name="message"
             placeholder="Enter your message"
             required
-            className="w-full p-3 border rounded h-32 border-lightgrey focus:outline-none focus:border-grey transition-all duration-350 ease-in-out"
+            className="w-full p-3 border rounded h-32 text-darkestgrey border-grey focus:outline-none focus:border-darkergrey transition-all duration-350 ease-in-out"
           />
           <input
             type="submit"
             value="Send"
-            className="rounded-full py-[8px] cursor-pointer border-1 font-default font-medium tracking-wider text-sm flex items-center justify-center transition-all duration-150 ease-in-out bg-black border-transparent text-white hover:bg-secondary-opacity hover:border-lightgrey hover:text-darkgrey"
+            className="rounded-full py-[10px] cursor-pointer font-default font-medium tracking-wider text-sm flex items-center justify-center transition-all duration-150 ease-in-out bg-primary text-black hover:bg-primary-variant"
           />
         </form>
       </section>

@@ -31,7 +31,7 @@ export default function HyundaiCard() {
   };
 
   return (
-    <section className="pt-6 text-base leading-loose tracking-wider">
+    <section className="pt-22 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
         <section className="max-w-7xl mx-auto flex flex-col gap-10 w-full">
           <div className="flex flex-col gap-8 max-w-[85%] mx-auto">
@@ -835,7 +835,7 @@ export default function HyundaiCard() {
           {/* Define ends */}
 
           {/* Develop starts */}
-          <div className="bg-[#FFF5F5] py-16">
+          <div className="bg-[#F9F9F9] py-16">
             <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
               {/* <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
                 DEVELOP

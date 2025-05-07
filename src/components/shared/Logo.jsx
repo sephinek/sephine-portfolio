@@ -16,7 +16,7 @@ export default function Logo() {
       onClick={handleClick}
       className="transition-all duration-100 ease-in hover:text-primary"
     >
-      <h1 className="tracking-normal uppercase">Sephine Kang</h1>
+      <h1 className="text-lg uppercase">Sephine Kang</h1>
     </Link>
   );
 }

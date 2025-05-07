@@ -1,8 +1,19 @@
 import { IoLogoInstagram, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5';
+import { useLocation } from 'react-router-dom';
 
 export default function Footer() {
+  const { pathname } = useLocation();
+
   return (
-    <footer className="py-6 border-t-[1px] border-t-lightgrey flex flex-col gap-4 justify-center text-mediumgrey">
+    <footer
+      className={`py-6 border-t-[1px] ${
+        pathname === '/contact' ||
+        pathname === '/projects/lucid' ||
+        pathname === 'projects/hyundai-card'
+          ? 'border-t-lightgrey text-darkgrey'
+          : 'border-t-darkestgrey text-grey'
+      } flex flex-col gap-4 justify-center`}
+    >
       <div className="flex flex-col max-w-7xl w-[97%] mx-auto">
         <div className="flex justify-between items-center">
           <span className="self-start font-medium font-display text-2xl tracking-normal">
@@ -37,7 +48,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col text-sm tracking-normal text-grey">
+        <div className="flex flex-col text-sm tracking-normal">
           <span>ⓒ 2025 Soo Hyun (Sephine) Kang</span>
           <span>Designed & Developed by Sephine</span>
         </div>

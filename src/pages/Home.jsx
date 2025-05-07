@@ -14,12 +14,10 @@ export default function Home() {
   };
 
   return (
-    <section>
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-black pt-14">
+      <div className="max-w-7xl w-[97%] mx-auto">
         <Hero onClickDesignAndCode={scrollToProjects} />
-        <span ref={projectsRef}>
-          <Divider icon="⛳️" />
-        </span>
+        <span ref={projectsRef}>{/* <Divider icon="⛳️" /> */}</span>
         <section>
           <ProjectsList />
         </section>

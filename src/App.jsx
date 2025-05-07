@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Lenis from 'lenis';
 import Header from './components/shared/Header';
 import Footer from './components/shared/Footer';
@@ -7,6 +7,7 @@ import ScrollToTop from './components/shared/ScrollToTop';
 
 function App() {
   const [isContentVisible, setIsContentVisible] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,11 +33,19 @@ function App() {
   }, []);
 
   return (
-    <div className="relative flex flex-col min-h-screen">
+    <div
+      className={`relative flex flex-col min-h-screen ${
+        pathname === '/contact' ||
+        pathname === '/projects/lucid' ||
+        pathname === '/projects/hyundai-card'
+          ? 'bg-white'
+          : 'bg-black'
+      }`}
+    >
       <Header />
       <ScrollToTop />
       <main
-        className={`grow pt-24 transition-all duration-1000 ${
+        className={`grow transition-all duration-1000 ${
           isContentVisible
             ? 'translate-y-0 opacity-100'
             : 'translate-y-[0px] opacity-0'

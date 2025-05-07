@@ -57,7 +57,7 @@ export default function Lucid() {
   };
 
   return (
-    <section className="pt-6 text-base leading-loose tracking-wider">
+    <section className="pt-22 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
         <section className="max-w-7xl mx-auto flex flex-col gap-10 w-full">
           <div className="flex flex-col gap-8 max-w-[85%] mx-auto">

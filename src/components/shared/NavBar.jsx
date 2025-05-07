@@ -11,28 +11,32 @@ export default function NavBar() {
   }, [location]);
 
   return (
-    <nav className="flex items-center gap-5 text-base tracking-normal">
+    <nav className="flex items-center gap-5 text-sm">
       <Link
         to="/about"
         className={`${
-          currentPathname === '/about' ? 'text-hover-btn' : ''
-        } transition-all duration-100 ease-in hover:text-hover-btn`}
+          currentPathname === '/about'
+            ? 'text-primary-variant font-medium hover:text-primary-variant'
+            : ''
+        } transition-all duration-100 ease-in hover:text-primary`}
       >
         About
       </Link>
       <Link
         to="/projects"
         className={`${
-          currentPathname === '/projects' ? 'text-hover-btn' : ''
-        } transition-all duration-100 ease-in hover:text-hover-btn`}
+          currentPathname === '/projects'
+            ? 'text-primary-variant font-medium hover:text-primary-variant'
+            : ''
+        } transition-all duration-100 ease-in hover:text-primary`}
       >
         Projects
       </Link>
       {/* <Link
         to="/playground"
         className={`${
-          currentPathname === '/playground' ? 'text-hover-btn' : ''
-        } transition-all duration-100 ease-in hover:text-hover-btn`}
+          currentPathname === '/playground' ? 'text-primary' : ''
+        } transition-all duration-100 ease-in hover:text-primary`}
       >
         Playground
       </Link> */}
@@ -42,7 +46,7 @@ export default function NavBar() {
         target="_blank"
         alt="Download resume"
         title="Resume"
-        className="transition-all duration-100 ease-in hover:text-hover-btn"
+        className="transition-all duration-100 ease-in hover:text-primary"
       >
         Resume
       </a>
