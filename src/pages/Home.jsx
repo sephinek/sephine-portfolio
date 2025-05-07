@@ -28,9 +28,10 @@ export default function Home() {
 
       <Recommendations />
 
-      <section className="max-w-5xl w-[90%] gap-6 pt-16 mx-auto flex flex-col">
+      <div className="max-w-5xl w-[90%] mx-auto border-b-[0.5px] border-primary my-8"></div>
+      <section className="max-w-5xl w-[90%] pb-12 gap-6 mx-auto flex flex-col">
         <SectionTitle title="Get in touch ✨" align="left" />
-        <div className="flex gap-4 items-center text-xl pb-20">
+        <div className="flex gap-4 items-center text-xl">
           <span className="text-lightergrey font-sebmibold">
             ✉️&nbsp;sephine.k31@gmail.com
           </span>
