@@ -10,7 +10,7 @@ export default function Recommendations() {
 
         <ul className="max-w-[960px] mx-auto flex flex-col gap-10">
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
@@ -49,7 +49,7 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="right">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
@@ -85,7 +85,7 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-lg">
+            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
               <div className="flex flex-col gap-4 text-lg leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
