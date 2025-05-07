@@ -16,13 +16,15 @@ export default function ProjectItem({
       <div
         className={`${type === 'left' ? 'order-1' : 'order-2'} relative ${
           numOfScreens === '1' ? 'w-[30%]' : 'w-[55%]'
-        } flex items-center justify-center`}
+        } h-auto flex items-center justify-center`}
       >
         <div
-          className={`-z-10 absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
+          className={`absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
         ></div>
         <img
-          className={`${imgWidth ? imgWidth : 'w-[80%]'} h-auto rounded-[33px]`}
+          className={`${
+            imgWidth ? imgWidth : 'w-[80%]'
+          } z-10 h-auto rounded-[33px]`}
           src={img}
           alt={alt}
         />

@@ -71,12 +71,12 @@ export default function Hero({ onClickDesignAndCode }) {
       </div>
       <div
         onClick={onClickDesignAndCode}
-        className="my-32 self-center flex items-end gap-2 cursor-pointer"
+        className="my-32 self-center flex items-center gap-2 cursor-pointer animate-bounce"
       >
         <span className="font-default text-darkergrey">
           Curious to learn more about me?
         </span>
-        <IoCaretDownOutline className="animate-bounce text-sm" />
+        <IoCaretDownOutline className="text-sm" />
       </div>
     </section>
   );
