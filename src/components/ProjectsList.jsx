@@ -10,39 +10,38 @@ export default function ProjectsList() {
   window.lenis?.scrollTo(0);
 
   return (
-    <section className="flex flex-col gap-12 pt-20 pb-32 max-w-7xl mx-auto">
+    <section className="flex flex-col gap-12 pt-20 pb-32 max-w-5xl mx-auto">
       <SectionTitle title="Projects" />
 
-      <ul className="text-lg flex flex-col gap-20">
+      <ul className="text-lg flex gap-20">
         {/* Project 01 */}
-        <SlideInFromBottom>
-          <ProjectItem
-            to="/projects/lucid"
-            type="left"
-            numOfScreens="2"
-            img={LucidImg}
-            alt="Lucid Vision Management App Design"
-            circleColor="bg-circle-lucid"
-            title="Lucid: Vision Management App | End-to-End Product Design"
-            description="Lucid helps users move beyond short-term achievements, guiding them to uncover deeper motivations and pursue meaningful goals with clarity and sustained drive."
-            imgWidth="w-[80%]"
-          />
-        </SlideInFromBottom>
+        {/* <SlideInFromBottom> */}
+        <ProjectItem
+          to="/projects/lucid"
+          type="left"
+          numOfScreens="2"
+          img={LucidImg}
+          alt="Lucid Vision Management App Design"
+          circleColor="bg-circle-lucid"
+          title="Lucid: Vision Management App | End-to-End Product Design"
+          description="Lucid helps users move beyond short-term achievements, guiding them to uncover deeper motivations and pursue meaningful goals with clarity and sustained drive."
+          // imgWidth="w-[80%]"
+        />
+        {/* </SlideInFromBottom> */}
 
         {/* Project 02 */}
-        <SlideInFromBottom>
-          <ProjectItem
-            to="/projects/hyundai-card"
-            type="right"
-            numOfScreens="2"
-            img={HyundaiCardImg}
-            alt="Hyundai Card: Mobile App UX/UI Redesign"
-            circleColor="bg-circle-hyundai-card"
-            title="Hyundai Card: Mobile App UX/UI Redesign"
-            description="Redesigned Hyundai Card’s unique benefits system to make it more intuitive and user-friendly, while preserving its original concept."
-            imgWidth="w-[70%]"
-          />
-        </SlideInFromBottom>
+        {/* <SlideInFromBottom> */}
+        <ProjectItem
+          to="/projects/hyundai-card"
+          numOfScreens="2"
+          img={HyundaiCardImg}
+          alt="Hyundai Card: Mobile App UX/UI Redesign"
+          circleColor="bg-circle-hyundai-card"
+          title="Hyundai Card: Mobile App UX/UI Redesign"
+          description="Redesigned Hyundai Card’s unique benefits system to make it more intuitive and user-friendly, while preserving its original concept."
+          // imgWidth="w-[70%]"
+        />
+        {/* </SlideInFromBottom> */}
 
         {/* 
         <SlideInFromBottom>

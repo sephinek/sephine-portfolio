@@ -296,9 +296,10 @@
   --color-tertiary: #eef0f2;
 
   --color-black: #121212;
-  --color-white-opacity: rgba(255, 255, 255, 0.05);
+  --color-white-opacity: rgba(255, 255, 255, 0.06);
   --color-hover-btn: #a8cdba;
 
+  --color-blackgrey: #2b2c2b;
   --color-darkestgrey: #454544;
   --color-darkergrey: #5e5f5e;
   --color-darkgrey: #787977;
@@ -316,6 +317,18 @@
   --color-circle-hyundai-card: #444;
   --color-circle-np-camp: #f5f5f5;
   --color-circle-local-fresh: rgba(168, 205, 186, 0.6667);
+
+  --animate-blink: blink 1s ease-out infinite;
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 }
 
 :root {

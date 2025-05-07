@@ -4,13 +4,13 @@ import SlideInFromSide from './SlideInFromSide';
 
 export default function Recommendations() {
   return (
-    <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightergrey font-medium">
+    <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightestgrey">
       <div className="max-w-3xl w-full mx-auto flex flex-col gap-16">
         <SectionTitle title="Recommendations" />
 
         <ul className="max-w-3xl mx-auto flex flex-col gap-10">
           <SlideInFromSide directionFrom="left">
-            <li className="py-8 p-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+            <li className="py-8 p-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
               <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
@@ -33,7 +33,7 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-lg font-medium tracking-normal text-lightgrey">
+                    <span className="font-medium tracking-normal text-lightgrey">
                       Misoon Jang
                     </span>
                   </div>
@@ -49,7 +49,7 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="right">
-            <li className="py-8 px-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+            <li className="py-8 px-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
               <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
@@ -67,7 +67,7 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-lg font-medium tracking-normal text-lightgrey">
+                    <span className="font-medium tracking-normal text-lightgrey">
                       Youngyoon Kim
                     </span>
                   </div>
@@ -84,8 +84,8 @@ export default function Recommendations() {
             </li>
           </SlideInFromSide>
 
-          <SlideInFromSide directionFrom="left">
-            <li className="py-8 px-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+          {/* <SlideInFromSide directionFrom="left">
+            <li className="py-8 px-16 flex flex-col gap-8 bg-white-opacity rounded-3xl">
               <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
@@ -105,7 +105,7 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-lg font-medium tracking-normal text-lightgrey">
+                    <span className="font-medium tracking-normal text-lightgrey">
                       Junghoon Pyo
                     </span>
                   </div>
@@ -119,7 +119,7 @@ export default function Recommendations() {
                 </div>
               </div>
             </li>
-          </SlideInFromSide>
+          </SlideInFromSide> */}
         </ul>
       </div>
     </section>
