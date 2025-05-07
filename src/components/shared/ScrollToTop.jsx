@@ -42,7 +42,7 @@ export default function ScrollToTop() {
           onClick={handleClick}
           className={`${
             shown ? 'scale-100' : 'scale-0'
-          } text-xl pointer-events-auto cursor-pointer opacity-90 text-primary-opacity hover:text-primary transition-all duration-100 ease-in-out`}
+          } text-xl pointer-events-auto cursor-pointer opacity-90 text-primary-variant hover:text-primary transition-all duration-100 ease-in-out`}
           style={{ transform: `translateY(-${translateY}px)` }}
         />
       </div>
