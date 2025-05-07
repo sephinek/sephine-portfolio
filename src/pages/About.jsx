@@ -8,7 +8,7 @@ export default function About() {
       <div className="flex flex-col items-start px-[20%] p-10 pb-20 gap-24">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-medium flex flex-col leading-relaxed w-3/5 text-lightergrey">
-            I'm Sephine, a Product Designer specialized in crafting clean,
+            I'm Sephine Kang, a Product Designer specialized in crafting clean,
             intuitive UI designs that align user needs with business goals.
           </h2>
           <div className="h-auto w-[35%] opacity-80">

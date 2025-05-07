@@ -17,17 +17,17 @@ export default function Hero({ onClickDesignAndCode }) {
         </div>
 
         <div className="flex items-baseline gap-1 whitespace-nowrap">
-          a Product Designer&nbsp;
+          Product Designer&nbsp;
           <span className="flex items-baseline">
             <span>based in&nbsp;</span>
             <SlLocationPin className="text-4xl" />
-            <span>Los Angeles, CA</span>
-            <span>,</span>
+            <span>Los Angeles.</span>
           </span>
         </div>
         <span>
-          with an aim to create user-centered
-          <br /> digital experiences with a minimal touch.
+          I craft user-centered digital experiences
+          <br />
+          with a minimal, thoughtful touch.
         </span>
       </h2>
 
@@ -64,9 +64,8 @@ export default function Hero({ onClickDesignAndCode }) {
 
         <div className="text-grey text-lg inline-flex flex-col items-start gap-0  w-fit">
           <span className="font-default text-grey">
-            Thanks to my background in frontend development and digital
-            marketing, I have a solid understanding in diverse digital
-            platforms.
+            With a background in frontend development and digital marketing, I
+            bring a well-rounded perspective to design across diverse platforms.
           </span>
         </div>
       </div>
@@ -75,7 +74,7 @@ export default function Hero({ onClickDesignAndCode }) {
         className="my-32 self-center flex items-end gap-2 cursor-pointer"
       >
         <span className="font-default text-darkergrey">
-          Would you like to learn more about me?
+          Curious to learn more about me?
         </span>
         <IoCaretDownOutline className="animate-bounce text-sm" />
       </div>
