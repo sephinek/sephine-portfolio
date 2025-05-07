@@ -1,20 +1,27 @@
-import Button from './Button';
+import { useNavigate } from 'react-router';
+// import Button from './Button';
 
 export default function ProjectItem({
   to,
-  type = 'left',
-  numOfScreens = '1',
+  // type = 'left',
+  // numOfScreens = '1',
   img,
-  circleColor,
+  // circleColor,
+  category,
   alt,
   title,
   description,
-  imgWidth,
+  // imgWidth,
 }) {
+  const navigate = useNavigate();
+
   return (
-    <li className="flex flex-col gap-10 items-center w-full rounded-sm bg-white-opacity p-8">
-      <div className="flex flex-col items-center gap-12 w-full">
-        <div className="relative flex items-center justify-center w-full max-w-[500px] h-[500px]">
+    <li
+      className="flex flex-col gap-10 items-center w-full rounded-sm bg-white-opacity p-8 border-1 border-transparent hover:border-primary text-lightestgrey hover:text-primary transition-all ease-in-out duration-350 cursor-pointer"
+      onClick={() => navigate(to)}
+    >
+      <div className="flex flex-col items-center gap-10 w-full">
+        <div className="relative flex items-center justify-center w-full max-w-[380px] h-[380px]">
           <img
             className="z-10 object-contain w-full h-full"
             src={img}
@@ -22,14 +29,19 @@ export default function ProjectItem({
           />
         </div>
 
-        <div className="flex flex-col items-center gap-8 max-w-[88%]">
-          <h4 className="text-3xl text-lightergrey font-medium tracking-normal leading-snug font-display">
-            {title}
-          </h4>
-          <p className="text-base leading-normal text-grey">{description}</p>
+        <div className="flex flex-col items-start gap-6 w-full max-w-[88%]">
+          <div className="flex flex-col gap-1 text-base">
+            <span className="font-light text-lightestgrey">{category}</span>
+            <h4 className="text-3xl font-medium tracking-normal leading-snug font-display">
+              {title}
+            </h4>
+          </div>
+          <p className="text-base leading-normal text-lightgrey">
+            {description}
+          </p>
         </div>
 
-        <Button to={to} label="Read more" w="w-[90%]" py="py-2" />
+        {/* <Button to={to} label="Read more" w="w-[90%]" py="py-2" /> */}
       </div>
     </li>
   );

@@ -37,7 +37,7 @@ export default function Recommendations() {
                       Misoon Jang
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                  <div className="flex gap-2 items-baseline text-sm text-mediumgrey">
                     <span className="font-normal">
                       PO & Product Design Lead at Sparkpet Korea&nbsp; |{' '}
                     </span>
@@ -71,7 +71,7 @@ export default function Recommendations() {
                       Youngyoon Kim
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                  <div className="flex gap-2 items-baseline text-sm text-mediumgrey">
                     <span className="font-normal">
                       ex-Engineer at Block Odyssey&nbsp; |{' '}
                     </span>
@@ -109,7 +109,7 @@ export default function Recommendations() {
                       Junghoon Pyo
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                  <div className="flex gap-2 items-baseline text-sm text-mediumgrey">
                     <span className="font-normal">
                       HR Manager, Product Design Cohort at Sparta NB Camp&nbsp;
                       |

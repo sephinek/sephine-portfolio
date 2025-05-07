@@ -10,20 +10,18 @@ export default function Hero({ onClickDesignAndCode }) {
     <section className="py-16 flex flex-col gap-10 cursor-default">
       <h2 className="flex flex-col font-medium font-display text-white text-5xl leading-snug tracking-tight">
         <div className="flex gap-3 whitespace-nowrap">
-          <span className="transition-all duration-350 ease-in-out hover:rotate-4">
-            Hi, I'm&nbsp;
-            <span className="underline">Sephine</span>&nbsp;!
-          </span>
+          Hi, I'm&nbsp;
+          <span className="underline">Sephine</span>!
         </div>
 
-        <div className="flex items-baseline gap-1 whitespace-nowrap">
+        {/* <div className="flex items-baseline gap-1 whitespace-nowrap">
           Product Designer&nbsp;
           <span className="flex items-baseline">
             <span>based in&nbsp;</span>
             <SlLocationPin className="text-4xl" />
             <span>Los Angeles.</span>
           </span>
-        </div>
+        </div> */}
         <span>
           I craft user-centered digital experiences
           <br />
@@ -62,16 +60,25 @@ export default function Hero({ onClickDesignAndCode }) {
           </li>
         </ul> */}
 
-        <div className="text-grey text-lg inline-flex flex-col items-start gap-0  w-fit">
-          <span className="text-grey">
-            With a background in frontend development and digital marketing, I
-            bring a well-rounded perspective to design across diverse platforms.
+        <div className="text-base font-medium inline-flex flex-col items-start gap-1 w-fit">
+          <span className="text-lightgrey flex items-center">
+            <span>
+              UX/UI Designer | Product Designer | Web Developer | &nbsp;
+            </span>
+            <div className="flex items-center gap-1">
+              <SlLocationPin /> Los Angeles, CA
+            </div>
           </span>
+          {/* <span className="text-grey leading-tight">
+            With a background in web development and digital marketing, I bring
+            a well-rounded perspective to design across diverse platforms.
+          </span> */}
         </div>
       </div>
+
       <div
         onClick={onClickDesignAndCode}
-        className="my-40 self-center flex items-center gap-2 cursor-pointer animate-blink text-lightgrey"
+        className="my-48 self-center flex items-center gap-2 cursor-pointer animate-blink text-lightgrey"
       >
         <span className="text-lg font-display">
           Curious to learn more about me?

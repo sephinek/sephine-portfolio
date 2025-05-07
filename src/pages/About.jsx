@@ -4,12 +4,13 @@ export default function About() {
   window.lenis?.scrollTo(0);
 
   return (
-    <section className="pt-16 max-w-7xl mx-auto relative text-lightestgrey">
-      <div className="flex flex-col items-start px-[20%] p-10 pb-20 gap-24">
+    <section className="pt-16 max-w-5xl mx-auto relative text-lightestgrey">
+      <div className="flex flex-col items-start pt-10 pb-20 gap-24">
         <div className="flex justify-between items-center">
-          <h2 className="text-2xl font-medium flex flex-col leading-relaxed w-3/5 text-lightergrey">
-            I'm Sephine Kang, a Product Designer specialized in crafting clean,
-            intuitive UI designs that align user needs with business goals.
+          <h2 className="font-display text-3xl font-medium flex flex-col leading-normal w-[58%] text-lightestgrey">
+            I'm Sephine Kang,
+            <br /> a Product Designer specialized in crafting clean, intuitive
+            UI designs that align user needs with business goals.
           </h2>
           <div className="h-auto w-[35%] opacity-80">
             <img
@@ -24,10 +25,10 @@ export default function About() {
           <div className="flex flex-col gap-24">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <h3 className="font-medium text-xl">❥&nbsp;Motivations</h3>
+                <h3 className="font-display font-medium text-xl">❥&nbsp;</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-grey leading-relaxed tracking-normal pl-8 pr-16">
+              <div className="flex flex-col gap-2 text-lightergrey leading-relaxed tracking-normal pl-8 pr-16">
                 <p>
                   ‣ To design products that not only work well but mean
                   something—guiding users to take action, reflect, and grow.
@@ -46,10 +47,10 @@ export default function About() {
 
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <h3 className="font-medium text-xl">❥&nbsp;Bio</h3>
+                <h3 className="font-display font-medium text-xl">❥&nbsp;Bio</h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-grey leading-relaxed tracking-normal pl-8 pr-16">
+              <div className="flex flex-col gap-2 text-lightergrey leading-relaxed tracking-normal pl-8 pr-16">
                 <p>
                   ‣ Born and raised in Seoul, South Korea, where I cultivated a
                   love for words and systems.
@@ -80,10 +81,12 @@ export default function About() {
 
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <h3 className="font-medium text-xl">❥&nbsp;Values</h3>
+                <h3 className="font-display font-medium text-xl">
+                  ❥&nbsp;Values
+                </h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-grey leading-relaxed tracking-normal pl-8 pr-16">
+              <div className="flex flex-col gap-2 text-lightergrey leading-relaxed tracking-normal pl-8 pr-16">
                 <p>‣ Dream with direction.</p>
                 <p>‣ Stay honest, stay kind.</p>
                 <p>‣ Use clarity to build confidence.</p>
@@ -93,10 +96,12 @@ export default function About() {
 
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <h3 className="font-medium text-xl">❥&nbsp;Favorites</h3>
+                <h3 className="font-display font-medium text-xl">
+                  ❥&nbsp;Favorites
+                </h3>
                 <div className="w-full h-[1px] bg-lightgrey"></div>
               </div>
-              <div className="flex flex-col gap-2 text-grey leading-relaxed tracking-normal pl-8 pr-16">
+              <div className="flex flex-col gap-2 text-lightergrey leading-relaxed tracking-normal pl-8 pr-16">
                 <p>‣ 🐈‍⬛ My co-designer at home: Berry the cat</p>
                 <p>‣ 🎮 Cozy gaming nights with Stardew Valley</p>
                 <p>

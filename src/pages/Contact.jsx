@@ -79,7 +79,7 @@ export default function Contact() {
 
           <div className="flex flex-col items-center text-sm leading-snug text-darkergrey">
             <span>Let's be friends!😽</span>
-            <span>I would love to hear from you.</span>
+            <span>I would love to share ideas with you.</span>
           </div>
         </div>
 
