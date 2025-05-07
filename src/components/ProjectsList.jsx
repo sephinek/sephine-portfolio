@@ -25,7 +25,7 @@ export default function ProjectsList() {
             circleColor="bg-circle-lucid"
             title="Lucid: Vision Management App | End-to-End Product Design"
             description="Lucid helps users move beyond short-term achievements, guiding them to uncover deeper motivations and pursue meaningful goals with clarity and sustained drive."
-            imgWidth="w-[90%]"
+            imgWidth="w-[80%]"
           />
         </SlideInFromBottom>
 
@@ -40,7 +40,7 @@ export default function ProjectsList() {
             circleColor="bg-circle-hyundai-card"
             title="Hyundai Card: Mobile App UX/UI Redesign"
             description="Redesigned Hyundai Card’s unique benefits system to make it more intuitive and user-friendly, while preserving its original concept."
-            imgWidth="w-[75%]"
+            imgWidth="w-[70%]"
           />
         </SlideInFromBottom>
 

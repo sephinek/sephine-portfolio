@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import Divider from '../components/shared/Divider';
 import Recommendations from '../components/Recommendations';
 import ProjectsList from '../components/ProjectsList';
+import SectionTitle from '../components/SectionTitle';
+import Button from '../components/Button';
 
 export default function Home() {
   const projectsRef = useRef(null);
@@ -15,7 +17,7 @@ export default function Home() {
 
   return (
     <section className="bg-black pt-14">
-      <div className="max-w-7xl w-[97%] mx-auto">
+      <div className="max-w-5xl mx-auto">
         <Hero onClickDesignAndCode={scrollToProjects} />
         <span ref={projectsRef}>{/* <Divider icon="⛳️" /> */}</span>
         <section>
@@ -23,7 +25,20 @@ export default function Home() {
         </section>
         {/* <Divider icon="⛳️" /> */}
       </div>
+
       <Recommendations />
+
+      <section className="max-w-5xl w-[90%] gap-6 pt-16 mx-auto flex flex-col">
+        <SectionTitle title="Get in touch ✨" align="left" />
+        <div className="flex gap-4 items-center text-xl pb-20">
+          <span className="text-lightergrey font-sebmibold">
+            ✉️&nbsp;sephine.k31@gmail.com
+          </span>
+          <div>
+            <Button to="/contact" label="Contact" currentPathname="/" />
+          </div>
+        </div>
+      </section>
     </section>
   );
 }

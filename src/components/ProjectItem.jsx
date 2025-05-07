@@ -18,9 +18,9 @@ export default function ProjectItem({
           numOfScreens === '1' ? 'w-[30%]' : 'w-[55%]'
         } h-auto flex items-center justify-center`}
       >
-        <div
+        {/* <div
           className={`absolute w-[440px] h-[440px] rounded-full ${circleColor} shadow-xl`}
-        ></div>
+        ></div> */}
         <img
           className={`${
             imgWidth ? imgWidth : 'w-[80%]'
@@ -36,10 +36,10 @@ export default function ProjectItem({
         } flex flex-col items-center gap-12 mx-auto`}
       >
         <div className="flex flex-col gap-6 w-[90%]">
-          <h4 className="text-3xl text-lightergrey font-medium tracking-normal">
-            {title}
-          </h4>
-          <p className="text-base leading-snug text-grey">{description}</p>
+          <h4 className="text-3xl text-lightestgrey tracking-wide">{title}</h4>
+          <p className="text-base tracking-wider leading-snug text-lightgrey">
+            {description}
+          </p>
         </div>
         <Button to={to} label="Read more" w="w-[90%]" py="py-2" />
       </div>

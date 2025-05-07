@@ -4,14 +4,14 @@ import SlideInFromSide from './SlideInFromSide';
 
 export default function Recommendations() {
   return (
-    <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightestgrey font-medium">
-      <div className="max-w-6xl w-full mx-auto flex flex-col gap-16">
+    <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightergrey font-medium">
+      <div className="max-w-3xl w-full mx-auto flex flex-col gap-16">
         <SectionTitle title="Recommendations" />
 
-        <ul className="max-w-[960px] mx-auto flex flex-col gap-10">
+        <ul className="max-w-3xl mx-auto flex flex-col gap-10">
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
-              <div className="flex flex-col gap-4 text-lg leading-relaxed">
+            <li className="py-8 p-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+              <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
                   <p className="px-8 tracking-wider">
@@ -33,12 +33,12 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-xl font-medium tracking-normal text-white">
+                    <span className="text-lg font-medium tracking-normal text-lightgrey">
                       Misoon Jang
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-sm text-grey">
-                    <span className="font-medium">
+                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                    <span className="font-normal">
                       PO & Product Design Lead at Sparkpet Korea&nbsp; |{' '}
                     </span>
                     <span className="italic font-display">UX/UI Mentor</span>
@@ -49,8 +49,8 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="right">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
-              <div className="flex flex-col gap-4 text-lg leading-relaxed">
+            <li className="py-8 px-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+              <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
                   <p className="px-8 tracking-wider">
@@ -67,12 +67,12 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-xl font-medium tracking-normal text-white">
+                    <span className="text-lg font-medium tracking-normal text-lightgrey">
                       Youngyoon Kim
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-sm text-grey">
-                    <span className="font-medium">
+                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                    <span className="font-normal">
                       ex-Engineer at Block Odyssey&nbsp; |{' '}
                     </span>
                     <span className="italic font-display">
@@ -85,8 +85,8 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="left">
-            <li className="p-8 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-4xl">
-              <div className="flex flex-col gap-4 text-lg leading-relaxed">
+            <li className="py-8 px-16 border-[1px] border-primary-opacity flex flex-col gap-8 bg-white-opacity rounded-3xl">
+              <div className="flex flex-col gap-2 text-base leading-relaxed">
                 <div className="flex flex-col gap-2">
                   <VscQuote className="text-primary-opacity" />
                   <p className="px-8 tracking-wider">
@@ -105,12 +105,12 @@ export default function Recommendations() {
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-xl font-medium tracking-normal text-white">
+                    <span className="text-lg font-medium tracking-normal text-lightgrey">
                       Junghoon Pyo
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-sm text-grey">
-                    <span className="font-medium">
+                  <div className="flex gap-2 items-baseline text-xs text-mediumgrey">
+                    <span className="font-normal">
                       HR Manager, Product Design Cohort at Sparta NB Camp&nbsp;
                       |
                     </span>

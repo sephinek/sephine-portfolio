@@ -5,7 +5,7 @@ export default function SectionTitle({
 }) {
   return (
     <h3
-      className={`tracking-normal font-normal text-4xl py-4 text-${align} text-${color}`}
+      className={`font-display tracking-normal font-normal text-4xl py-4 text-${align} text-${color}`}
     >
       {title}
     </h3>

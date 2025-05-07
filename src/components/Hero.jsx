@@ -63,7 +63,7 @@ export default function Hero({ onClickDesignAndCode }) {
         </ul> */}
 
         <div className="text-grey text-lg inline-flex flex-col items-start gap-0  w-fit">
-          <span className="font-default text-grey">
+          <span className="text-grey">
             With a background in frontend development and digital marketing, I
             bring a well-rounded perspective to design across diverse platforms.
           </span>
@@ -73,7 +73,7 @@ export default function Hero({ onClickDesignAndCode }) {
         onClick={onClickDesignAndCode}
         className="my-40 self-center flex items-center gap-2 cursor-pointer animate-bounce"
       >
-        <span className="font-default text-darkergrey text-xl">
+        <span className="text-darkergrey text-xl font-display">
           Curious to learn more about me?
         </span>
         <IoCaretDownOutline className="text-lg" />
