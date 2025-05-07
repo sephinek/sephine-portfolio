@@ -12,17 +12,17 @@ export default function ProjectItem({
   imgWidth,
 }) {
   return (
-    <li className="flex flex-col gap-10 items-center w-full rounded-sm bg-white-opacity px-8 py-10">
-      <div className="relative flex items-center justify-center w-[400px] h-[400px]">
-        <img
-          className="z-10 w-[500px] h-full object-contain"
-          src={img}
-          alt={alt}
-        />
-      </div>
+    <li className="flex flex-col gap-10 items-center w-full rounded-sm bg-white-opacity p-8">
+      <div className="flex flex-col items-center gap-12 w-full">
+        <div className="relative flex items-center justify-center w-full max-w-[500px] h-[500px]">
+          <img
+            className="z-10 object-contain w-full h-full"
+            src={img}
+            alt={alt}
+          />
+        </div>
 
-      <div className="flex flex-col items-center gap-12 mx-auto max-w-[88%]">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col items-center gap-8 max-w-[88%]">
           <h4 className="text-3xl text-lightergrey font-medium tracking-normal leading-snug font-display">
             {title}
           </h4>

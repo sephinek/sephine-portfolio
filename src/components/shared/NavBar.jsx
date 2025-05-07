@@ -16,7 +16,7 @@ export default function NavBar() {
         to="/about"
         className={`${
           currentPathname === '/about'
-            ? 'text-primary-variant font-medium hover:text-primary-variant'
+            ? 'text-primary font-medium hover:text-primary-variant'
             : ''
         } transition-all duration-100 ease-in hover:text-primary`}
       >
@@ -26,7 +26,7 @@ export default function NavBar() {
         to="/projects"
         className={`${
           currentPathname === '/projects'
-            ? 'text-primary-variant font-medium hover:text-primary-variant'
+            ? 'text-primary font-medium hover:text-primary-variant'
             : ''
         } transition-all duration-100 ease-in hover:text-primary`}
       >

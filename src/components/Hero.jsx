@@ -8,7 +8,7 @@ export default function Hero({ onClickDesignAndCode }) {
 
   return (
     <section className="py-16 flex flex-col gap-10 cursor-default">
-      <h2 className="flex flex-col font-medium font-display text-white text-5xl leading-relaxed tracking-tight">
+      <h2 className="flex flex-col font-medium font-display text-white text-5xl leading-snug tracking-tight">
         <div className="flex gap-3 whitespace-nowrap">
           <span className="transition-all duration-350 ease-in-out hover:rotate-4">
             Hi, I'm&nbsp;
