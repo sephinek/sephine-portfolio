@@ -15,19 +15,18 @@ export default function Recommendations() {
                 <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
                   <p className="px-8 tracking-wider">
-                    Sephine has a rare ability to bridge design and development,
-                    enabling smooth communication and thoughtful UI decisions.
+                    Sephine has a rare ability to{' '}
+                    <span className="font-bold text-primary">
+                      bridge design and development
+                    </span>
+                    , enabling smooth communication and thoughtful UI decisions.
                     Her{' '}
                     <span className="font-bold text-primary">
                       structural understanding and problem-solving mindset
                     </span>{' '}
-                    brought clarity and efficiency to our project. Above all,
-                    her leadership and calm communication created a{' '}
-                    <span className="font-bold text-primary">
-                      highly collaborative and positive team environment
-                    </span>
-                    . I believe these strengths will be powerful assets in any
-                    product design role.
+                    brought clarity and efficiency to Lucid. Above all, her
+                    leadership and calm communication created a highly
+                    collaborative and positive team environment.
                   </p>
                 </div>
 
@@ -54,14 +53,15 @@ export default function Recommendations() {
                 <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
                   <p className="px-8 tracking-wider">
-                    Sephine naturally leads and organizes teams with clarity and
-                    purpose. Her{' '}
-                    <span className="font-bold text-primary">leadership</span>{' '}
-                    isn't just tied to her technical expertise, but to her
-                    ability to foster a collaborative and motivating
-                    environment. Even without a formal title, she demonstrates
-                    the kind of initiative and presence that makes teams thrive.
-                    With continued growth, she's sure to shine in any setting.
+                    Sephine{' '}
+                    <span className="font-bold text-primary">
+                      naturally leads and organizes teams with clarity and
+                      purpose
+                    </span>
+                    . Her leadership isn't just tied to her technical expertise,
+                    but to her ability to foster a collaborative and motivating
+                    environment. She demonstrates the kind of initiative and
+                    presence that makes teams thrive.
                   </p>
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
