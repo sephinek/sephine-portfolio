@@ -11,9 +11,9 @@ export default function Recommendations() {
         <ul className="max-w-3xl mx-auto flex flex-col gap-10">
           <SlideInFromSide directionFrom="left">
             <li className="py-8 p-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
-              <div className="flex flex-col gap-2 text-base leading-relaxed">
+              <div className="flex flex-col gap-6 text-base leading-relaxed">
+                <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
-                  <VscQuote className="text-primary-opacity" />
                   <p className="px-8 tracking-wider">
                     Sephine has a rare ability to bridge design and development,
                     enabling smooth communication and thoughtful UI decisions.
@@ -29,8 +29,8 @@ export default function Recommendations() {
                     . I believe these strengths will be powerful assets in any
                     product design role.
                   </p>
-                  <VscQuote className="text-primary-opacity rotate-180 self-end" />
                 </div>
+
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
                     <span className="font-medium tracking-normal text-lightgrey">
@@ -50,9 +50,9 @@ export default function Recommendations() {
 
           <SlideInFromSide directionFrom="right">
             <li className="py-8 px-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
-              <div className="flex flex-col gap-2 text-base leading-relaxed">
+              <div className="flex flex-col gap-6 text-base leading-relaxed">
+                <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
-                  <VscQuote className="text-primary-opacity" />
                   <p className="px-8 tracking-wider">
                     Sephine naturally leads and organizes teams with clarity and
                     purpose. Her{' '}
@@ -63,7 +63,6 @@ export default function Recommendations() {
                     the kind of initiative and presence that makes teams thrive.
                     With continued growth, she's sure to shine in any setting.
                   </p>
-                  <VscQuote className="text-primary-opacity rotate-180 self-end" />
                 </div>
                 <div className="flex flex-col gap-1 items-center mx-auto">
                   <div className="flex items-baseline gap-3">
