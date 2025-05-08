@@ -30,8 +30,10 @@ export default function ProjectItem({
         </div>
 
         <div className="flex flex-col items-start gap-6 w-full max-w-[88%]">
-          <div className="flex flex-col gap-1 text-base">
-            <span className="font-light text-lightestgrey">{category}</span>
+          <div className="flex flex-col gap-2 text-base">
+            <span className="font-light text-lightestgrey self-center">
+              {category}
+            </span>
             <h4 className="text-3xl font-medium tracking-normal leading-snug font-display">
               {title}
             </h4>
