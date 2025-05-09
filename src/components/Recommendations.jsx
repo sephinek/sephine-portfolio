@@ -5,7 +5,7 @@ import SlideInFromSide from './SlideInFromSide';
 export default function Recommendations() {
   return (
     <section className="py-24 px-16 flex flex-col gap-16 cursor-default text-lightestgrey">
-      <div className="max-w-3xl w-full mx-auto flex flex-col gap-16">
+      <div className="max-w-3xl w-full mx-auto flex flex-col gap-12">
         <SectionTitle title="Recommendations" />
 
         <ul className="max-w-3xl mx-auto flex flex-col gap-10">

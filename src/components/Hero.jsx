@@ -63,7 +63,7 @@ export default function Hero({ onClickDesignAndCode }) {
         <div className="text-base font-medium inline-flex flex-col items-start gap-1 w-fit">
           <span className="text-lightgrey flex items-center">
             <span>
-              UX/UI Designer / Product Designer / Web Developer / &nbsp;
+              UX/UI Designer / Product Designer / Web Developer &nbsp;| &nbsp;
             </span>
             <div className="flex items-center gap-1">
               <SlLocationPin />

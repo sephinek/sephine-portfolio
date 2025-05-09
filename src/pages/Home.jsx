@@ -31,7 +31,7 @@ export default function Home() {
       <div className="max-w-5xl w-[90%] mx-auto border-b-[0.5px] border-darkgrey my-12"></div>
       <section className="max-w-5xl w-[90%] pb-20 gap-4 mx-auto flex flex-col">
         <SectionTitle title="Get in touch ✨" align="left" color="primary" />
-        <div className="flex gap-6 items-center text-xl">
+        <div className="flex gap-3 items-center text-xl">
           <span className="text-lightergrey font-sebmibold">
             ✉️&nbsp;sephine.k31@gmail.com
           </span>

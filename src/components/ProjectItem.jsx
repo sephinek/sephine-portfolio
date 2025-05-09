@@ -21,7 +21,10 @@ export default function ProjectItem({
       onClick={() => navigate(to)}
     >
       <div className="flex flex-col items-center gap-10 w-full">
-        <div className="relative flex items-center justify-center w-full max-w-[380px] h-[380px]">
+        <span className="font-light text-lightestgrey self-start">
+          {category}
+        </span>
+        <div className="relative flex items-center justify-center w-full max-w-[360px] h-[360px]">
           <img
             className="z-10 object-contain w-full h-full"
             src={img}
@@ -29,11 +32,8 @@ export default function ProjectItem({
           />
         </div>
 
-        <div className="flex flex-col items-start gap-6 w-full max-w-[88%]">
+        <div className="flex flex-col items-start gap-4 w-full max-w-[88%]">
           <div className="flex flex-col gap-2 text-base">
-            <span className="font-light text-lightestgrey self-center">
-              {category}
-            </span>
             <h4 className="text-3xl font-medium tracking-normal leading-snug font-display">
               {title}
             </h4>
