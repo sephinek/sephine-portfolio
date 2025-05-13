@@ -31,15 +31,15 @@ export default function HyundaiCard() {
   };
 
   return (
-    <section className="pt-22 text-base leading-loose tracking-wider">
+    <section className="pt-20 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
         <section className="max-w-7xl mx-auto flex flex-col gap-10 w-full">
           <div className="flex flex-col gap-8 max-w-[85%] mx-auto">
             <div className="flex flex-col items-center gap-1">
-              <span className="text-xl font-medium text-grey">
+              <span className="text-base font-medium text-grey">
                 UX/UI Case Study
               </span>
-              <h2 className="text-[42px] font-medium text-black">
+              <h2 className="text-[48px] font-medium text-black -mt-1">
                 Hyundai Card Mobile App Redesign
               </h2>
             </div>
@@ -49,38 +49,38 @@ export default function HyundaiCard() {
                 <img
                   src={CarouselImg01}
                   alt="image 1"
-                  className="border-2 border-darkgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-darkgrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg02}
                   alt="image 2"
-                  className="border-2 border-darkgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-darkgrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg03}
                   alt="image 3"
-                  className="border-2 border-darkgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-darkgrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
             </Slider>
           </div>
         </section>
 
-        <section className="flex flex-col gap-16">
+        <section className="flex flex-col gap-18">
           {/* Overview starts */}
-          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto mt-10">
+          <section className="flex flex-col gap-14 max-w-[800px] w-[800px] mx-auto mt-20">
             <div className="flex flex-col gap-4">
               <h3 className="font-semibold text-lg uppercase tracking-wider text-hyundai-card">
                 Overview
               </h3>
             </div>
 
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-16">
+              <div className="flex flex-col gap-8">
                 <p className="text-darkgrey">
                   <span className="font-medium text-black">
                     The Hyundai Card app
@@ -130,7 +130,7 @@ export default function HyundaiCard() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-6">
                 <h3 className="font-medium text-2xl uppercase tracking-widest">
                   What is the problem?
                 </h3>
@@ -141,7 +141,7 @@ export default function HyundaiCard() {
                 </p>
               </div>
 
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-6">
                 <h3 className="font-medium text-2xl uppercase tracking-widest">
                   Design Process
                 </h3>
@@ -223,14 +223,14 @@ export default function HyundaiCard() {
 
           {/* Discovery starts */}
           <div className="bg-[#F9F9F9] py-16">
-            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
+            <section className="flex flex-col gap-14 max-w-[800px] w-[800px] mx-auto">
               {/* <h3 className="font-semibold text-lg uppercase tracking-wider text-hyundai-card">
                 Discovery
               </h3> */}
 
               <div className="flex flex-col gap-24">
                 {/* Market Research Starts */}
-                <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-12">
                   <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
                     <span className="text-2xl">🔍</span>{' '}
                     <span>Desk Research</span>

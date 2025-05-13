@@ -57,166 +57,168 @@ export default function Lucid() {
   };
 
   return (
-    <section className="pt-22 text-base leading-loose tracking-wider">
+    <section className="pt-20 text-base leading-loose tracking-wider">
       <div className="flex flex-col">
         <section className="max-w-7xl mx-auto flex flex-col gap-10 w-full">
           <div className="flex flex-col gap-8 max-w-[85%] mx-auto">
-            <div className="flex flex-col items-center gap-1">
-              <span className="text-xl font-medium text-grey">MVP Project</span>
-              <h2 className="text-[42px] font-medium text-black">
+            <div className="flex flex-col items-center">
+              <span className="text-base font-medium text-grey">
+                Product Design Case Study
+              </span>
+              <h2 className="text-[48px] font-medium text-black -mt-1">
                 Lucid: Vision Management App
               </h2>
             </div>
+
             <Slider {...settings}>
               <div>
                 <img
                   src={CarouselImg01}
                   alt="image 1"
-                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-lightergrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg02}
                   alt="image 2"
-                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-lightergrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg03}
                   alt="image 3"
-                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-lightergrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg04}
                   alt="image 4"
-                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-lightergrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={CarouselImg05}
                   alt="image 5"
-                  className="border-1 border-lightgrey rounded-4xl w-[95%] mx-auto"
+                  className="border-1 border-lightergrey/50 rounded-4xl w-[95%] mx-auto"
                 />
               </div>
             </Slider>
           </div>
         </section>
 
-        <section className="flex flex-col gap-16">
+        <section className="flex flex-col gap-18">
           {/* Overview starts */}
-          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto mt-10">
-            <div className="flex flex-col gap-4">
-              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+          <section className="flex flex-col gap-14 max-w-[800px] w-[800px] mx-auto mt-20">
+            <div className="flex flex-col gap-4 mb-10">
+              <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid">
                 Overview
               </h3>
             </div>
 
-            <div className="flex flex-col gap-12">
-              <div className="flex flex-col gap-4">
-                <p className="text-darkgrey">
-                  Lucid is a mobile app designed to{' '}
-                  <span className="font-medium text-black">
-                    help users discover their true motivation and achieve their
-                    goals
+            <div className="flex flex-col gap-16">
+              <div className="flex flex-col gap-8">
+                <p className="text-darkgrey w-[85%] mx-auto">
+                  <span className="font-medium text-darkestgrey text-2xl font-display">
+                    Lucid
                   </span>{' '}
-                  in a market focused on instant rewards. By leveraging
-                  visualization, it{' '}
-                  <span className="font-medium text-black">
-                    provides image training to reduce the psychological distance
-                    to goals
-                  </span>
-                  , enhancing motivation. To validate this approach, extensive
-                  desk research, market research, and user research were
-                  conducted, along with references to various psychological
-                  studies.
+                  is a goal-tracking and management app designed to help users
+                  stay focused on their long-term aspirations. While many
+                  productivity apps rely on simple routines and instant rewards,
+                  Lucid takes a deeper approach. It helps users connect with
+                  their ultimate values and find true, internal motivation.
+                  Through visualization techniques like image training, it
+                  reduces the psychological distance to future goals, making
+                  them feel more achievable and emotionally real.
                 </p>
-                <a
-                  href="https://lucid-mvp.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline text-base text-primary"
-                >
-                  <span className="font-bold">→ View Final Prototype</span>{' '}
-                  (Recommended: Use your mobile device or Responsive Design Mode
-                  in Chrome DevTools)
-                </a>
-                <a
-                  href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=87%3A84482&node-id=87-86179&viewport=-208%2C-147%2C0.13&t=ZLxBvMD6bDTUGliH-1&scaling=min-zoom&content-scaling=fixed"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline text-base text-primary"
-                >
-                  <span className="font-bold">→ View Figma Prototype</span>
-                </a>
+
+                {/* <div className="flex flex-col gap-2 w-[85%] mx-auto">
+                  <a
+                    href="https://lucid-mvp.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-base text-darkestgrey"
+                  >
+                    <span className="font-bold">→ View Final Prototype</span>{' '}
+                    (Recommended: Use a mobile device or Chrome DevTools in
+                    Responsive Design Mode for the best experience.)
+                  </a>
+                  <a
+                    href="https://www.figma.com/proto/Jpmf3eOkQjIUYLBN37CYhQ/4%EC%A1%B0-MVP-Lucid?page-id=137%3A50031&node-id=137-51919&viewport=-388%2C-63%2C0.13&t=1hQfVtPFLwTGdgki-1&scaling=min-zoom&content-scaling=fixed"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-base text-darkestgrey"
+                  >
+                    <span className="font-bold">→ View Figma Prototype</span>
+                  </a>
+                </div> */}
               </div>
 
-              <div className="grid grid-cols-4 gap-12 my-4 border-1 border-lightgrey p-6 rounded-xl">
+              <div className="grid grid-cols-4 gap-12 my-4 border-1 border-lightgrey p-6 rounded-xl w-[85%] mx-auto text-sm">
                 <div className="flex flex-col gap-2">
-                  <span className="font-medium text-sm text-lucid-opacity">
+                  <span className="font-medium text-lucid-opacity">
                     MY ROLE
                   </span>
-                  <span className="text-base text-mediumgrey">
-                    Product Designer (Market Research, User Research, Branding,
-                    Character Design, Wireframing, Screen Designs, Prototyping),
+                  <span className="text-mediumgrey">
+                    Product Designer,
                     <br />
-                    Frontend Developer
+                    Engineer
                   </span>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <span className="font-medium text-sm text-lucid-opacity">
-                    TEAM
-                  </span>
-                  <span className="text-base text-mediumgrey">
+                  <span className="font-medium text-lucid-opacity">TEAM</span>
+                  <span className="text-mediumgrey">
                     4 Product Designers,
                     <br />2 Engineers
                   </span>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <span className="font-medium text-sm text-lucid-opacity">
+                  <span className="font-medium text-lucid-opacity">
                     TIMELINE
                   </span>
-                  <span className="text-base text-mediumgrey">
-                    6 weeks (Q1 2025)
-                  </span>
+                  <span className="text-mediumgrey">6 weeks (Q1 2025)</span>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <span className="font-medium text-sm text-lucid-opacity">
-                    TOOLS
-                  </span>
-                  <span className="text-base text-mediumgrey">
-                    Figma, FigJam, Google Form, Maze, React, CSS
+                  <span className="font-medium text-lucid-opacity">TOOLS</span>
+                  <span className="text-mediumgrey">
+                    Figma, FigJam, Maze, CSS, React.js
                   </span>
                 </div>
               </div>
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl uppercase tracking-widest">
+              <div className="flex flex-col gap-6">
+                <h3 className="font-medium text-xl uppercase tracking-widest">
                   Background
                 </h3>
-                <p className="text-darkgrey">
-                  With numerous productive apps designed to help us maintain our
+                <p className="text-darkgrey w-[90%] mx-auto">
+                  With so many productivity apps designed to help us build
                   routines,{' '}
                   <span className="text-black italic underline">
-                    why do we still struggle to achieve our goals successfully?
+                    why do we still struggle to follow through and achieve our
+                    goals?
                   </span>
                 </p>
               </div>
 
-              <div className="flex flex-col gap-4">
-                <h3 className="font-medium text-2xl uppercase tracking-widest">
+              <div className="flex flex-col gap-6">
+                <h3 className="font-medium text-xl uppercase tracking-widest">
                   Design Process
                 </h3>
-                <ul className="flex items-center gap-2 flex-wrap text-[13px]">
+                <ul className="flex items-center gap-2 flex-wrap text-[13px] w-[90%] mx-auto">
                   <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
-                    Discovery
+                    Market Research
+                  </li>
+                  <span>
+                    <CgArrowLongRight className="text-mediumgrey" />
+                  </span>
+                  <li className="text-lucid-opacity font-medium rounded-lg p-2 border-[1px] border-lucid-opacity flex items-center justify-center shrink-0">
+                    User Research
                   </li>
                   <span>
                     <CgArrowLongRight className="text-mediumgrey" />
@@ -279,224 +281,169 @@ export default function Lucid() {
           {/* Overview ends */}
 
           {/* Discovery starts */}
-          <div className="bg-[#FFF5F5] py-16">
-            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
-              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+          <div className="bg-[#FFF5F5] py-16 relative">
+            <section className="flex flex-col gap-14">
+              <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid mx-auto max-w-[800px] w-[800px] mb-10">
                 Discovery
               </h3>
 
               <div className="flex flex-col gap-24">
                 {/* Market Research Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🔍</span>{' '}
-                    <span>Market Research</span>
-                  </h3>
+                <div className="flex flex-col gap-16">
+                  <div className="flex flex-col gap-12">
+                    <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 mx-auto max-w-[800px] w-[800px] text-center">
+                      {/* <span className="text-2xl">🔍< /span>{' '} */}
+                      <span className="font-bold">Market Research</span>
+                    </h3>
 
-                  <div className="flex flex-col gap-4 items-center">
-                    <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                      <li className="flex gap-2">
-                        <img src={MarketImg01} alt="Goal-Setting Timeframe" />
-                      </li>
-                      <li className="flex gap-2">
-                        <img
-                          src={MarketImg02}
-                          alt="Subjective Answers on Favored Long-Term Goals"
-                        />
-                      </li>
-                      <li className="flex gap-2">
-                        <img
-                          src={MarketImg03}
-                          alt="Biggest Factor Hindering Goal Achievement"
-                        />
-                      </li>
-                    </ul>
+                    <div className="flex flex-wrap gap-4 items-center w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
+                        <li className="flex gap-2">
+                          <img src={MarketImg01} alt="Goal-Setting Timeframe" />
+                        </li>
+                        <li className="flex gap-2">
+                          <img
+                            src={MarketImg02}
+                            alt="Subjective Answers on Favored Long-Term Goals"
+                          />
+                        </li>
+                        <li className="flex gap-2">
+                          <img
+                            src={MarketImg03}
+                            alt="Biggest Factor Hindering Goal Achievement"
+                          />
+                        </li>
+                      </ul>
+                    </div>
                   </div>
 
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Problem Discovered:
-                        </span>
-                        <div className="ml-4">
-                          Most people set goals but fail to achieve them.
-                        </div>
+                  <div className="flex flex-col gap-16 text-base mx-auto max-w-[800px] w-[800px]">
+                    <div className="flex flex-col gap-10">
+                      <span className="tracking-wider font-medium text-darkestgrey">
+                        🎯 The Problem: Why We Set Goals But Rarely Achieve Them
                       </span>
-                      <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            According to Frobes, Dr. Michelle Rozen ("The Change
-                            Doctor") surveyed 1,000 people,{' '}
-                            <span className="font-medium text-darkestgrey italic">
-                              finding that only 6% followed through on their
-                              resolutions, while 94% did not.
-                            </span>{' '}
-                            (2023)
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            According to a DiscoverHappyHabits study, 41% of
-                            Americans planned on set New Year's goals,{' '}
-                            <span className="font-medium text-darkestgrey">
-                              yet only 9% successfully achieved them by year's
-                              end.
-                            </span>{' '}
-                            (2016)
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            According to a study on procrastination and coping,{' '}
-                            <span className="font-medium text-darkestgrey">
-                              20-25% of adults worldwide are chronic
-                              procrastinators.
-                            </span>{' '}
-                            (2014)
-                          </span>
-                        </li>
-                      </ul>
+
+                      <div className="flex flex-col gap-12 w-[90%] mx-auto">
+                        <div className="flex flex-col gap-6">
+                          <p>
+                            While goal-setting is common—especially around
+                            milestones like New Year’s—most people don’t follow
+                            through. A Forbes survey found only{' '}
+                            <span className="font-medium">
+                              6% stick to their resolutions
+                            </span>
+                            , and another study showed just{' '}
+                            <span className="font-medium">
+                              9% achieve yearly goals
+                            </span>
+                            .
+                          </p>
+                        </div>
+
+                        <div className="flex flex-col gap-6">
+                          <p className="font-medium">Why?</p>
+                          <ul className="flex flex-col gap-1 leading-relaxed">
+                            <li className="flex gap-2">
+                              <span>•</span>
+                              <span>
+                                Goals are often unrealistic or too ambitious.
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>•</span>
+                              <span>
+                                Progress isn’t tracked, making it easy to lose
+                                focus.
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>•</span>
+                              <span>
+                                Juggling too many goals leads to burnout.
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>•</span>
+                              <span>
+                                Taking on too many goals at once, leading to
+                                burnout.
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Reasons:</span>
-                        <div className="ml-4">
-                          People fail to accomplish their goals due to specific
-                          factors.
-                        </div>
+                    <div className="flex flex-col gap-8">
+                      <span className="tracking-wider font-medium text-darkestgrey">
+                        🌍 Social Phenomenon
                       </span>
-                      <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            They had{' '}
-                            <span className="font-medium text-darkestgrey">
-                              unrealistic goals
-                            </span>
-                            .
+                      <div className="flex flex-col gap-4 w-[90%] mx-auto">
+                        <p>
+                          Despite widespread struggles with goal achievement,
+                          demand for productivity apps is growing—especially{' '}
+                          <span className="font-medium">
+                            among Millennials and Gen Z
+                          </span>{' '}
+                          seeking to optimize daily habits.
+                        </p>
+                        <p>
+                          The post-pandemic shift to remote work accelerated
+                          this trend, with U.S.{' '}
+                          <span className="font-medium">
+                            habit-tracking app downloads rising 25%
+                          </span>{' '}
+                          in 2020–2021.
+                        </p>
+                        <p>
+                          Yet many apps focus on short-term routines or gamified
+                          challenges,{' '}
+                          <span className="font-medium">
+                            leading to high downloads but poor long-term
+                            retention.
+                          </span>{' '}
+                          In contrast, tools that support flexible, long-term
+                          planning keep users engaged.
+                        </p>
+                        <p>
+                          <span className="font-medium">
+                            This highlights a clear gap—and opportunity—for
+                            solutions that enable lasting, value-driven
+                            progress.
                           </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            They{' '}
-                            <span className="font-medium text-darkestgrey">
-                              didn't keep track
-                            </span>{' '}
-                            of their progress.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            They{' '}
-                            <span className="font-medium text-darkestgrey">
-                              forgot
-                            </span>{' '}
-                            about their goals.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            They have{' '}
-                            <span className="font-medium text-darkestgrey">
-                              too many goals
-                            </span>
-                            .
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black">
-                        <span className="font-medium flex flex-col gap-1">
-                          ▸ Social Phenomenon:
-                        </span>
-                        <div className="ml-4">
-                          Productivity apps are in high demand among young
-                          people, yet many focus heavily on short-term
-                          challenges or one-off plan.
-                        </div>
-                      </span>
-                      <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            <span className="font-medium text-darkestgrey">
-                              Millennials and Gen Z value maximizing time and
-                              achieving goals
-                            </span>
-                            , demonstrating a strong inclination to use digital
-                            tools for managing their lives and tracking habits
-                            such as exercise, meditation, or work tasks.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            After the COVID-19 pandemic erupted, people began
-                            working from home and striving to regain control
-                            over their work-life balance. Between 2020 and 2021,{' '}
-                            <span className="font-medium text-darkestgrey">
-                              downloads of habit-tracking apps in the U.S.
-                              surged by 25%
-                            </span>
-                            , a trend that persists to this day.
-                          </span>
-                        </li>
-                        <li className="flex gap-2">
-                          <span>•</span>
-                          <span>
-                            Many apps on the market focus heavily on short-term
-                            routines or one-off plans. Sensor Tower's 2023
-                            analysis showed that{' '}
-                            <span className="font-medium text-darkestgrey">
-                              apps with gamified short-term focus had higher
-                              initial download rates but lower retention after
-                              90 days compared to apps with flexible, long-term
-                              planning
-                            </span>
-                            .
-                          </span>
-                        </li>
-                      </ul>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
                 {/* Market Research Ends */}
 
                 {/* User Research Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">👥</span>{' '}
-                    <span>User Research</span>
+                <div className="flex flex-col gap-16 text-base">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">User Research</span>
                   </h3>
+
                   <div className="flex flex-col gap-12 text-base">
                     <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Survey:</span>
-                        <div className="ml-4">
-                          As a result of surveying the goal achievement process,
-                          over half of the respondents preferred{' '}
+                      <span className="flex flex-col gap-8 text-base mx-auto max-w-[800px] w-[800px]">
+                        <span className="tracking-wider font-medium text-darkgrey">
+                          👥 User Survey
+                        </span>
+
+                        <div className="w-[90%] mx-auto">
+                          We conducted a user survey to explore how people set
+                          and manage their goals. Our survey revealed that{' '}
                           <span className="font-medium">
-                            setting long-term goals
-                          </span>
-                          , and many abandoned their goals due to a{' '}
-                          <span className="font-medium">
-                            lack of internal will and motivation
+                            while most people prefer long-term goals, many give
+                            up due to a lack of internal motivation, not
+                            external barriers.
                           </span>{' '}
-                          rather than external factors.
                         </div>
                       </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+
+                      <div className="flex flex-wrap gap-4 items-center w-full mt-10">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
                           <li className="flex gap-2">
                             <img
                               src={SurveyImg01}
@@ -516,44 +463,57 @@ export default function Lucid() {
                             />
                           </li>
                         </ul>
-                        <span className="text-center italic text-grey font-medium">
+                        <span className="w-full text-center italic text-lightgrey text-sm">
                           Data was sampled from 68 people
                         </span>
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ In-Depth Interview & Referencing Phychological
-                          Documents
+                    <div className="flex flex-col gap-12 text-base">
+                      <span className="flex flex-col gap-8 text-base mx-auto max-w-[800px] w-[800px]">
+                        <span className="tracking-wider font-medium text-darkgrey">
+                          👩‍💻 In-Depth Interview & Referencing Phychological
+                          Document
                         </span>
-                        <div className="ml-4">
-                          Through in-depth interviews analyzing the behaviors of
-                          those who failed and succeeded in achieving their
-                          goals, it was found that{' '}
-                          <span className="font-medium">
-                            successful individual persisted to reach the
-                            maintenance and completion stages
-                          </span>
-                          , while those who{' '}
-                          <span className="font-medium">
-                            failed struggled during the contemplation and
-                            preparation stages
-                          </span>{' '}
-                          and dropped out during the action and maintenance
-                          stages.
+                        <div className="flex flex-col gap-4 w-[90%] mx-auto">
+                          <p>
+                            While quantitative research offered broad insights,
+                            we wanted to understand why and when people give up
+                            on their goals. To dive deeper, we conducted
+                            in-depth interviews to empathize with users and
+                            uncover the emotional and behavioral patterns behind
+                            goal abandonment.
+                          </p>{' '}
+                          <p>
+                            We then analyzed these findings through the lens of
+                            the{' '}
+                            <span className="italic">
+                              Stages of Change theory
+                            </span>
+                            , which revealed that{' '}
+                            <span className="font-medium">
+                              successful individuals progressed to the
+                              maintenance and completion stages
+                            </span>
+                            , while{' '}
+                            <span className="font-medium">
+                              those who failed often struggled in the
+                              contemplation or preparation stages and dropped
+                              out during action or maintenance
+                            </span>
+                            .
+                          </p>
                         </div>
                       </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex flex-col gap-8 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex flex-col items-center gap-2">
+                      <div className="flex flex-wrap gap-4 items-center w-full">
+                        <ul className="flex flex-col gap-8 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
+                          <li className="flex flex-col items-center">
                             <img
                               src={InterviewImg01}
                               alt="Goal-Setting Timeframe"
                               className="rounded-xl"
                             />
-                            <span className="italic text-grey font-medium">
+                            <span className="w-full text-center italic text-lightgrey text-sm mt-3">
                               Summary of User Interview Insights
                             </span>
                           </li>
@@ -562,7 +522,7 @@ export default function Lucid() {
                               src={InterviewImg02}
                               alt="Identifies the cord issue point and the churn point"
                             />
-                            <span className="italic text-grey font-medium">
+                            <span className="w-full text-center italic text-lightgrey text-sm">
                               Analysis Based on the Stages of Change Theory
                             </span>
                           </li>
@@ -574,22 +534,29 @@ export default function Lucid() {
                 {/* User Research Ends */}
 
                 {/* User Experience Analysis Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🚶</span>{' '}
-                    <span>User Experience Analysis</span>
-                  </h3>
+                <div className="flex flex-col gap-10 text-base">
+                  <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                    🚶 Personas & Journey Map
+                  </span>
 
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Personas:</span>{' '}
-                        <div className="ml-4">
-                          Developed personas based on in-depth user interviews.
+                  <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-12">
+                      <span className="flex flex-col gap-1 mx-auto max-w-[800px] w-[800px]">
+                        <div className="flex flex-col gap-4 w-[90%] mx-auto">
+                          <p>
+                            Based on insights from both quantitative and
+                            qualitative research, we created two user personas:{' '}
+                            <span className="font-medium">
+                              one who struggles with achieving goals, and
+                              another who needs guidance after reaching them.
+                            </span>{' '}
+                            Their journeys helped us identify key pain points
+                            and unmet needs across each stage.
+                          </p>
                         </div>
                       </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                      <div className="flex flex-wrap gap-4 items-center w-full">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
                           <li className="flex gap-2">
                             <img
                               src={PersonaImg01}
@@ -603,24 +570,22 @@ export default function Lucid() {
                             />
                           </li>
                         </ul>
+                        <span className="w-full text-center italic text-lightgrey text-sm">
+                          Personas: Steve and Caitlyn
+                        </span>
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Journey Map</span>
-                        <div className="ml-4">
-                          Created a journey map based on the 5 stages of change,
-                          identifying the personas' pain points and needs at
-                          each stage.
-                        </div>
-                      </span>
-                      <div className="py-4 w-[120%] self-center">
+                    <div className="flex flex-col gap-4 w-full">
+                      <div className="flex flex-wrap gap-4 items-center w-[90%] max-w-5xl mx-auto">
                         <img
                           src={JourneyMapImg}
                           alt="Identifies the cord issue point and the churn point"
                           className="rounded-2xl"
                         />
+                        <span className="w-full text-center italic text-lightgrey text-sm">
+                          User Journey Map
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -632,154 +597,258 @@ export default function Lucid() {
           {/* Discovery ends */}
 
           {/* Define starts */}
-          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
-            <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+          <section className="flex flex-col gap-14">
+            <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid mx-auto max-w-[800px] w-[800px] mb-10">
               DEFINE
             </h3>
 
             <div className="flex flex-col gap-24">
               {/* Problem Definition Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">🧩</span>{' '}
-                  <span>Problem Definition</span>
-                </h3>
+              <div className="flex flex-col gap-20">
+                <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                    <span className="font-bold">Problems Definition</span>
+                  </h3>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ Problems Defined:</span>
-                      <div className="ml-4">
-                        We identified problems from the journey map.
-                      </div>
-                    </span>
-                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          Users{' '}
-                          <span className="font-medium text-darkestgrey italic">
-                            lose their sense of direction
-                          </span>{' '}
-                          if they do not{' '}
-                          <span className="font-medium text-darkestgrey italic">
-                            clearly define the value{' '}
-                          </span>
-                          of their goals.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          Users{' '}
-                          <span className="font-medium text-darkestgrey italic">
-                            struggle to create effective and specific plans
-                          </span>{' '}
-                          for their goals on their own.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Excessive or unrealistic plans lose execution power,{' '}
-                          </span>
-                          making them difficult to follow.{' '}
-                          <span className="font-medium text-darkestgrey">
-                            As unachieved plans accumulate, they ultimately lead
-                            to abandoining the goal
-                          </span>
-                          .
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          It is challenging to{' '}
-                          <span className="font-medium text-darkestgrey">
-                            get an overview of progress
-                          </span>{' '}
-                          and{' '}
-                          <span className="font-medium text-darkestgrey">
-                            conduct regular check-ins
-                          </span>
-                          .
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* Problem Definition Ends */}
+                  <div className="flex flex-col gap-16 text-base mx-auto max-w-[800px] w-[800px]">
+                    <div className="flex flex-col gap-10">
+                      <p className="w-[90%] mx-auto">
+                        Users often struggle to achieve their goals not because
+                        of a lack of ambition, but due to fragmented planning,
+                        unclear purpose, and lack of long-term support. Without
+                        defining the value behind their goals, creating
+                        actionable plans, and regularly checking progress, they
+                        lose motivation and eventually give up.
+                      </p>
 
-              {/* Solutions Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">💡</span> <span>Solutions</span>
-                </h3>
-
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Pain Points & Needs & Solutions Defined:
-                      </span>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                        <li className="flex gap-2">
-                          <img
-                            src={SolutionsImg}
-                            alt="Goal-Setting Timeframe"
-                          />
-                        </li>
-                      </ul>
+                      {/* <div className="flex flex-col gap-6 w-[90%] mx-auto">
+                        <span className="font-medium">List of Problems:</span>
+                        <ul className="ml-4 flex flex-col gap-2 leading-relaxed">
+                          <li className="flex gap-2">
+                            <span>1. </span>
+                            <span>
+                              <span className="font-medium">
+                                Lack of Meaningful Direction:
+                              </span>{' '}
+                              Users lose focus and motivation when the deeper
+                              value or purpose behind their goals is unclear.
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>2. </span>
+                            <span>
+                              <span className="font-medium">
+                                Planning Challenges:
+                              </span>{' '}
+                              Users often find it difficult to break down their
+                              goals into specific, actionable plans on their
+                              own.
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>3. </span>
+                            <span>
+                              <span className="font-medium">
+                                Overwhelming Plans Leads to Drop-off:
+                              </span>{' '}
+                              When plans are too ambitious or unrealistic, they
+                              become hard to follow. As incomplete tasks pile
+                              up, users eventually abandon the goal altogether.
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>4. </span>
+                            <span>
+                              <span className="font-medium">
+                                Limited Visibility and Check-ins:
+                              </span>{' '}
+                              Users struggle to track their progress and conduct
+                              regular check-ins, making it hard to stay aligned
+                              with their goals over time.
+                            </span>
+                          </li>
+                        </ul>
+                      </div> */}
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* Solutions Ends */}
+                {/* Problem Definition Ends */}
 
-              {/* Theoretical Validation Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">📚</span>{' '}
-                  <span>Theoretical Validation & Survey</span>
-                </h3>
+                {/* Solutions Starts */}
+                <div className="flex flex-col gap-16">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center mx-auto max-w-[800px] w-[800px]">
+                    {/* <span className="font-">💡</span> */}
+                    <span className="font-bold">Problem Statement</span>
+                  </h3>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Future Time Perspective (FTP) Theory:
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="flex flex-col gap-10">
+                      {/* <span className="font-medium mx-auto max-w-[800px] w-[800px]">
+                        🧩 Problem Statement:
+                      </span> */}
+                      <div className="flex flex-col gap-10 text-base mx-auto max-w-[800px] w-[800px]">
+                        <p className="w-[90%] mx-auto">
+                          How might we help users clarify the value of their
+                          goals, visualize their long-term vision, and create
+                          realistic, trackable plans—so they can stay motivated
+                          and follow through with confidence?
+                        </p>
+
+                        {/* <div className="flex flex-col gap-6 w-[90%] mx-auto">
+                          <span className="font-medium">
+                            List of Solutions:
+                          </span>
+                          <ul className="ml-4 flex flex-col gap-2 leading-relaxed">
+                            <li className="flex gap-2">
+                              <span>1. </span>
+                              <span>
+                                <span className="font-medium">
+                                  Support for Setting Direction:
+                                </span>{' '}
+                                <ul>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Help users reflect on the deeper "why"
+                                      behind their goals through onboarding
+                                      prompts.
+                                    </span>
+                                  </li>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Use vision boards to help users visualize
+                                      their high-level aspirations.
+                                    </span>
+                                  </li>
+                                </ul>
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>2. </span>
+                              <span>
+                                <span className="font-medium">
+                                  Support for Effective Planning with AI:
+                                </span>{' '}
+                                <ul>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Generate AI-powered recommendations for
+                                      actionable, realistic plans.
+                                    </span>
+                                  </li>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Reduce cognitive load and help users take
+                                      the first step more easily.
+                                    </span>
+                                  </li>
+                                </ul>
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>3. </span>
+                              <span>
+                                <span className="font-medium">
+                                  Support for Regular Plan Review:
+                                </span>{' '}
+                                <ul>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Let users easily adjust, delete, or pause
+                                      unrealistic plans.
+                                    </span>
+                                  </li>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Focus on flexibility and alignment with
+                                      long-term vision.
+                                    </span>
+                                  </li>
+                                </ul>
+                              </span>
+                            </li>
+                            <li className="flex gap-2">
+                              <span>4. </span>
+                              <span>
+                                <span className="font-medium">
+                                  Prioritize Fostering Intrinsic Motivation:
+                                </span>{' '}
+                                <ul>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Keep their vision visible to inspire
+                                      ongoing effort.
+                                    </span>
+                                  </li>
+                                  <li className="flex gap-2 items-center">
+                                    <span>•</span>
+                                    <span>
+                                      Offer visual and numeric feedback on
+                                      progress to build momentum.
+                                    </span>
+                                  </li>
+                                </ul>
+                              </span>
+                            </li>
+                          </ul>
+                        </div> */}
+                      </div>
+
+                      <div className="flex flex-wrap gap-4 items-center w-full">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
+                          <li className="flex gap-2">
+                            <img
+                              src={SolutionsImg}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                        <span className="w-full text-center italic text-lightgrey text-sm">
+                          Pain Points, Needs, Solutions
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Solutions Ends */}
+
+                {/* Theoretical Validation Starts */}
+                <div className="flex flex-col gap-16">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">
+                      Theoretical Validation & Survey
+                    </span>
+                  </h3>
+
+                  <div className="flex flex-col gap-16 text-base">
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <span className="tracking-wider font-medium text-darkgrey">
+                        🕰️ Future Time Perspective (FTP) Theory
                       </span>
-                      <div className="ml-4">
-                        Future Time Perspective (FTP) Theory validates our
-                        solutions. According to FTP Theory,{' '}
+                      <p className="w-[90%] mx-auto">
+                        Future Time Perspective (FTP) Theory supports our
+                        approach.{' '}
                         <span className="font-medium">
-                          even for goals with the same temporal distance, an
-                          individual's time perspective affects their perceived
-                          psychological distance and attitude toward the goal
+                          According to FTP, people's attitudes toward goals
+                          depend on their psychological, not just temporal,
+                          distance from them
                         </span>
-                        . In other words, to achieve a vision, it is essential
-                        to{' '}
+                        . To stay motivated and achieve long-term vision,{' '}
                         <span className="font-medium">
-                          define the goal's value
-                        </span>
-                        ,{' '}
-                        <span className="font-medium">
-                          create specific plans
-                        </span>
-                        , <span className="font-medium">track progress</span>,
-                        and{' '}
-                        <span className="font-medium">
-                          envision your future self
+                          it's crucial to define goal value, create specific
+                          plans, track progress, and visualize one's future self
                         </span>
                         .
-                      </div>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                      </p>
+                    </div>
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl">
                         <li className="flex gap-2">
                           <img
                             src={FTPTheoryImg}
@@ -788,7 +857,7 @@ export default function Lucid() {
                         </li>
                       </ul>
                     </div>
-                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
+                    {/* <ul className="flex flex-col gap-2 leading-relaxed text-darkgrey mx-auto max-w-[800px] w-[800px]">
                       <li className="flex gap-2">
                         <span>•</span>
                         <span>
@@ -838,131 +907,144 @@ export default function Lucid() {
                           making them feel more tangible and achievable.
                         </span>
                       </li>
-                    </ul>
-                  </div>
+                    </ul> */}
 
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Survey on FTP Theory and Psychological Distance:
-                      </span>
-                      <div className="ml-4">
-                        To validate the theory with real individuals, we
-                        conducted a survey. We found that{' '}
-                        <span className="font-medium">
-                          simple setting specific goals and reviewing plans can
-                          reduce the psychological distance to the goal
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        <span className="tracking-wider font-medium text-darkgrey">
+                          📝 Survey on FTP Theory and Psychological Distance
                         </span>
-                        .
+                        <p className="w-[90%] mx-auto">
+                          To validate the theory in practice, we ran a short
+                          survey where users reviewed their original plans and
+                          identified ineffective ones. This simple reflection
+                          reduced psychological distance, making their goals
+                          feel more achievable.
+                        </p>
                       </div>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[120%]">
-                        <li className="flex gap-2">
+                      <div className="flex flex-col gap-4 items-center py-4 w-full">
+                        <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[90%] max-w-5xl">
+                          <li className="flex gap-2">
+                            <img
+                              src={FTPSurveyImg01}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                          <li className="flex gap-2">
+                            <img
+                              src={FTPSurveyImg02}
+                              alt="Goal-Setting Timeframe"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Theoretical Validation Ends */}
+
+                {/* Competitor Analysis Starts */}
+
+                <div className="flex flex-col gap-16">
+                  {/* Problem Definition Starts */}
+
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    {/* <span className="text-2xl">📊</span>{' '} */}
+                    <span className="font-bold">Competitor Analysis</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        <span className="tracking-wider font-medium text-darkgrey">
+                          📊 Competitor Analysis & Positioning Map
+                        </span>
+
+                        <div className="flex flex-col gap-4 w-[90%] mx-auto">
+                          <p>
+                            We analyzed six behavior-change apps—MyRoutine,
+                            Roubit, Routinery, Habitify, Productive, and
+                            GoalKit—focusing on their core features, target
+                            users, strengths, weaknesses, and unique offerings.{' '}
+                          </p>
+                          <p>
+                            Based on this, we created a positioning map to
+                            define Lucid’s direction and differentiation.{' '}
+                            <span className="font-medium">
+                              We found that by helping users pursue a higher,
+                              long-term goal (“Vision”) with flexible planning
+                              and strong internal motivation, Lucid can stand
+                              out in the market.
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex flex-col gap-10 leading-relaxed text-darkgrey w-[90%] max-w-5xl">
+                        <li className="flex flex-col items-center gap-3">
                           <img
-                            src={FTPSurveyImg01}
-                            alt="Goal-Setting Timeframe"
+                            src={CompetitorImg01}
+                            alt="Subjective Answers on Favored Long-Term Goals"
+                            // className="w-4/5 mx-auto"
                           />
+                          <span className="w-full text-center italic text-lightgrey text-sm">
+                            Competitor Analysis
+                          </span>
                         </li>
-                        <li className="flex gap-2">
+                        <li className="flex flex-col items-center gap-0">
                           <img
-                            src={FTPSurveyImg02}
-                            alt="Goal-Setting Timeframe"
+                            src={CompetitorImg02}
+                            alt="Subjective Answers on Favored Long-Term Goals"
+                            // className="w-6/7 mx-auto"
                           />
+                          <span className="w-full text-center italic text-lightgrey text-sm">
+                            Positioning Map
+                          </span>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* Theoretical Validation Ends */}
+                {/* Competitor Analysis Ends */}
 
-              {/* Competitor Analysis Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest">
-                  <span className="text-2xl">📊</span>{' '}
-                  <span>Competitor Analysis</span>
-                </h3>
+                {/* Market-Fit Starts */}
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    {' '}
+                    {/* <span className="text-2xl">🎯</span>{' '} */}
+                    <span className="font-bold">Hypothesis on Market Fit</span>
+                  </h3>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Competitor Analysis:
-                      </span>
-                      <div className="ml-4">
-                        <span className="font-medium">
-                          Selected six competitor apps with similar core
-                          features{' '}
-                        </span>
-                        among behavior-changing apps (MyRoutine, Roubit,
-                        Routinery, Habitify, Productive, GoalKit) and analyzed
-                        each to compare their{' '}
-                        <span className="font-medium">
-                          main age group, advantages, weakenesses, and unique
-                          points
-                        </span>
-                        .
+                  <div className="flex flex-col gap-12 text-base">
+                    <div className="mx-auto max-w-[800px] w-[800px]">
+                      <div className="flex flex-col gap-6 w-[90%] mx-auto">
+                        <p>
+                          We have defined the market fit between our target
+                          users and core value.
+                        </p>
+                        <ul>
+                          <li>
+                            <span className="font-medium">Who: </span>People in
+                            their 20s and 30s who often struggle to follow
+                            through on their goals.
+                          </li>
+                          <li>
+                            <span className="font-medium">How: </span>By
+                            offering sustained inner motivation and adaptable
+                            planning tools.
+                          </li>
+                          <li>
+                            <span className="font-medium">What: </span>Users can
+                            stay on track, build a sense of achievement, and
+                            ultimately reach their goals.
+                          </li>
+                        </ul>
                       </div>
-                    </span>
-                    <div className="py-4 self-center">
-                      <img
-                        src={CompetitorImg01}
-                        alt="Subjective Answers on Favored Long-Term Goals"
-                        className="w-4/5 mx-auto"
-                      />
                     </div>
-                  </div>
 
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ Positioning Map:</span>
-                      <div className="ml-4">
-                        Created a positioning map by defining the service
-                        direction and differentiaion points. Found that if Lucid
-                        focuses on{' '}
-                        <span className="font-medium">
-                          providing users with a higher and further goal (which
-                          Lucid calls 'Vision'), along with high flexibility in
-                          their paths to achieve it and strong internal
-                          motivation
-                        </span>
-                        , this could become its strength and unique
-                        differentiation from other apps.
-                      </div>
-                    </span>
-                    <div className="py-4 self-center">
-                      <img
-                        src={CompetitorImg02}
-                        alt="Subjective Answers on Favored Long-Term Goals"
-                        className="w-6/7 mx-auto"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Competitor Analysis Ends */}
-
-              {/* Market-Fit Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">🎯</span>{' '}
-                  <span>Hypothesis on Market Fit</span>
-                </h3>
-
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Hypothesis Statement:
-                      </span>
-                      <div className="ml-4">
-                        We have defined the market fit between our target users
-                        and core value as below.
-                      </div>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
                         <li className="flex gap-2">
                           <img
                             src={MarketFitImg}
@@ -973,88 +1055,82 @@ export default function Lucid() {
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* Market-Fit Ends */}
+                {/* Market-Fit Ends */}
 
-              {/* Business Model Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">💰</span>{' '}
-                  <span>Service Format & Business Model</span>
-                </h3>
-
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">
-                        ▸ Service Format & Business Model:
-                      </span>
-                      <div className="ml-4">
-                        Lucid is designed as{' '}
-                        <span className="font-medium">
-                          a mobile appproviding access anytime and anywhere
-                        </span>
-                        , though we develped a web app prototype mimicking the
-                        mobile app. We have used the{' '}
-                        <span className="font-medium">
-                          Business Model Canvas
-                        </span>{' '}
-                        to outline the service's key value propositions, revenue
-                        model, and more.
-                      </div>
+                {/* Business Model Starts */}
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    {/* <span className="text-2xl">💰</span>{' '} */}
+                    <span className="font-bold">
+                      Service Format & Business Model
                     </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                        <li className="flex gap-2">
-                          <img
-                            src={ServiceFormatImg}
-                            alt="Lucid Service Format"
-                          />
-                        </li>
-                        <li className="flex gap-2">
-                          <img
-                            src={BusinessModelImg}
-                            alt="Lucid Business Model"
-                          />
-                        </li>
-                      </ul>
+                  </h3>
+
+                  <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        <p className="w-[90%] mx-auto">
+                          Lucid is designed as a mobile app for easy, on-the-go
+                          access. We developed a web app prototype to simulate
+                          the mobile experience. Using the Business Model
+                          Canvas, we outlined Lucid’s core value propositions,
+                          target customers, revenue streams, and key activities.
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col gap-4 items-center py-4 w-full">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] mx-auto max-w-5xl">
+                          <li className="flex gap-2">
+                            <img
+                              src={ServiceFormatImg}
+                              alt="Lucid Service Format"
+                            />
+                          </li>
+                          <li className="flex gap-2">
+                            <img
+                              src={BusinessModelImg}
+                              alt="Lucid Business Model"
+                            />
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
+                {/* Business Model Ends */}
               </div>
-              {/* Business Model Ends */}
             </div>
           </section>
           {/* Define ends */}
 
           {/* Develop starts */}
-          <div className="bg-[#FFF5F5] py-16">
-            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
-              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+          <div className="bg-[#FFF5F5] py-16 relative">
+            <section className="flex flex-col gap-14">
+              <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid mx-auto max-w-[800px] w-[800px] mb-10">
                 DEVELOP
               </h3>
 
               <div className="flex flex-col gap-24">
                 {/* Wireframes Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">✏️</span>{' '}
-                    <span>Initial Wireframes</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Initial Wireframes</span>
                   </h3>
 
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Wireframes at the Earlier Stage:
-                        </span>
-                        <div className="ml-4">
+                  <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        {/* <span className="tracking-wider font-medium text-darkgrey">
+                          ✍️ Wireframes at the Earlier Stage
+                        </span> */}
+                        <p className="w-[90%] mx-auto">
                           We created wireframes for the goal addition flow and
                           the statistics viewing flow.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col gap-4 items-center py-4 w-[90%] max-w-5xl mx-auto">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-full">
                           <li className="flex gap-2">
                             <img
                               src={WireframesImg}
@@ -1070,27 +1146,27 @@ export default function Lucid() {
                 {/* Wireframes Ends */}
 
                 {/* Information Architecture Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">ℹ️</span>{' '}
-                    <span>Information Architeture (IA)</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">
+                      Information Architecture (IA)
+                    </span>
                   </h3>
-
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Information Architecture:
-                        </span>
-                        <div className="ml-4">
+                  <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        {/* <span className="tracking-wider font-medium text-darkgrey">
+                          ✍️ Wireframes at the Earlier Stage
+                        </span> */}
+                        <p className="w-[90%] mx-auto">
                           We have created an information architecture diagram
                           that includes key features of our service, such as
-                          adding goals and plans, reflection day, and statistic
-                          page.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                          adding goals and plans, reflection, and statistics.
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col gap-4 items-center py-4 w-full">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
                           <li className="flex gap-2">
                             <img src={IAImg} alt="Information Architecture" />
                           </li>
@@ -1102,170 +1178,167 @@ export default function Lucid() {
                 {/* Information Architecture Ends */}
 
                 {/* User Flow Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">➡️</span> <span>User Flow</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">User Flow</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ User Flow:</span>
-                        <div className="ml-4">
-                          We have mapped out the entry points of key features
-                          and flow toward achieving user goals.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={UserFlowImg}
-                              alt="Information Architecture"
-                            />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* User Flow Ends */}
-
-                {/* Branding Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🌟</span> <span>Branding</span>
-                  </h3>
-
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ App Naming:</span>
-                        <div className="ml-4">
-                          Inspired by{' '}
-                          <span className="italic">lucid dreams</span>, "
-                          <span className="font-medium">Lucid</span>" is built
-                          on six brand keywords—
-                          <span className="font-medium">
-                            Vision, Imagination, Planning, Tracking,
-                            Achievement, and Reflection
-                          </span>
-                          —helping users turn their envisioned future into a
-                          clear reality.{' '}
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-auto">
-                          <li className="flex gap-2">
-                            <img src={NamingImg} alt="Goal-Setting Timeframe" />
-                          </li>
-                        </ul>
-                      </div>
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <p className="w-[90%] mx-auto">
+                        We have mapped out the entry points of key features and
+                        flow toward achieving user goals.
+                      </p>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Character:</span>
-                        <div className="ml-4">
-                          Designed using{' '}
-                          <span className="font-medium">
-                            the doodling technique
-                          </span>{' '}
-                          to symbolize{' '}
-                          <span className="font-medium">the North Star</span>,
-                          Lucid feels{' '}
-                          <span className="font-medium">approachable</span> and{' '}
-                          <span className="font-medium">unintimidating</span> to
-                          users.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={CharacterImg01}
-                              alt="Lucid character with bright red color and six edges"
-                              className="rounded-2xl"
-                            />
-                          </li>
-                          <li className="flex gap-2">
-                            <img
-                              src={CharacterImg02}
-                              alt="Lucid character with bright red color and six edges"
-                              className="w-full object-cover"
-                            />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                    <li className="flex gap-2">
-                      <span>•</span>
-                      <span>
-                        <span className="font-medium text-darkestgrey">
-                          Six Points:
-                        </span>{' '}
-                        The six points symbolize Lucid's six brand
-                        keywords—Vision, Imagination, Planning, Tracking,
-                        Achievement, and Reflection.
-                      </span>
-                    </li>
-                    <li className="flex gap-2">
-                      <span>•</span>
-                      <span>
-                        <span className="font-medium text-darkestgrey">
-                          Red Color:
-                        </span>{' '}
-                        Lucid's bold red color, which serves as a guiding light,
-                        encourages immediate action.
-                      </span>
-                    </li>
-                    <li className="flex gap-2">
-                      <span>•</span>
-                      <span>
-                        <span className="font-medium text-darkestgrey">
-                          Rounded Design:
-                        </span>{' '}
-                        Its rounded deisgn creates a friendly and approachable
-                        impression while supporting flexible adjustments.
-                      </span>
-                    </li>
-                  </ul>
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ App Logo:</span>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-10 leading-relaxed text-darkgrey">
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[90%] max-w-5xl mx-auto">
                         <li className="flex gap-2">
                           <img
-                            src={AppLogosImg}
-                            alt="Lucid character with bright red color and six edges"
+                            src={UserFlowImg}
+                            alt="Information Architecture"
                           />
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
+                {/* User Flow Ends */}
+
+                {/* Branding Starts */}
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Branding</span>
+                  </h3>
+
+                  <div className="flex flex-col gap-16">
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                        <span className="tracking-wider font-medium text-darkgrey">
+                          ✨ App Naming
+                        </span>
+                        <p className="w-[90%] mx-auto max-w-5xl">
+                          Inspired by{' '}
+                          <span className="italic">lucid dreams</span>, "Lucid"
+                          is built on six brand keywords—Vision, Imagination,
+                          Planning, Tracking, Achievement, and Reflection—
+                          <span className="font-medium">
+                            helping users turn their envisioned future into a
+                            clear reality
+                          </span>
+                          .{' '}
+                        </p>
+                      </div>
+                      <div className="flex flex-col gap-4 items-center py-4 w-full justify-center">
+                        <div className="flex gap-2 max-w-5xl mx-auto self-center">
+                          <img src={NamingImg} alt="Lucid in Red" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10">
+                        <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                          ⭐️ Character & Visual Identity
+                        </span>
+
+                        <div className="flex flex-col gap-10 w-full">
+                          <div className="flex flex-col gap-6 mx-auto max-w-[800px] w-[800px]">
+                            <p className="w-[90%] mx-auto max-w-5xl">
+                              Lucid’s bright red, six-edged character is
+                              designed with a doodling technique to feel like an
+                              approachable North Star.
+                            </p>
+                            <ul className="lex flex-col gap-2 leading-relaxed w-[90%] mx-auto max-w-5xl">
+                              <li className="flex gap-2">
+                                <span>•</span>
+                                <span>
+                                  <span className="font-medium text-darkestgrey">
+                                    Six Points
+                                  </span>{' '}
+                                  represents Lucid's core values: Vision,
+                                  Imagination, Planning, Tracking, Achievement,
+                                  and Reflection.
+                                </span>
+                              </li>
+                              <li className="flex gap-2">
+                                <span>•</span>
+                                <span>
+                                  <span className="font-medium text-darkestgrey">
+                                    Red Color
+                                  </span>{' '}
+                                  acts as a bold guiding light that inspires
+                                  immediate action.
+                                </span>
+                              </li>
+                              <li className="flex gap-2">
+                                <span>•</span>
+                                <span>
+                                  <span className="font-medium text-darkestgrey">
+                                    Rounded Design
+                                  </span>{' '}
+                                  conveys friendliness and flexibility,
+                                  supporting adaptable goal-setting.
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="flex flex-col gap-4 items-center py-4 w-[90%] max-w-5xl mx-auto">
+                            <ul className="flex gap-2 leading-relaxed text-darkgrey w-full">
+                              <li className="flex gap-2">
+                                <img
+                                  src={CharacterImg01}
+                                  alt="Lucid character with bright red color and six edges"
+                                  className="rounded-2xl"
+                                />
+                              </li>
+                              <li className="flex gap-2">
+                                <img
+                                  src={CharacterImg02}
+                                  alt="Lucid character with bright red color and six edges"
+                                  className="w-full object-cover"
+                                />
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-12">
+                      <div className="flex flex-col gap-12 text-base">
+                        <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                          <span className="tracking-wider font-medium text-darkgrey">
+                            📱 App Logo
+                          </span>
+
+                          <div className="flex flex-col gap-4 items-center py-4">
+                            <ul className="flex gap-10 leading-relaxed text-darkgrey">
+                              <li className="flex gap-2">
+                                <img
+                                  src={AppLogosImg}
+                                  alt="Lucid character with bright red color and six edges"
+                                />
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 {/* Branding Ends */}
 
                 {/* Design System Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest">
-                    <span className="text-2xl">🎨</span>{' '}
-                    <span>Design System</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Design System</span>
                   </h3>
 
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Typography & Color Palette:
-                        </span>
-                      </span>
+                  <div className="flex flex-col gap-12 text-base w-full">
+                    <div className="flex flex-col gap-4 w-[90%] mx-auto max-w-5xl">
                       <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey">
                           <li className="flex gap-2">
                             <img src={DesignSystemImg01} alt="Typography" />
                           </li>
@@ -1273,7 +1346,7 @@ export default function Lucid() {
                             <img src={DesignSystemImg02} alt="Color Palette" />
                           </li>
                         </ul>
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
+                        <ul className="flex gap-2 leading-relaxed text-darkgrey">
                           <li className="flex gap-2">
                             <img src={DesignSystemImg03} alt="Typography" />
                           </li>
@@ -1285,96 +1358,84 @@ export default function Lucid() {
                 {/* Design System Ends */}
 
                 {/* UX Writing Guidelines Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">✍️</span>{' '}
-                    <span>UX Writing Guidelines</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">UX Writing Guidelines</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <p className="w-[90%] mx-auto">
+                        We developed a UX writing guide rooted in Lucid's brand
+                        story to ensure a consistent voice across the app. The
+                        tone is{' '}
                         <span className="font-medium">
-                          ▸ UX Writing Guidelines:
+                          friendly, inspirational, and simple yet directive
                         </span>
-                        <div className="ml-4">
-                          We created a UX writing guide that reflects the brand
-                          story of Lucid and maintained a consistent voice and
-                          tone throughout the app.
-                        </div>
-                      </span>
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={UXWritingImg}
-                              alt="Goal-Setting Timeframe"
-                            />
-                          </li>
-                        </ul>
-                      </div>
+                        , helping users stay motivated and clear on what to do
+                        next.
+                      </p>
+                    </div>
+
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 text-darkgrey w-[90%] max-w-5xl mx-auto">
+                        <li className="flex gap-2">
+                          <img
+                            src={UXWritingImg}
+                            alt="Goal-Setting Timeframe"
+                          />
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
                 {/* UX Writing Guidelines Ends */}
 
                 {/* Screen Designs Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">📱</span>{' '}
-                    <span>Screen Designs</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Screen Designs</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Screen Designs:</span>
-                        <div className="ml-4">
-                          Lucid is designed as{' '}
-                          <span className="font-medium">
-                            a mobile appproviding access anytime and anywhere
-                          </span>
-                          , though we develped a web app prototype mimicking the
-                          mobile app. We have used the{' '}
-                          <span className="font-medium">
-                            Business Model Canvas
-                          </span>{' '}
-                          to outline the service's key value propositions,
-                          revenue model, and more.
-                        </div>
+                    <div className="flex flex-col gap-4 mx-auto max-w-[800px] w-[800px]">
+                      <span className="flex flex-col gap-1 w-[90%] mx-auto max-w-5xl">
+                        <p>
+                          Here are all the screen designs we created for Lucid,
+                          showcasing the full user experience from start to
+                          finish.
+                        </p>
                       </span>
+                    </div>
 
-                      <div className="flex flex-col gap-4 items-center py-4">
-                        <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                          <li className="flex gap-2">
-                            <img
-                              src={ScreenDesignsImg}
-                              alt="Lucid Service Format"
-                            />
-                          </li>
-                        </ul>
-                      </div>
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey mx-auto max-w-5xl w-[90%]">
+                        <li className="flex gap-2">
+                          <img
+                            src={ScreenDesignsImg}
+                            alt="Lucid Service Format"
+                          />
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
                 {/* Screen Designs Ends */}
 
                 {/* Prototypes Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🤳</span> <span>Prototypes</span>
+
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Prototypes</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Prototypes:</span>
-                        <div className="ml-4">
-                          Lucid has two prototype versions: a Figma prototype
-                          and deployed final app.
-                        </div>
-                      </span>
-                      <div className="ml-4 flex flex-col gap-3">
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <p className="w-[90%] mx-auto">
+                        Lucid offers two prototype versions: a design prototype
+                        in Figma and a deployed version of the final app.
+                      </p>
+                      <div className="flex flex-col gap-3 w-[90%] max-w-5xl mx-auto">
                         <div className="flex gap-1">
                           <span className="mr-1 font-medium">
                             ◦ Figma Prototype:
@@ -1400,15 +1461,18 @@ export default function Lucid() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <img
-                              className="w-10 h-10"
-                              src={NetlifyIcon}
-                              alt="Netlify icon"
-                            />
-                            <span className="text-sm">
-                              (Recommended: Use your mobile device or Responsive
-                              Design Mode in Chrome DevTools)
-                            </span>
+                            <div className="flex gap-2">
+                              <img
+                                className="w-10 h-10"
+                                src={NetlifyIcon}
+                                alt="Netlify icon"
+                              />
+                              <span className="text-sm">
+                                (Recommended: Use a mobile device or Chrome
+                                DevTools in Responsive Design Mode for the best
+                                experience.)
+                              </span>
+                            </div>
                           </a>
                         </div>
                       </div>
@@ -1418,23 +1482,18 @@ export default function Lucid() {
                 {/* Prototypes Ends */}
 
                 {/* Marketing Video Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">📹</span>{' '}
-                    <span>Marketing Video</span>
+                <div className="flex flex-col gap-16">
+                  <h3 className="text-xl font-medium uppercase tracking-wider flex items-baseline gap-2 text-center  mx-auto max-w-[800px] w-[800px]">
+                    <span className="font-bold">Marketing Video</span>
                   </h3>
-
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ YouTube Video:</span>
-                        <div className="ml-4">
-                          One of our team members created a marketing video to
-                          introduce Lucid. I contributed by helping decide the
-                          statements to include and the content to be featured
-                          in the video.
-                        </div>
-                      </span>
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <p className="w-[90%] mx-auto">
+                        One of our team members produced a marketing video to
+                        introduce Lucid. I contributed by shaping the key
+                        messages and selecting the content featured in the
+                        video.
+                      </p>
                       <div className="ml-4 flex flex-col gap-3 self-center">
                         <iframe
                           width="560"
@@ -1456,545 +1515,349 @@ export default function Lucid() {
           {/* Develop ends */}
 
           {/* Deliver starts */}
-          <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
-            <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+          <section className="flex flex-col gap-14">
+            <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid mx-auto max-w-[800px] w-[800px] mb-10">
               DELIVER
             </h3>
 
             <div className="flex flex-col gap-24">
               {/* Code Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">👩‍💻</span> <span>Code</span>
-                </h3>
+              <div className="flex flex-col gap-16">
+                <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                    <span className="font-bold">Code</span>
+                  </h3>
+                </div>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ Tools & Tasks:</span>
-                      <div className="ml-4">
+                <div className="flex flex-col gap-12">
+                  <div className="flex flex-col gap-12 text-base mx-auto max-w-[800px] w-[800px]">
+                    <div className="flex flex-col gap-6 w-[90%] max-w-5xl mx-auto">
+                      <p>
                         We developed the web app prototype using{' '}
                         <span className="font-medium">
-                          React (JavaScript) and CSS, with Recoil for state
+                          React (JavaScript), CSS, and Recoil for state
                           management
                         </span>
-                        .
-                        <br />
+                        .{' '}
                         <span className="font-medium">
-                          As the lead during the web app prototype development
-                          phase
-                        </span>
-                        , I managed the GitHub repository, created development
-                        schedules, assigned roles to team members, conducted
-                        reviews, and facilitated communication with engineers.
-                      </div>
-                    </span>
-                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Discussed which inputs to collect from users{' '}
+                          As a designer with development experience, I led the
+                          development phase, contributed directly to the
+                          codebase, and collaborated closely with other
+                          engineers.
+                        </span>{' '}
+                        <br />
+                        My contributions included:
+                      </p>
+                      <ul className="flex flex-col gap-2 leading-relaxed">
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Managing the GitHub repository and setting
+                            development timelines.
                           </span>
-                          and how to store them as data.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Took the lead in designing the data transition logic
-                          </span>{' '}
-                          and shared it with the engineers. .
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          Created components to{' '}
-                          <span className="font-medium text-darkestgrey">
-                            enable code reusability
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Defining key user inputs and structuring how they
+                            are stored and updated across the app.
                           </span>
-                          .
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          Wrote the{' '}
-                          <span className="font-medium text-darkestgrey">
-                            code implement the interface.
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Designing data flow logic for user interactions
+                            across key pages, including the Goals List, Goal
+                            Detail, and Plan Detail pages.
                           </span>
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Utilized AI
-                          </span>{' '}
-                          to effeciently receive and utilize data, and fix bugs.
-                        </span>
-                      </li>
-                    </ul>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Building reusable UI components and implementing
+                            core interface elements.
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Collaborating with engineers to ensure seamless
+                            integration between logic and design.
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>•</span>
+                          <span>
+                            Leveraging AI tools to streamline debugging and
+                            optimize data processing. handling.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
               {/* Code Ends */}
 
               {/* Launch Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">🎉</span> <span>Launch</span>
-                </h3>
+              <div className="flex flex-col gap-16">
+                <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                    <span className="font-bold">LAUNCH</span>
+                  </h3>
+                </div>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ Tool:</span>
-                      <div className="ml-4">
-                        We deployed our web app using{' '}
-                        <span className="font-medium">Netlify</span>
-                        , which enabled seamless hosting and continuous
-                        integration.
+                <div className="flex flex-col gap-12">
+                  <div className="flex flex-col gap-12 text-base mx-auto max-w-[800px] w-[800px]">
+                    <div className="flex flex-col gap-6 w-[90%] max-w-5xl mx-auto">
+                      <p>
+                        We deployed via{' '}
+                        <span className="font-medium">Netlify</span> for
+                        seamless hosting and continuous integration.
                         <br />
-                        <span className="font-medium">
-                          To properly view the prototype in mobile size, use
-                          your mobile device or Chrome's DevTools responsive
-                          design mode feature.
-                        </span>
-                      </div>
-                    </span>
-                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                      <li className="flex gap-2">
-                        <span>1.</span>
-                        <span>
-                          Right-click on the page and select{' '}
-                          <span className="font-medium">'Inspect'</span>
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>2.</span>
-                        <span>
-                          Click the{' '}
-                          <span className="font-medium">
-                            'Toggle Device Toolbar' icon
-                          </span>{' '}
-                          or press{' '}
-                          <span className="font-medium">
-                            Ctrl + Shift + M (Cmd + Shift + M on Mac)
+                        To view the mobile-sized prototype:
+                      </p>
+                      <ul className="flex flex-col gap-2 leading-relaxed">
+                        <li className="flex gap-2">
+                          <span>1.</span>
+                          <span>
+                            Right-click the page and select{' '}
+                            <span className="font-medium">Inspect</span>.
                           </span>
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>3.</span>
-                        <span>
-                          Enter <span className="font-medium">375 * 812</span>{' '}
-                          as the custom device size.
-                        </span>
-                      </li>
-                    </ul>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>2. </span>
+                          <span>
+                            Click the{' '}
+                            <span className="font-medium">
+                              Toggle Device Toolbar
+                            </span>{' '}
+                            icon or press&nbsp;&nbsp;
+                            <span className="font-mono">
+                              Ctrl+Shift+M (Cmd+Shift+M on Mac)
+                            </span>
+                            .
+                          </span>
+                        </li>
+                        <li className="flex gap-2">
+                          <span>3.</span>
+                          <span>
+                            Set the custom device size to{' '}
+                            <span className="font-medium">375 x 812</span>.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
               {/* Launch Ends */}
 
               {/* QA Starts */}
-              <div className="flex flex-col gap-10">
-                <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                  <span className="text-2xl">✅</span> <span>QA</span>
-                </h3>
+              <div className="flex flex-col gap-16">
+                <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                    <span className="font-bold">QA</span>
+                  </h3>
+                </div>
 
-                <div className="flex flex-col gap-12 text-base">
-                  <div className="flex flex-col gap-4">
-                    <span className="text-xl text-black flex flex-col gap-1">
-                      <span className="font-medium">▸ Notion QA Sheet:</span>
-                      <div className="ml-4">
-                        After deploying our app, we conducted QA to ensure it
-                        worked as expected. We listed the issues we missed,
-                        assigned responsible team members to fix the code, and
-                        documented the updates in Notion.
-                      </div>
-                    </span>
-                    <div className="flex flex-col gap-4 items-center py-4">
-                      <ul className="flex gap-2 leading-relaxed text-darkgrey w-[120%]">
-                        <li className="flex gap-2">
-                          <img
-                            src={QAImg}
-                            alt="Notion QA Sheet"
-                            className="border-[1px] border-lightergrey"
-                          />
-                        </li>
-                      </ul>
-                    </div>
-                    <span className="text-xl font-medium">
-                      Key Resolved Issues
-                    </span>
-                    <ul className="ml-4 flex flex-col gap-2 leading-relaxed text-darkgrey">
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Onboarding Redirection:
-                          </span>{' '}
-                          Rederict to the main page if the user already has an
-                          account.
+                <div className="flex flex-col gap-12">
+                  <div className="flex flex-col gap-10 text-base">
+                    <div className="flex flex-col gap-10 mx-auto max-w-[800px] w-[800px]">
+                      <p className="w-[90%] max-w-5xl mx-auto">
+                        After deploying the app, we conducted QA using a shared
+                        Notion sheet. We discovered more detailed issues than
+                        expected. To address this, we documented overlooked
+                        problems, assigned tasks to team members, and tracked
+                        fixes to ensure full resolution.
+                      </p>
+
+                      <div className="flex flex-col gap-6 w-[90%] max-w-5xl mx-auto">
+                        <span className="font-medium">
+                          Key Resolved Issues Included:
                         </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Pause Toggle Issue:
-                          </span>{' '}
-                          Fix the toggle functionality during pause state.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Refresh Error:
-                          </span>{' '}
-                          Fix the error that shows a blank page when refreshing
-                          the page.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Not Found Page:
-                          </span>{' '}
-                          Create a "Not Found" page for 404 errors.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Hide Top Bar on Detail Page:
-                          </span>{' '}
-                          Hide the top bar on the detail page.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Add Plan Not Working on Goal Edit Page:
-                          </span>{' '}
-                          Fix the issue where the add plan functionality isn't
-                          working on the goal edit page.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Plan's Bottom Sheet:
-                          </span>{' '}
-                          When editing a plan, ensure the plan's title is
-                          properly displayed.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Auto-Set Goal Duration to 1 Month:
-                          </span>{' '}
-                          Automatically set the goal duration to 1 month by
-                          default.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Set Mobile View for 375*812:
-                          </span>{' '}
-                          Ensure the web version displays correctly in the
-                          375*812 (iPhone 13 mini) size when opened in a
-                          browser.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Hero Image and Thumbnail:
-                          </span>{' '}
-                          Update the hero image and thumbnail.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Limit Plan Completion Date to Goal Completion Date
-                            Range:
-                          </span>{' '}
-                          Ensure the plan completion date cannot exceed the set
-                          goal completion date.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Add Bottom Navigation in Statistics:
-                          </span>{' '}
-                          Add a bottom navigation area at the bottom of the
-                          statistics page.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Goal Color on Goal Detail Page:
-                          </span>{' '}
-                          Ensure the color value of the goal is properly
-                          displayed when editing the goal.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Plan Bottom Sheet - Pause Modal Issue:
-                          </span>{' '}
-                          When creating a 'Pause' modal, ensure the bottom bar
-                          works correctly.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Plan Bottom Sheet - Reflection Path Issue:
-                          </span>{' '}
-                          Fix the issue where the reflection tab path is not
-                          following the correct route during "Journal" in the
-                          bottom sheet.
-                        </span>
-                      </li>
-                      <span>
-                        <span>
+                        <ul className="flex flex-col gap-2 leading-relaxed">
                           <li className="flex gap-2">
                             <span>•</span>
                             <span>
-                              <span className="font-medium text-darkestgrey">
-                                Onboarding Page - Change Color:
-                              </span>{' '}
-                              Change the color of the "Generate recommentations"
-                              button on the onboarding page.
+                              Hiding the top bar on detail pages to help users
+                              focus on their current task
                             </span>
                           </li>
-                        </span>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              Fixing toggle functionality during the pause state
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              Automatically setting the goal duration to one
+                              month
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              Restricting plan completion dates to stay within
+                              goal's timeframe
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>Correctly displaying goal color values</span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              Adjusting weekday selection colors in the plan
+                              setup
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>
+                              Redirecting logged-in users to the main page
+                              during onboarding
+                            </span>
+                          </li>
+                          <li className="flex gap-2">
+                            <span>•</span>
+                            <span>Adding a 404 "Not Found" error page</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-4 items-center py-4 w-full">
+                      <ul className="flex gap-2 leading-relaxed text-darkgrey mx-auto max-w-5xl w-[90%]">
+                        <li className="flex gap-2">
+                          <img src={QAImg} alt="QA Notion Sheet" />
+                        </li>
+                      </ul>
+                      <span className="w-full text-center italic text-lightgrey text-sm">
+                        Notion QA Sheet
                       </span>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Change Color on Weekday Selection in Plans:
-                          </span>{' '}
-                          When selecting a weekday in the plans section, change
-                          its color to gray.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Goal Edit Page - Plan Edit Issue:
-                          </span>{' '}
-                          Fix the issue where plans cannot be edited from the
-                          goal edit page.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            Pause Toggle Activation Issue:
-                          </span>{' '}
-                          Fix the issue where the pause toggle is not
-                          activating.
-                        </span>
-                      </li>
-                      <li className="flex gap-2">
-                        <span>•</span>
-                        <span>
-                          <span className="font-medium text-darkestgrey">
-                            "Goal Added" Modal Design
-                          </span>{' '}
-                          Update the design of the modal that shows when a goal
-                          is added.
-                        </span>
-                      </li>
-                    </ul>
+                    </div>
                   </div>
                 </div>
+                {/* QA Ends */}
               </div>
-              {/* QA Ends */}
             </div>
           </section>
           {/* Deliver ends */}
 
           {/* Retrospect starts */}
           <div className="bg-[#fafafa] py-16">
-            <section className="flex flex-col gap-10 max-w-[800px] w-[800px] mx-auto">
-              <h3 className="font-semibold text-lg uppercase tracking-wider text-lucid">
+            <section className="flex flex-col gap-14">
+              <h3 className="text-center font-semibold text-lg uppercase tracking-wider text-lucid mx-auto max-w-[800px] w-[800px] mb-10">
                 Retrospect
               </h3>
 
               <div className="flex flex-col gap-24">
                 {/* What I Learned Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🙌</span>{' '}
-                    <span>What I Learned</span>
+                <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                  <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                    <span className="font-bold">What I Learned</span>
                   </h3>
 
                   <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Clear Communication with Team:
+                    <div className="flex flex-col gap-10">
+                      <div className="flex flex-col gap-4">
+                        <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                          💁‍♀️ Clear Communication
                         </span>
-                        <div className="ml-4">
-                          During repetitive steps in the project, it's easy for
-                          team members to start envisioning different
-                          directions. I learned the importance of regularly
-                          checking in to ensure everyone is aligned on the same
-                          goals and vision. A thoughtful attitude and proactive
-                          communication helped keep the collaboration smooth and
-                          the project on track.
-                        </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Effective Time Management & Sharing schedules in
-                          Advance:
+                        <p className="w-[90%] mx-auto">
+                          As the project progressed, it was easy for everyone to
+                          start interpreting things differently. Regular
+                          check-ins and open conversations helped us stay on the
+                          same page and work smoothly together.
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col gap-4">
+                        <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                          🙆‍♀️ Effective Time Management & Planning Ahead
                         </span>
-                        <div className="ml-4">
-                          To complete and review the project within a fixed
-                          timeframe, I learned the importance of planning ahead
-                          and sharing both team and individual schedules in
-                          advance and setting clear timelines for each phase.
-                          Even when I discovered logical inconsistencies in
-                          earlier steps, staying calm and adjusting within the
-                          given time allowed us to move forward effectively.
-                          Most importantly, I realized that having a strong
-                          Define phase lays the foundation for the entire
-                          project—it makes it much easier to handle challenges
-                          that arise later on.
-                        </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Key Considerations to Keep in Mind During the
-                          Project:
+                        <p className="w-[90%] mx-auto">
+                          Setting clear timelines and sharing schedules early
+                          made a big difference. Even when unexpected issues
+                          came up, having a solid plan (especially in the Define
+                          phase) helped us handle them calmly and keep things
+                          moving.
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col gap-4">
+                        <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                          💁‍♀️ Staying True to Our Core
                         </span>
-                        <div className="ml-4">
-                          Throughout the project, it's essential to continually
-                          check and keep in mind the core values and key
-                          features our service aims to provide to users. These
-                          elements serve as guiding principles when things
-                          become unclear or confusing, helping us find solutions
-                          to challenges. Additionally, I learend the importance
-                          of ensuring that the solutions we com up with clearly
-                          address the pain points of users. At each stage of the
-                          process, it's crucial to derive insights and check if
-                          there are any gaps in the logical flow of the project.
-                        </div>
-                      </span>
+                        <p className="w-[90%] mx-auto">
+                          Throughout the process, we kept coming back to what
+                          really matters—our users and the value we promised to
+                          deliver. That focus helped us make better decisions
+                          and keep the project on the right track.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
                 {/* What I Learned Ends */}
 
                 {/* Areas to Improve Starts */}
-                <div className="flex flex-col gap-10">
-                  <h3 className="font-medium text-xl uppercase tracking-widest flex items-baseline gap-2">
-                    <span className="text-2xl">🚀</span>{' '}
-                    <span>Areas to Improve</span>
-                  </h3>
 
-                  <div className="flex flex-col gap-12 text-base">
-                    <div className="flex flex-col gap-4">
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Immediate Rewards for engaging:
-                        </span>
-                        <div className="ml-4">
-                          To maintiain user engagement and increase DAU, Lucid
-                          plans to introduce features such as badge systems and
-                          community participation tools. These elements provide
-                          instant gratification, encouraging users to return
-                          regularly while supporting the app's long-term
-                          goal-oriented mission.
+                <div className="flex flex-col gap-24">
+                  {/* What I Learned Starts */}
+                  <div className="flex flex-col gap-16 mx-auto max-w-[800px] w-[800px]">
+                    <h3 className="font-medium text-xl uppercase tracking-wider flex items-baseline gap-2 text-center">
+                      <span className="font-bold">Areas to Improve</span>
+                    </h3>
+
+                    <div className="flex flex-col gap-12 text-base">
+                      <div className="flex flex-col gap-10">
+                        <div className="flex flex-col gap-4">
+                          <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                            🔔 Notification Feature
+                          </span>
+                          <p className="w-[90%] mx-auto">
+                            Originally planned but postponed due to priority,
+                            the notification feature will focus on an
+                            event-based Check-in system with playful visuals to
+                            encourage regular engagement and support long-term
+                            goals.
+                          </p>
                         </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">▸ Log In Feature:</span>
-                        <div className="ml-4">
-                          Currently the app is implemented as a guest mode, but
-                          log in flow and its screens are to be developed.
+
+                        <div className="flex flex-col gap-4">
+                          <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                            📈 Revenue Model
+                          </span>
+                          <p className="w-[90%] mx-auto">
+                            Lucid can expland into B2B by helping companies
+                            support employee growth and communicate
+                            organizational goals.
+                          </p>
                         </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Notification Feature:
-                        </span>
-                        <div className="ml-4">
-                          Notification feature was origianlly planned in the
-                          early stages but was postponed due to the
-                          prioritization of other features. The "Reflect" menu
-                          was initially intended to be an event-based feature.
-                          However, its sub-features, such as the Vision Baord
-                          and Review Plans, were found to be both unique
-                          compared to competitiors and core to our brand
-                          identity, so it was finalized as a fixed menu. When
-                          the Notification feature is developed, we plan to
-                          emphasize its event-based nature by introducing a
-                          Check-in system with playful graphics and motivating
-                          elements. This will encourage users to return
-                          regularly and stay committed to their long-term goals.
+
+                        <div className="flex flex-col gap-4">
+                          <span className="tracking-wider font-medium text-darkgrey mx-auto max-w-[800px] w-[800px]">
+                            ✨ Immediate Rewards
+                          </span>
+                          <p className="w-[90%] mx-auto">
+                            To boost engagement and DAU, we plan to add badges
+                            and community features that offer quick wins while
+                            reinforcing long-term goal tracking.
+                          </p>
                         </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Introducing Service Features on Onboarding:
-                        </span>
-                        <div className="ml-4">
-                          Displaying visuals of core features at the beginning
-                          of the onboarding process helps attract users and
-                          clearly communicate the core values and purpose of our
-                          service.
-                        </div>
-                      </span>
-                      <span className="text-xl text-black flex flex-col gap-1">
-                        <span className="font-medium">
-                          ▸ Revenue Model Development:
-                        </span>
-                        <div className="ml-4">
-                          Lucid has the potential to expand its revenue model by
-                          offering the service to companies. The app can be used
-                          to support employees' personal growth goals or to
-                          communicate the company's vision and development
-                          direction with team members.
-                        </div>
-                      </span>
+                      </div>
                     </div>
                   </div>
                 </div>
                 {/* Areas to Improve Ends */}
               </div>
 
-              <span className="self-center py-10 tracking-normal">
+              <span className="self-center py-10 tracking-normal text-xl">
                 Thank you for reading my case study! 🌿
               </span>
             </section>
