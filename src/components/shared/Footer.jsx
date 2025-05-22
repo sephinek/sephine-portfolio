@@ -24,25 +24,25 @@ export default function Footer() {
             <span className="cursor-default">+1 213.378.5068</span>
             <div className="flex gap-2 items-center">
               <a
-                href="https://www.instagram.com/_sooyeonyy_/"
+                href="https://www.instagram.com/sephine_design/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IoLogoInstagram className="text-2xl transition-all duration-250 ease hover:brightness-65 cursor-pointer" />
+                <IoLogoInstagram className="text-2xl transition-all duration-250 ease hover:brightness-120 cursor-pointer" />
               </a>
               <a
                 href="https://www.linkedin.com/in/soo-hyun-kang/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IoLogoLinkedin className="text-2xl transition-all duration-250 ease hover:brightness-65 cursor-pointer" />
+                <IoLogoLinkedin className="text-2xl transition-all duration-250 ease hover:brightness-120 cursor-pointer" />
               </a>
               <a
                 href="https://github.com/sephinek"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IoLogoGithub className="text-2xl transition-all duration-250 ease hover:brightness-65 cursor-pointer" />
+                <IoLogoGithub className="text-2xl transition-all duration-250 ease hover:brightness-120 cursor-pointer" />
               </a>
             </div>
           </div>
