@@ -8,9 +8,9 @@ export default function Recommendations() {
       <div className="max-w-3xl w-full mx-auto flex flex-col gap-12">
         <SectionTitle title="Recommendations" />
 
-        <ul className="max-w-3xl mx-auto flex flex-col gap-10">
+        <ul className="max-w-3xl mx-auto flex gap-8">
           <SlideInFromSide directionFrom="left">
-            <li className="py-8 p-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
+            <li className="py-12 p-2 flex flex-col gap-8 bg-white-opacity rounded-4xl">
               <div className="flex flex-col gap-6 text-base leading-relaxed">
                 <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
@@ -36,9 +36,9 @@ export default function Recommendations() {
                       Misoon Jang
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-sm text-mediumgrey">
+                  <div className="flex flex-col items-center text-sm text-mediumgrey">
                     <span className="font-normal">
-                      PO & Product Design Lead at Sparkpet Korea&nbsp; |{' '}
+                      PO & Product Design Lead at Sparkpet Korea
                     </span>
                     <span className="italic font-display">UX/UI Mentor</span>
                   </div>
@@ -48,7 +48,7 @@ export default function Recommendations() {
           </SlideInFromSide>
 
           <SlideInFromSide directionFrom="right">
-            <li className="py-8 px-16 flex flex-col gap-8 bg-white-opacity rounded-sm">
+            <li className="py-12 px-2 flex flex-col gap-8 bg-white-opacity rounded-4xl">
               <div className="flex flex-col gap-6 text-base leading-relaxed">
                 <VscQuote className="text-primary-opacity slef-center w-full" />
                 <div className="flex flex-col gap-2">
@@ -70,9 +70,9 @@ export default function Recommendations() {
                       Youngyoon Kim
                     </span>
                   </div>
-                  <div className="flex gap-2 items-baseline text-sm text-mediumgrey">
+                  <div className="flex flex-col items-center text-sm text-mediumgrey">
                     <span className="font-normal">
-                      ex-Engineer at Block Odyssey&nbsp; |{' '}
+                      ex-Engineer at Block Odyssey
                     </span>
                     <span className="italic font-display">
                       Engineering Mentor

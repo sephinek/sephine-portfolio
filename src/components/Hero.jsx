@@ -60,10 +60,10 @@ export default function Hero({ onClickDesignAndCode }) {
           </li>
         </ul> */}
 
-        <div className="text-base font-medium inline-flex flex-col items-start gap-1 w-fit">
+        <div className="text-lg font-medium inline-flex flex-col items-start gap-1 w-fit">
           <span className="text-lightgrey flex items-center">
             <span>
-              UX/UI Designer / Product Designer / Web Developer &nbsp;| &nbsp;
+              UX/UI Designer | Product Designer | Web Developer &nbsp;| &nbsp;
             </span>
             <div className="flex items-center gap-1">
               <SlLocationPin />
@@ -79,7 +79,7 @@ export default function Hero({ onClickDesignAndCode }) {
 
       <div
         onClick={onClickDesignAndCode}
-        className="my-48 self-center flex items-center gap-2 cursor-pointer animate-blink text-lightgrey"
+        className="my-24 self-center flex items-center gap-2 cursor-pointer animate-blink text-lightgrey"
       >
         <span className="text-lg font-display">
           Curious to learn more about me?

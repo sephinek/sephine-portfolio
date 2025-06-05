@@ -17,13 +17,18 @@ export default function ProjectItem({
 
   return (
     <li
-      className="flex flex-col gap-10 items-center w-full rounded-sm bg-white-opacity p-8 border-1 border-transparent hover:border-primary text-lightestgrey hover:text-primary transition-all ease-in-out duration-350 cursor-pointer"
+      className="flex flex-col gap-10 items-center w-full rounded-4xl bg-white-opacity p-10 border-1 border-transparent hover:border-primary text-lightestgrey hover:text-primary transition-all ease-in-out duration-350 cursor-pointer"
       onClick={() => navigate(to)}
     >
-      <div className="flex flex-col items-center gap-10 w-full">
-        <span className="font-light text-lightestgrey self-start">
-          {category}
-        </span>
+      <div className="flex flex-col items-center gap-12 w-full">
+        <div className="flex flex-col items-center gap-4">
+          <h4 className="text-3xl font-medium tracking-normal leading-snug font-display">
+            {title}
+          </h4>
+          <span className="font-light text-base text-lightestgrey">
+            {category}
+          </span>
+        </div>
         <div className="relative flex items-center justify-center w-full max-w-[360px] h-[360px]">
           <img
             className="z-10 object-contain w-full h-full"
@@ -32,15 +37,9 @@ export default function ProjectItem({
           />
         </div>
 
-        <div className="flex flex-col items-start gap-4 w-full max-w-[88%]">
-          <div className="flex flex-col gap-2 text-base">
-            <h4 className="text-3xl font-medium tracking-normal leading-snug font-display">
-              {title}
-            </h4>
-          </div>
-          <p className="text-base leading-normal text-lightgrey">
-            {description}
-          </p>
+        <div className="flex flex-col items-start gap-4 w-full max-w-[72%]">
+          <div className="flex flex-col gap-2 text-base"></div>
+          <p className="text-lg leading-snug text-lightgrey">{description}</p>
         </div>
 
         {/* <Button to={to} label="Read more" w="w-[90%]" py="py-2" /> */}
