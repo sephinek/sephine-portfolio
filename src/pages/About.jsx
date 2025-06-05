@@ -41,22 +41,46 @@ export default function About() {
                 <div className="w-full h-[1px] bg-lightgrey/40"></div>
               </div>
               <ul className="flex gap-3 text-lightergrey leading-relaxed tracking-normal pl-8 pr-16">
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={FigmaLogo} alt="" />
                 </li>
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={HtmlLogo} alt="" />
                 </li>
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={CssLogo} alt="" />
                 </li>
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={JsLogo} alt="" />
                 </li>
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={ReactLogo} alt="" />
                 </li>
-                <li className="w-16 h-16">
+                <li
+                  className="w-12
+                 h-12
+                "
+                >
                   <img src={WebflowLogo} alt="" />
                 </li>
               </ul>
